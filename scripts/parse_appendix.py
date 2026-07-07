@@ -87,7 +87,46 @@ def _clean(s):
     return s
 
 
-# --- Leonine Prayers (English only) -----------------------------------------
+# --- Leonine Prayers --------------------------------------------------------
+# The hand-missal PDF prints these English-only, so the Latin is sourced from a
+# public Latin/English text of the Prayers after Low Mass
+# (traditioninaction.org / una voce), normalized to the dataset's conventions
+# (æ/œ ligatures, J-forms). Each pair is (english-prefix, latin); the prefix is
+# asserted against the parsed English so the alignment stays self-checking.
+LEONINE_LATIN = [
+    ("Hail Mary",
+     "Ave María, grátia plena, Dóminus tecum: benedícta tu in muliéribus, et "
+     "benedíctus fructus ventris tui, Jesus."),
+    ("Holy Mary",
+     "Sancta María, Mater Dei, ora pro nobis peccatóribus, nunc et in hora "
+     "mortis nostræ. Amen."),
+    ("Hail, Holy Queen", "Salve, Regína,"),
+    ("Mother of mercy",
+     "Mater misericórdiæ; vita, dulcédo, et spes nostra, salve. Ad te clamámus, "
+     "éxsules fílii Hevæ. Ad te suspirámus, geméntes et flentes in hac "
+     "lacrimárum valle. Eja ergo, advocáta nostra, illos tuos misericórdes "
+     "óculos ad nos convérte. Et Jesum, benedíctum fructum ventris tui, nobis "
+     "post hoc exsílium osténde. O clemens, o pia, o dulcis Virgo María."),
+    ("Pray for us", "Ora pro nobis, sancta Dei Génitrix."),
+    ("That we may be made worthy", "Ut digni efficiámur promissiónibus Christi."),
+    ("Let us pray",
+     "Orémus. Deus, refúgium nostrum et virtus, pópulum ad te clamántem "
+     "propítius réspice; et intercedénte gloriósa et immaculáta Vírgine Dei "
+     "Genitríce María, cum beáto Joseph, ejus Sponso, ac beátis Apóstolis tuis "
+     "Petro et Paulo, et ómnibus Sanctis, quas pro conversióne peccatórum, pro "
+     "libertáte et exaltatióne sanctæ Matris Ecclésiæ, preces effúndimus, "
+     "miséricors et benígnus exáudi. Per eúndem Christum Dóminum nostrum."),
+    ("Amen", "Amen."),
+    ("St. Michael", "Sancte Míchaël Archángele,"),
+    ("defend us",
+     "defénde nos in prœlio; contra nequítiam et insídias diáboli esto "
+     "præsídium. Ímperet illi Deus, súpplices deprecámur: tuque, Princeps "
+     "milítiæ cæléstis, Sátanam aliósque spíritus malígnos, qui ad perditiónem "
+     "animárum pervagántur in mundo, divína virtúte in inférnum detrúde. Amen."),
+    ("Most Sacred Heart", "Cor Jesu sacratíssimum,"),
+    ("Have mercy", "miserére nobis."),
+]
+
 
 def build_leonine():
     blocks = []
@@ -128,6 +167,17 @@ def build_leonine():
             if hl:
                 cur["congregation"] = True
     flush()
+
+    # Pair the sourced Latin with each verse block in order, asserting the
+    # English prefix so any drift in the parsed English is caught.
+    verses = [b for b in blocks if b["type"] == "verse"]
+    assert len(verses) == len(LEONINE_LATIN), (
+        f"Leonine verse count {len(verses)} != {len(LEONINE_LATIN)}")
+    for block, (prefix, latin) in zip(verses, LEONINE_LATIN):
+        assert block["english"].startswith(prefix), (
+            f"Leonine alignment: {block['english'][:30]!r} !~ {prefix!r}")
+        block["latin"] = latin
+
     return {
         "id": "leonine",
         "title": "Leonine Prayers",
