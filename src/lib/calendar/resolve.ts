@@ -43,11 +43,28 @@ function scoreTemporal(proper: Proper, sig: TemporalSig): number | null {
   if (tag.season !== sig.season) return null;
 
   let s = 0;
-  if (tag.week === sig.week) s += 3;
-  // Ember/Rogation/Vigil propers carry a null week; their week is implied by the
-  // special they name, so let a matching special stand in for the week.
-  else if (tag.special !== null && tag.special === sig.special) s += 0;
-  else return null;
+  if (tag.week !== null) {
+    // A week-numbered proper needs its own week; the week's ferias reuse it via
+    // the lower weekday scores below (still within that week). Its `special`, when
+    // present, is a positional label ("last"/"2nd-last") the day carries only
+    // implicitly, so it is not gated on here.
+    if (tag.week === sig.week) s += 3;
+    else return null;
+  } else if (tag.special !== null) {
+    // A null-week proper is placed by the special it names (Ember, Vigil, Whit,
+    // Octave, Rogation…), which applies only on a day carrying that same special.
+    // Without this gate a season's null-week specials cross-match every other
+    // null-week day of the season — the day signatures for these seams also carry
+    // week: null, so the old `tag.week === sig.week` fired as `null === null`,
+    // surfacing e.g. the Vigil of Pentecost as a phantom throughout Paschaltide.
+    if (tag.special !== sig.special) return null;
+  } else if (sig.week !== null || sig.special !== null) {
+    // A plain null-week day-proper (Easter Sunday, Pentecost, the Ascension
+    // octave) must not bleed onto the season's numbered-week days, nor onto days
+    // that carry their own special (Whit/Ember/Corpus/Christ-the-King) — only onto
+    // plain null-week days of the season (its own day and any bare ferias, below).
+    return null;
+  }
 
   if (sig.weekday === 0) {
     // A Sunday date needs a Sunday Mass. "sun" marks the day's own Sunday Mass;
@@ -113,10 +130,25 @@ export function createResolver(propers: Proper[]) {
     // precedence class only breaks ties between equally-good matches (e.g. a
     // major feast coinciding with a Sunday, where both score high).
     ranked.sort((a, b) => b.score - a.score || a.klass - b.klass);
+
+    // Collapse candidates that are the same underlying Mass. A feria reprints its
+    // Sunday's Mass, and commemoration variants ("… W/ St X") repeat one Mass
+    // under different files — all identical text. Keyed by Introit incipit +
+    // vestment colour, keeping the best-scored representative, so the picker only
+    // ever offers genuinely distinct Masses (the day's Mass + any coinciding
+    // feast), never the same Mass twice.
+    const byMass = new Set<string>();
+    const distinct = ranked.filter((c) => {
+      const key = `${c.proper.mass ?? c.proper.title}|${c.proper.color ?? ""}`;
+      if (byMass.has(key)) return false;
+      byMass.add(key);
+      return true;
+    });
+
     return {
       date: iso(n),
-      candidates: ranked,
-      defaultId: ranked[0]?.proper.id ?? null,
+      candidates: distinct,
+      defaultId: distinct[0]?.proper.id ?? null,
     };
   }
 

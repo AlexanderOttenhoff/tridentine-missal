@@ -229,6 +229,13 @@ def _clean(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _title(s):
+    """Normalise a proper title. The source titles for commemorations end in a
+    dangling '… W/' (the commemorated saint's name lands on a separate line the
+    extractor drops); the commemoration is carried on the tag, so trim it off."""
+    return re.sub(r",?\s*W/\s*$", "", _clean(s))
+
+
 # --- parse one proper -------------------------------------------------------
 
 def parse_proper(path):
@@ -400,7 +407,7 @@ def main():
         propers.append({
             "id": slugify(fname),
             "file": fname,
-            "title": meta["title"] or e["label"],
+            "title": _title(meta["title"] or e["label"]),
             "mass": meta["mass"],
             "color": meta["color"],
             "dates": e["dates"],
