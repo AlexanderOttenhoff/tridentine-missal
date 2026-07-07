@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { missal } from "./data/missal.ts";
 import type { Block, Role } from "./data/types.ts";
 
@@ -75,12 +75,6 @@ export function App() {
   const [lang, setLang] = usePersistentLang();
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeId, setActiveId] = useState<string>(missal.parts[0]?.sections[0]?.id ?? "");
-  const contentRef = useRef<HTMLDivElement>(null);
-
-  const sections = useMemo(
-    () => missal.parts.flatMap((p) => p.sections.map((s) => ({ ...s, part: p.title }))),
-    [],
-  );
 
   // Highlight the section nearest the top of the viewport.
   useEffect(() => {
@@ -159,7 +153,7 @@ export function App() {
         </div>
       )}
 
-      <main className="content" ref={contentRef}>
+      <main className="content">
         {missal.parts.map((part) => (
           <section key={part.id} className="part">
             <h2 className="part-title">{part.title}</h2>

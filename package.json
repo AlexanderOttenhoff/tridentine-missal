@@ -16,14 +16,10 @@
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vite-plus": "latest"
   },
-  "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "vitest": "4.1.9"
-  },
   "devEngines": {
     "packageManager": {
-      "name": "npm",
-      "version": "11.18.0",
+      "name": "pnpm",
+      "version": "11.9.0",
       "onFail": "download"
     }
   },
