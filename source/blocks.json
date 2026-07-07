@@ -1,0 +1,1138 @@
+[
+ {
+  "kind": "position",
+  "latin": "AT THE FOOT OF THE ALTAR",
+  "english": "AT THE FOOT OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Kneel)"
+ },
+ {
+  "kind": "verse",
+  "latin": "🕇In nómine Patris, et Fílii, et Spíritus Sancti. Amen.",
+  "english": "🕇In the Name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Introíbo ad altáre Dei.",
+  "english": "I will go unto the altar of God.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Ad Deum qui lætíficat juventútem meam.",
+  "english": "To God, Who gives joy to my youth.",
+  "role": "server"
+ },
+ {
+  "kind": "rubric",
+  "text": "(In Passiontide, Psalm 42 is omitted – continue at 🕇Adjutórium...)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Júdica me, Deus, et discérne causam meam de gente non sancta: ab hómine iníquo et dolóso érue me.",
+  "english": "Judge me, O God, and distinguish my cause from the unholy nation, deliver me from the unjust and deceitful man.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Quia tu es, Deus, fortitúdo mea: quare me repulísti, et quare tristis incédo, dum afflígit me inimícus?",
+  "english": "For Thou, O God, art my strength, why hast Thou cast me off? And why do I go about in sadness, while the enemy afflicts me?",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Emítte lucem tuam, et veritátem tuam: ipsa me deduxérunt, et adduxérunt in montem sanctum tuum, et in tabernácula tua.",
+  "english": "Send forth Thy light and Thy truth: they have conducted me and brought me unto Thy holy mount, and into Thy tabernacles.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et introíbo ad altáre Dei: ad Deum qui lætíficat juventútem meam.",
+  "english": "And I will go unto the altar of God: to God, Who gives joy to my youth.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Confitébor tibi in cíthara, Deus, Deus meus: quare tristis es, ánima mea, et quare contúrbas me?",
+  "english": "I shall praise Thee upon the harp, O God, my God. Why are you sad, O my soul, and why do you disquiet me?",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Spera in Deo, quóniam adhuc confitébor illi: salutáre vultus mei, et Deus meus.",
+  "english": "Hope in God, for I will still praise Him, the salvation of my countenance, and my God.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Glória Patri, et Fílio, et Spirítui Sancto.",
+  "english": "Glory be to the Father, and to the Son, and to the Holy Spirit.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Sicut erat in princípio, et nunc, et semper: et in sǽcula sæculórum. Amen.",
+  "english": "As it was in the beginning, is now, and ever shall be, world without end. Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Introíbo ad altáre Dei.",
+  "english": "I will go unto the altar of God.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Ad Deum qui lætíficat juventútem meam.",
+  "english": "To God, Who gives joy to my youth.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "🕇Adjutórium nostrum in nómine Dómini.",
+  "english": "🕇Our help is in the name of the Lord.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Qui fecit cælum et terram.",
+  "english": "Who made heaven and earth.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et vobis fratres: quia peccávi nimis cogitatióne, verbo, et ópere: mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, omnes Sanctos, et vos fratres, oráre pro me ad Dóminum Deum nostrum.",
+  "english": "I confess to almighty God, to blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy Apostles Peter and Paul, to all the Saints, and to you, brethren, that I have sinned exceedingly in thought, word, and deed: through my fault, through my fault, through my most grievous fault. Therefore I pray blessed Mary ever Virgin, blessed Michael the Archangel, blessed John the Baptist, the holy Apostles Peter and Paul, all the Saints, and you, brethren, to pray for me to the Lord our God.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Misereátur tui omnípotens Deus, et, dimíssis peccátis tuis, perdúcat te ad vitam ætérnam.",
+  "english": "May almighty God have mercy on you, forgive you your sins, and bring you to life everlasting.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptistæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi pater: quia peccávi nimis cogitatióne, verbo, et ópere: (strike breast 3 times) mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, omnes Sanctos, et te Pater, oráre pro me ad Dóminum Deum nostrum.",
+  "english": "I confess to almighty God, to blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy Apostles Peter and Paul, to all the Saints, and to you father: that I have sinned exceedingly in thought, word, and deed: (strike breast 3 times) through my fault, through my fault, through my most grievous fault. Therefore I pray blessed Mary ever Virgin, blessed Michael the Archangel, blessed John the Baptist, the holy Apostles Peter and Paul, all the Saints, and you, Father, to pray for me to the Lord our God.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Misereátur vestri omnípotens Deus, et, dimíssis peccátis vestris, perdúcat vos ad vitam ætérnam.",
+  "english": "May almighty God have mercy on you, forgive you your sins, and bring you to life everlasting.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "🕇Indulgéntiam, absolutiónem, et remissiónem peccatórum nostrórum, tríbuat nobis omnípotens et miséricors Dóminus.",
+  "english": "🕇May the almighty and merciful Lord grant us pardon, absolution, and remission of our sins.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Deus, tu convérsus vivificábis nos.",
+  "english": "Thou wilt turn again, O God, and quicken us.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et plebs tua lætábitur in te.",
+  "english": "And Thy people will rejoice in Thee.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Osténde nobis, Dómine, misericórdiam tuam.",
+  "english": "Show us, O Lord, Thy mercy.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et salutáre tuum da nobis.",
+  "english": "And grant us Thy salvation.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dómine, exáudi oratiónem meam.",
+  "english": "O Lord, hear my prayer.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et clamor meus ad te véniat.",
+  "english": "And let my cry come unto Thee.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Orémus.",
+  "english": "Let us pray.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Aufer a nobis, quǽsumus, Dómine, iniquitátes nostras: ut ad Sancta sanctórum puris mereámur méntibus introíre. Per Christum Dóminum nostrum. Amen.",
+  "english": "Take away from us our iniquities, we beseech Thee, O Lord; that with pure minds we may be made worthy to enter into the Holy of Holies. Through Christ our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Orámus te, Dómine, per mérita Sanctórum tuórum, quorum relíquiæ hic sunt et ómnium Sanctórum: ut indulgére dignéris ómnia peccáta mea. Amen.",
+  "english": "We pray Thee, O Lord, by the merits of Thy Saints whose relics are here, and of all the Saints: that Thou would deign to pardon me all my sins. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Only at High Mass when incense is used)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Ab illo benedicáris, in cujus honóre cremáberis.",
+  "english": "Be blessed by Him in Whose honor you will be burnt.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE RIGHT SIDE OF THE ALTAR",
+  "english": "AT THE RIGHT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "INTROIT",
+  "english": "INTROIT"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Kýrie, eléison.",
+  "english": "Lord, have mercy.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Kýrie, eléison.",
+  "english": "Lord, have mercy.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Kýrie, eléison.",
+  "english": "Lord, have mercy.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Christe, eléison.",
+  "english": "Christ, have mercy.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Christe, eléison.",
+  "english": "Christ, have mercy.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Christe, eléison.",
+  "english": "Christ, have mercy.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Kýrie, eléison.",
+  "english": "Lord, have mercy.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Kýrie, eléison.",
+  "english": "Lord, have mercy.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Kýrie, eléison.",
+  "english": "Lord, have mercy.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(The Gloria is omitted on Sundays in Advent and Lent)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Stand at High Mass)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Glória in excélsis Deo. Et in terra pax homínibus bonæ voluntátis. Laudámus te. Benedícimus te. Adorámus te. Glorificámus te. Grátias ágimus tibi propter magnam glóriam tuam. Dómine Deus, Rex cæléstis, Deus Pater omnípotens. Dómine Fili unigénite, Jesu Christe. Dómine Deus, Agnus Dei, Fílius Patris. Qui tollis peccáta mundi, miserére nobis. Qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus. Tu solus Dóminus. Tu solus Altíssimus, Jesu Christe. 🕇Cum Sancto Spíritu, in glória Dei Patris. Amen.",
+  "english": "Glory to God in the highest, and on earth peace to men of good will. We praise Thee; we bless Thee; we adore Thee; we glorify Thee. We give Thee thanks for Thy great glory, O Lord God, heavenly King, God the Father almighty. O Lord Jesus Christ, the only-begotten Son. Lord God, Lamb of God, Son of the Father. Thou Who takest away the sins of the world; have mercy on us. Thou Who takest away the sins of the world; receive our prayer. Thou who sittest at the right hand of the Father; have mercy on us. For Thou alone art holy; Thou alone art the Lord; Thou alone art most high, Jesus Christ, 🕇with the Holy Spirit, in the glory of God the Father. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your Spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE RIGHT SIDE OF THE ALTAR",
+  "english": "AT THE RIGHT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Orémus.",
+  "english": "Let us pray.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "COLLECT PRAYER",
+  "english": "COLLECT PRAYER"
+ },
+ {
+  "kind": "verse",
+  "latin": "...per ómnia sǽcula sæculórum.",
+  "english": "...forever and ever.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Sit)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "EPISTLE OR LESSON",
+  "english": "EPISTLE OR LESSON"
+ },
+ {
+  "kind": "verse",
+  "latin": "Deo grátias.",
+  "english": "Thanks be to God.",
+  "role": "server"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "GRADUAL",
+  "english": "GRADUAL"
+ },
+ {
+  "kind": "rubric",
+  "text": "(or, in Lent, TRACT)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(or, in Eastertide, ALLELUIA)"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Only at High Mass when incense is used)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Ab illo benedicáris, in cujus honóre cremáberis.",
+  "english": "Be blessed by Him in Whose honor you will be burnt.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Munda cor meum ac lábia mea, omnípotens Deus, qui lábia Isaíæ Prophétæ cálculo mundásti igníto: ita me tua grata miseratióne dignáre mundáre, ut sanctum Evangélium tuum digne váleam nuntiáre. Per Christum Dóminum nostrum. Amen.",
+  "english": "Cleanse my heart and my lips, O almighty God, Who cleansed the lips of the Prophet Isaiah with a burning coal. In Thy gracious mercy, deign so to purify me, that I may worthily proclaim Thy holy Gospel. Through Christ our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Jube, Dómine, benedícere. Dóminus sit in corde meo, et in lábiis meis: ut digne et competénter annúntiem Evangélium suum.",
+  "english": "Pray, Lord, a blessing. The Lord be in my heart and on my lips that I may worthily and fittingly proclaim His Gospel.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE LEFT SIDE OF THE ALTAR",
+  "english": "AT THE LEFT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Stand)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Seqúentia (Inítium) sancti Evangélii secúndum (N. of Evangelist).",
+  "english": "The continuation (beginning) of the holy Gospel according to (N. of Evangelist).",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Glória tibi, Dómine.",
+  "english": "Glory to Thee, O Lord.",
+  "role": "server"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "GOSPEL",
+  "english": "GOSPEL"
+ },
+ {
+  "kind": "verse",
+  "latin": "Laus tibi, Christe.",
+  "english": "Praise to Thee, O Christ.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Per evangélica dicta deleántur nostra delícta.",
+  "english": "May our offenses be erased by the words of the Gospel.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(The Credo is omitted on most weekdays)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Stand)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Credo in unum Deum. Patrem omnipoténtem, factórem cæli et terræ, visibílium ómnium et invisibílium. Et in unum Dóminum Jesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia sǽcula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines, et propter nostram salútem descéndit de cælis. (Genuflect) ET INCARNÁTUS EST DE SPÍRITU SANCTO EX MARÍA VÍRGINE: ET HOMO FACTUS EST. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in cælum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória judicáre vivos, et mortúos: cujus regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre, Filióque procédit. Qui cum Patre, et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam, sanctam, cathólicam et apostólicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum.🕇Et vitam ventúri sǽculi. Amen.",
+  "english": "I believe in one God, the Father almighty, maker of heaven and earth, and of all things visible and invisible. And in one Lord, Jesus Christ, the only- begotten Son of God. Born of the Father before all ages. God of God, light of light, true God of true God. Begotten, not made, consubstantial with the Father, by Whom all things were made. Who for us men, and for our salvation, came down from heaven. (Genuflect) AND WAS INCARNATE BY THE HOLY SPIRIT, OF THE VIRGIN MARY: AND WAS MADE MAN. He was also crucified for us, suffered under Pontius Pilate, and was buried. And on the third day He rose again, according to the Scriptures. And He ascended into heaven; He sits at the right hand of the Father. And He shall come again with glory to judge the living and the dead. Of Whose kingdom there shall be no end. And in the Holy Spirit, the Lord and giver of life, Who proceeds from the Father and the Son; Who with the Father and the Son is adored and glorified, Who spoke through the Prophets. And in one, holy, Catholic and apostolic Church. I confess one baptism for the remission of sins. And I expect the resurrection of the dead 🕇and the life of the world to come. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Orémus.",
+  "english": "Let us pray.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Sit)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "OFFERTORY VERSE",
+  "english": "OFFERTORY VERSE"
+ },
+ {
+  "kind": "verse",
+  "latin": "Súscipe, sancte Pater, omnípotens ætérne Deus, hanc immaculátam hóstiam, quam ego indígnus fámulus tuus óffero tibi, Deo meo vivo et vero, pro innumerabílibus peccátis, et offensiónibus, et negligéntiis meis, et pro ómnibus circumstántibus, sed et pro ómnibus fidélibus christiánis vivis atque defúnctis: ut mihi, et illis profíciat ad salútem in vitam ætérnam. Amen.",
+  "english": "Receive, O Holy Father, almighty and eternal God, this spotless host, which I, Thine unworthy servant, offer unto Thee, my living and true God, for my innumerable sins, offenses, and negligences, and for all here present; and also for all faithful Christians both living and dead, that it may profit me and them for salvation unto life everlasting. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE RIGHT SIDE OF THE ALTAR",
+  "english": "AT THE RIGHT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Deus, qui humánæ substántiæ dignitátem mirabíliter condidísti, et mirabílius reformásti: da nobis per hujus aquæ et vini mystérium, ejus divinitátis esse consórtes, qui humanitátis nostræ fíeri dignátus est párticeps, Jesus Christus Fílius tuus Dóminus noster: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia sǽcula sæculórum. Amen.",
+  "english": "O God, Who wonderfully formed the dignity of human nature, and more wonderfully restored it, grant us through the mystery of this water and wine, to be made participants of His divinity, Who condescended to become a partaker of our humanity, Jesus Christ, Thy Son, our Lord, Who with Thee, lives and reigns in the unity of the Holy Spirit, God, forever and ever. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Offérimus tibi, Dómine, cálicem salutáris tuam deprecántes cleméntiam: ut in conspéctu divínæ majestátis tuæ, pro nostra, et totíus mundi salúte cum odóre suavitátis ascéndat. Amen. In spíritu humilitátis, et in ánimo contríto suscipiámur a te, Dómine, et sic fiat sacrifícium nostrum in conspéctu tuo hódie, ut pláceat tibi, Dómine Deus. Veni, sanctificátor omnípotens ætérne Deus: et bénedic hoc sacrifícium, tuo sancto nómini præparátum.",
+  "english": "We offer Thee, O Lord, the chalice of salvation, pleading Thy clemency, that it may ascend in the sight of Thy divine majesty, with a sweet fragrance, for our salvation and for that of the whole world. Amen. In a humble spirit and a contrite heart may we be received by Thee, O Lord, and let our sacrifice be so made in Thy sight this day that it may please Thee, O Lord God. Come, O sanctifier, almighty and eternal God, and bless this sacrifice prepared for Thy holy name.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Only at High Mass when incense is used)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Per intercessiónem beáti Michǽlis Archángeli, stantis a dextris altáris incénsi, et ómnium electórum suórum, incénsum istud dignétur Dóminus benedícere, et in odórem suavitátis accípere. Per Christum Dóminum nostrum. Amen.",
+  "english": "By the intercession of blessed Michael the Archangel, who stands at the right hand of the altar of incense, and of all His elect, may the Lord deign to bless this incense, and to receive it as a sweet fragrance, through Christ our Lord.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Incénsum istud a te benedíctum, ascéndat ad te, Dómine, et descéndat super nos misericórdia tua.",
+  "english": "May this incense, blessed by Thee, ascend to Thee, O Lord, and may Thy mercy descend upon us.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dirigátur, Dómine, orátio mea, sicut incénsum, in conspéctu tuo: elevátio mánuum meárum sacrifícium vespertínum. Pone, Dómine, custódiam ori meo, et óstium circumstántiæ lábiis meis: ut non declínet cor meum in verba malítiæ, ad excusándas excusatiónes in peccátis.",
+  "english": "Let my prayer be directed, O Lord, as incense in Thy sight, the lifting up of my hands as an evening sacrifice. Set a watch, O Lord, before my mouth: and a door round about my lips: that my heart may not incline to evil words: to make excuses in sins.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Accéndat in nobis Dóminus ignem sui amóris, et flamma ætérnæ caritátis. Amen.",
+  "english": "May the Lord enkindle in us the fire of His love and the flame of everlasting charity. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE RIGHT SIDE OF THE ALTAR",
+  "english": "AT THE RIGHT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Lavábo inter innocéntes manus meas: et circumdábo altáre tuum, Dómine: Ut áudiam vocem laudis, et enárrem univérsa mirabília tua. Dómine, diléxi decórem domus tuæ, et locum habitatiónis glóriæ tuæ. Ne perdas cum ímpiis, Deus, ánimam meam, et cum viris sánguinum vitam meam: In quorum mánibus iniquitátes sunt: déxtera eórum repléta est munéribus. Ego autem in innocéntia mea ingréssus sum: rédime me, et miserére mei. Pes meus stetit in dirécto: in ecclésiis benedícam te, Dómine. Glória Patri, et Filio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper: et in sǽcula sæculórum. Amen.",
+  "english": "I will wash my hands among the innocent, and I will compass Thine altar, O Lord, that I may hear the voice of praise: and tell of all Thy wondrous deeds. I have loved, O Lord, the beauty of Thy house and the place where Thy glory dwelleth. Destroy not my soul, O God, with the wicked, nor my life with men of blood. In whose hands are iniquities, their right hand is full with gifts. But I have walked in my innocence: redeem me, and have mercy on me. My foot has stood on the right path; in the churches I will bless Thee, O Lord. Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Súscipe, sancta Trínitas, hanc oblatiónem, quam tibi offérimus ob memóriam passiónis, resurrectiónis, et ascensiónis Jesu Christi Dómini nostri: et in honórem beátæ Maríæ semper Vírginis, et beáti Joánnis Baptístæ, et sanctórum Apostolórum Petri et Pauli, et istórum, et ómnium Sanctórum: ut illis profíciat ad honórem, nobis autem ad salútem: et illi pro nobis intercédere dignéntur in cælis, quorum memóriam ágimus in terris. Per eúndem Christum Dóminum nostrum. Amen.",
+  "english": "Receive, O holy Trinity, this oblation which we offer to Thee in remembrance of the Passion, Resurrection, and Ascension of Our Lord Jesus Christ, and in honor of blessed Mary, ever Virgin, blessed John the Baptist, the holy Apostles Peter and Paul, and of these and of all the Saints; that it may avail unto their honor and our salvation, and may they deign to intercede in heaven for us who honor their memory here on earth. Through the same Christ, our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Oráte fratres: ut meum ac vestrum sacrifícium acceptábile fiat apud Deum Patrem omnipoténtem.",
+  "english": "Pray brethren, that my sacrifice and yours may be acceptable to God the Father almighty.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Suscípiat Dóminus sacrifícium de mánibus tuis ad laudem, et glóriam nóminis sui, ad utilitátem quoque nostram, totiúsque Ecclésiæ suæ sanctæ.",
+  "english": "May the Lord receive the sacrifice from your hands, to the praise and glory of His name, to our benefit, and that of all His holy Church.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "verse",
+  "latin": "...per ómnia sǽcula sæculórum.",
+  "english": "...forever and ever. (aloud, to conclude the Secret Prayer)",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(aloud, to conclude the Secret Prayer)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Stand at High Mass)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Sursum corda.",
+  "english": "Lift up your hearts.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Habémus ad Dóminum.",
+  "english": "We have lifted them up to the Lord.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Grátias agámus Dómino Deo nostro.",
+  "english": "Let us give thanks to the Lord our God.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dignum et justum est.",
+  "english": "It is fitting and just.",
+  "role": "server"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Some seasons, such as Lent, and some feast days have a Proper PREFACE assigned to them. If today's Mass has a special PREFACE assigned to it, that PREFACE may be found on the Mass Proper for today)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(On most Sundays, the following PREFACE is said)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Vere dignum et justum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérne Deus: Qui cum unigénito Fílio tuo, et Spíritu Sancto, unus es Deus, unus es Dóminus: non in uníus singularitáte persónæ, sed in uníus Trinitáte substántiæ. Quod enim de tua glória, revelánte te, crédimus, hoc de Fílio tuo, hoc de Spíritu Sancto, sine differéntia discretiónis sentímus. Ut in confessióne veræ sempiternǽque Deitátis, et in persónis propríetas, et in esséntia únitas, et in majestáte adorétur æquálitas. Quam laudant Ángeli atque Archángeli, Chérubim quoque ac Séraphim: qui non cessant clamáre quotídie, una voce dicéntes:",
+  "english": "It is truly fitting and just, proper and beneficial, that we should always and everywhere, give thanks unto Thee, holy Lord, Father almighty, everlasting God; Who, with Thine only-begotten Son, and the Holy Spirit, art one God, one Lord; not in the singularity of one person, but in the Trinity of one substance. For what we believe from Thy revelation of Thy glory, the same we believe of Thy Son, the same of the Holy Spirit, without difference or distinction. So that in confessing the true and everlasting Deity, particularity in persons, unity in essence, and equality in majesty may be adored. Which the Angels and Archangels, the Cherubim, too, and the Seraphim do praise: who cease not to cry out daily, with one voice saying:",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(On most weekdays, the following PREFACE is said)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Vere dignum et justum est, æquum et salutáre, nos tibi semper, et ubíque grátias ágere: Dómine sancte, Pater omnípotens, ætérnae Deus: per Christum Dóminum nostrum. Per quem majestátem tuam laudant Ángeli, adórant Dominatiónes, tremunt Potestátes. Cæli cælorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces, ut admítti júbeas deprecámur, súpplici confessióne dicéntes:",
+  "english": "It is truly fitting and just, proper and beneficial, that we should always and everywhere, give thanks unto Thee, holy Lord, Father almighty, everlasting God, through Christ our Lord. Through whom the Angels praise Thy majesty, the Dominations adore, the Powers tremble: the heavens and the hosts of heaven, and the blessed Seraphim, together celebrate in exultation. With whom, we pray Thee, command that our voices of supplication also be admitted in confessing Thee saying:",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Kneel)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Sanctus, Sanctus, Sanctus, Dóminus Deus Sábaoth. Pleni sunt cæli et terra glória tua. Hosánna in excélsis. 🕇Benedíctus qui venit in nómine Dómini. Hosánna in excélsis.",
+  "english": "Holy, holy, holy, Lord God of Hosts! Heaven and earth are filled with Thy glory. Hosanna in the highest! 🕇Blessed is He Who comes in the name of the Lord. Hosanna in the highest!",
+  "role": "priest"
+ },
+ {
+  "kind": "heading",
+  "latin": "THE ROMAN CANON",
+  "english": "THE ROMAN CANON"
+ },
+ {
+  "kind": "rubric",
+  "text": "(silently)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Te ígitur, clementíssime Pater, per Jesum Christum Fílium tuum, Dóminum nostrum, súpplices rogámus, ac pétimus uti accépta hábeas, et benedícas, hæc dona, hæc múnera, hæc sancta sacrifícia illibáta, in primis, quæ tibi offérimus pro Ecclésia tua sancta cathólica: quam pacificáre, custodíre, adunáre, et régere dignéris toto orbe terrárum: una cum fámulo tuo Papa nostro N., et Antístite nostro N., et ómnibus orthodóxis, atque cathólicæ et apostólicæ fidei cultóribus.",
+  "english": "Therefore, most merciful Father, we humbly pray and entreat Thee, through Jesus Christ, Thy Son, Our Lord, that Thou would accept and bless these gifts, these offerings, these holy and spotless sacrifices, which, in the first place, we offer Thee for Thy holy Catholic Church: deign to pacify, to guard, to unite, and to govern her throughout the world, together with Thy servant N., our Pope, and N., our Bishop; and all orthodox believers of the Catholic and apostolic faith.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Meménto, Dómine, famulórum, famularúmque tuárum N., et N., et ómnium circumstántium, quorum tibi fides cógnita est, et nota devótio, pro quibus tibi offérimus: vel qui tibi ófferunt hoc sacrifícium laudis, pro se, suísque ómnibus: pro redemptióne animárum suárum, pro spe salútis et incolumitátis suæ: tibíque reddunt vota sua ætérno Deo, vivo et vero.",
+  "english": "Be mindful, O Lord, of Thy servants and handmaids N. and N., and of all here present, whose faith and devotion are known unto Thee, for whom we offer, or who offer to Thee, this sacrifice of praise for themselves, and for all their own, for the redemption of their souls, for their hope of salvation and safety; and who pay their vows to Thee, the everlasting, living, and true God.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Communicántes, et memóriam venerántes, in primis gloriósæ semper Vírginis Maríæ, Genitrícis Dei et Dómini nostri Jesu Christi: sed et beáti Joseph, ejúsdem Vírginis Sponsi, et beatórum Apostolórum ac Mártyrum tuórum, Petri et Pauli, Andréæ, Jacóbi, Joánnis, Thomæ, Jacóbi, Philíppi, Bartholomǽi, Matthǽi, Simónis, et Thaddǽi: Lini, Cleti, Cleméntis, Xysti, Cornélii, Cypriáni, Lauréntii, Chrysógoni, Joánnis et Pauli, Cosmæ et Damiáni, et ómnium Sanctórum tuórum; quorum méritis precibúsque concédas, ut in ómnibus protectiónis tuæ muniámur auxílio. Per eúndem Christum Dóminum nostrum. Amen.",
+  "english": "Having communion with, and venerating first of all the memory of the glorious and ever Virgin Mary, Mother of our God and Lord Jesus Christ; and also of blessed Joseph, Spouse of the same Virgin, and of Thy blessed Apostles and Martyrs, Peter and Paul, Andrew, James, John, Thomas, James, Philip, Bartholomew, Matthew, Simon and Thaddeus; of Linus, Cletus, Clement, Sixtus, Cornelius, Cyprian, Lawrence, Chrysogonus, John and Paul, Cosmas and Damian, and all Thy Saints, by whose merits and prayers, grant that in all things we may be defended by the help of Thy protection. Through the same Christ, our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Hanc ígitur oblatiónem servitútis nostræ, sed et cunctæ famíliæ tuæ, quǽsumus, Dómine, ut placátus accípias: diésque nostros in tua pace dispónas, atque ab ætérna damnatióne nos éripi, et in electórum tuórum júbeas grege numerári. Per Christum Dóminum nostrum. Amen.",
+  "english": "We therefore beseech Thee, O Lord, to graciously accept this oblation of our service, as also of Thy entire family; dispose our days in Thy peace, save us from eternal damnation, and command that we be numbered in the flock of Thine elect. Through Christ our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Quam oblatiónem tu, Deus, in ómnibus, quǽsumus, benedíctam, adscríptam, ratam, rationábilem, acceptabilémque fácere dignéris: ut nobis Corpus, et Sanguis fiat dilectíssimi Fílii tui Dómini nostri Jesu Christi.",
+  "english": "Which oblation, do Thou, O God, deign in all respects to make blessed, approved, ratified, reasonable and acceptable, so that it may become for us the Body and Blood of Thy most beloved Son, our Lord, Jesus Christ.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Qui prídie quam paterétur, accépit panem in sanctas, ac venerábiles manus suas, et elevátis óculis in cælum ad te Deum Patrem suum omnipoténtem, tibi grátias agens, benedíxit, fregit, dedítque discípulis suis, dicens: Accípite, et manducáte ex hoc omnes, HOC EST ENIM CORPUS MEUM.",
+  "english": "Who, the day before He suffered, took bread into His holy and venerable hands, and with His eyes raised to heaven, unto Thee, God, His almighty Father, giving thanks to Thee, He blessed it, broke it, and gave it to His disciples saying: Take, all of you, and eat of this: FOR THIS IS MY BODY",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Símili modo postquam cænátum est, accípiens et hunc præclárum Cálicem in sanctas ac venerábiles manus suas: item tibi grátias agens, benedíxit, dedítque discípulis suis, dicens: Accípite, et bíbite ex eo omnes, HIC EST ENIM CALIX SÁNGUINIS MEI, NOVI ET AETÉRNI TESTAMÉNTI: MYSTÉRIUM FÍDEI: QUI PRO VOBIS ET PRO MULTIS EFFUNDÉTUR IN REMISSIÓNEM PECCATÓRUM. Hæc quotiescúmque fecéritis, in mei memóriam faciétis.",
+  "english": "In like manner, after He had supped, taking also this excellent chalice into His holy and venerable hands, and giving thanks to Thee, He blessed it, and gave it to His disciples, saying: Take, all of you, and drink of this: FOR THIS IS THE CHALICE OF MY BLOOD OF THE NEW AND ETERNAL TESTAMENT: THE MYSTERY OF FAITH: WHICH SHALL BE POURED OUT FOR YOU AND FOR MANY UNTO THE REMISSION OF SINS. As often as you shall do these things, you do them in memory of Me.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Unde et mémores, Dómine, nos servi tui, sed et plebs tua sancta, ejúsdem Christi Fílii tui Dómini nostri tam beátæ passiónis, nec non et ab ínferis resurrectiónis, sed et in cælos gloriósæ ascensiónis: offérimus præcláræ majestáti tuæ de tuis donis, ac datis, hóstiam puram, hóstiam sanctam, hóstiam immaculátam, Panem sanctum vitæ ætérnæ, et Cálicem salútis perpétuæ.",
+  "english": "Wherefore, Lord, we, Thy servants, but also Thy holy people, mindful of the same Christ, Thy Son, our Lord, of His blessed passion, and of His resurrection from the grave, and of His glorious ascension into heaven, offer unto Thy most excellent majesty of Thine own gifts, bestowed upon us, a pure victim, a holy victim, an unspotted victim, the holy Bread of eternal life and the Chalice of everlasting salvation.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Supra quæ propítio ac seréno vultu respícere dignéris; et accépta habére, sícuti accépta habére dignátus es múnera púeri tui justi Abel, et sacrifícium Patriárchæ nostri Ábrahæ: et quod tibi óbtulit summus sacérdos tuus Melchísedech, sanctum sacrifícium, immaculátam hóstiam.",
+  "english": "Deign to regard them with a gracious and serene countenance, and to accept them, as Thou didst deign to accept the gifts of Thy just servant Abel, and the sacrifice of Abraham our Patriarch, and that which Thy chief priest Melchisedech offered to Thee, a holy sacrifice, an unspotted victim.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Súpplices te rogámus, omnípotens Deus: jube hæc perférri per manus sancti Ángeli tui in sublíme altáre tuum, in conspéctu divínæ majestátis tuæ: ut quotquot, ex hac altáris participatióne sacrosánctum Fílii tui, Corpus, et Sánguinem sumpsérimus, omni benedictióne cælésti et grátia repleámur. Per eúndem Christum Dóminum nostrum. Amen.",
+  "english": "Humbly we pray Thee, almighty God, command these offerings to be borne by the hands of Thy holy Angel to Thine altar on high, in the sight of Thy divine majesty, so that as many of us as shall, by partaking from this altar, consume the most holy Body and Blood of Thy Son, may be filled with every heavenly grace and blessing. Through the same Christ our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Meménto étiam, Dómine, famulórum, famularúmque tuarum N. et N. qui nos præcessérunt cum signo fídei, et dórmiunt in somno pacis. Ipsis, Dómine, et ómnibus in Christo quiescéntibus, locum refrigérii, lucis et pacis, ut indúlgeas, deprecámur. Per eúndem Christum Dóminum nostrum. Amen.",
+  "english": "Be mindful also, O Lord, of Thy servants and handmaids N. and N. who have gone before us with the sign of faith and rest in the sleep of peace. To these, O Lord, and to all who rest in Christ, we plead that you grant a place of comfort, light, and peace. Through the same Christ our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Nobis quoque peccatóribus fámulis tuis, de multitúdine miseratiónum tuárum sperántibus, partem áliquam, et societátem donáre dignéris, cum tuis sanctis Apóstolis et Martýribus: cum Joánne, Stéphano, Matthía, Bárnaba, Ignátio, Alexándro, Marcellíno, Petro, Felicitáte, Perpétua, Ágatha, Lúcia, Agnéte, Cæcília, Anastásia, et ómnibus Sanctis tuis: intra quorum nos consórtium, non æstimátor mériti, sed véniæ, quǽsumus, largítor admítte. Per Christum Dóminum nostrum.",
+  "english": "To us sinners also, Thy servants, trusting in the multitude of Thy mercies, deign to grant some part and fellowship with Thy holy Apostles and Martyrs, with John, Stephen, Matthias, Barnabas, Ignatius, Alexander, Marcellinus, Peter, Felicitas, Perpetua, Agatha, Lucy, Agnes, Cecilia, Anastasia, and with all Thy Saints, into whose company, we beseech Thee, not as appraiser of merit but as bestower of pardon, to admit us. Through Christ our Lord.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Per quem hæc ómnia, Dómine, semper bona creas, sanctíficas, vivíficas, benedícis, et præstas nobis. Per ipsum, et cum ipso, et in ipso, est tibi Deo Patri omnipoténti, in unitáte Spíritus Sancti, omnis honor, et glória.",
+  "english": "Through Whom, O Lord, Thou always create, sanctify, quicken, bless and bestow upon us all good things. Through Him and with Him and in Him is to Thee, God the Father almighty, in the unity of the Holy Spirit, all honor and glory,",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Per ómnia sǽcula sæculórum.",
+  "english": "Forever and ever.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(aloud, to conclude the Canon)"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Stand at High Mass)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Orémus. Præcéptis salutáribus móniti, et divína institutióne formáti, audémus dícere: Pater noster, qui es in cælis: Sanctificétur nomen tuum: Advéniat regnum tuum: Fiat volúntas tua, sicut in cælo, et in terra. Panem nostrum quotidiánum da nobis hódie: Et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem:",
+  "english": "Let us pray: Admonished by Thy saving precepts, and following Thy divine institution, we dare to say: Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses as we forgive those who trespass against us. And lead us not into temptation.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Sed líbera nos a malo.",
+  "english": "But deliver us from evil.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen",
+  "english": "Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Líbera nos, quǽsumus, Dómine, ab ómnibus malis, prætéritis, præséntibus, et futúris: et intercedénte beáta et gloriósa semper Vírgine Dei Genitríce María, cum beátis Apóstolis tuis Petro et Paulo, atque Andréa, et ómnibus Sanctis, da propítius pacem in diébus nostris: ut ope misericórdiæ tuæ adjúti, et a peccáto simus semper líberi et ab omni perturbatióne secúri. Per eúndem Dóminum nostrum Jesum Christum Fílium tuum. Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+  "english": "Deliver us, we beseech Thee, O Lord, from all evils, past, present, and to come; and by the intercession of the blessed and glorious ever-Virgin Mary, Mother of God, together with Thy blessed Apostles, Peter and Paul, and Andrew, and all the Saints, mercifully grant peace in our days, that sustained by the help of Thy mercy, we may be always free from sin and secure from all disturbance. Through the same Jesus Christ, Thy Son, our Lord, Who lives and reigns with Thee, in the unity of the Holy Spirit, God, forever and ever.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Pax Dómini sit semper vobíscum.",
+  "english": "The peace of the Lord be always with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Kneel at High Mass)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Hæc commíxtio, et consecrátio Córporis et Sánguinis Dómini nostri Jesu Christi fiat accipiéntibus nobis in vitam ætérnam. Amen. Agnus Dei, qui tollis peccáta mundi: (strike breast) miserére nobis. Agnus Dei, qui tollis peccáta mundi: (strike breast) miserére nobis. Agnus Dei, qui tollis peccáta mundi: (strike breast) dona nobis pacem.",
+  "english": "May this mingling and consecration of the Body and Blood of our Lord Jesus Christ be to us who receive it effectual unto eternal life. Amen. Lamb of God, Who takes away the sins of the world, (strike breast) have mercy on us. Lamb of God, Who takes away the sins of the world, (strike breast) have mercy on us. Lamb of God, Who takes away the sins of the world, (strike breast) grant us peace.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dómine Jesu Christe, qui dixísti Apóstolis tuis: Pacem relínquo vobis, pacem meam do vobis: ne respícias peccáta mea, sed fidem Ecclésiæ tuæ: eámque secúndum voluntátem tuam pacificáre et coadunáre dignéris: Qui vivis et regnas Deus per ómnia sǽcula sæculórum. Amen.",
+  "english": "O Lord Jesus Christ, Who said to Thine Apostles: Peace I leave you, My peace I give you; regard not my sins, but the faith of Thy Church, and deign to grant her peace and to unify her according to Thy will: Who lives and reigns God, forever and ever. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dómine Jesu Christe, Fili Dei vivi, qui ex voluntáte Patris, cooperánte Spíritu Sancto, per mortem tuam mundum vivificásti: líbera me per hoc sacrosánctum Corpus et Sánguinem tuum ab ómnibus iniquitátibus meis, et univérsis malis: et fac me tuis semper inhærére mandátis, et a te numquam separári permíttas: Qui cum eódem Deo Patre et Spíritu Sancto vivis et regnas Deus in sǽcula sæculórum. Amen.",
+  "english": "Lord Jesus Christ, Son of the living God, Who, by the will of the Father, with the cooperation of the Holy Spirit, hast by Thy death given life to the world; deliver me by this Thy most sacred Body and Blood, from all my sins and from all evils. Make me always cleave to Thy commandments, and never permit me to be separated from Thee, Who with the same God the Father and the Holy Spirit, lives and reigns, God, forever and ever. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Percéptio Córporis tui, Dómine Jesu Christe, quod ego indígnus súmere præsúmo, non mihi provéniat in judícium et condemnatiónem: sed pro tua pietáte prosit mihi ad tutaméntum mentis et córporis, et ad medélam percipiéndam: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. Amen.",
+  "english": "Let not the partaking of Thy Body, O Lord Jesus Christ, which I, unworthy, presume to receive, turn to my judgment and condemnation; but through Thy kindness, may it benefit me, a safeguard both of mind and body, and a certain remedy. Who with God the Father, in the unity of the Holy Spirit, lives and reigns God, forever and ever. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Panem cæléstem accípiam, et nomen Dómini invocábo. Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea. Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea. Dómine, non sum dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.",
+  "english": "I will take the Bread of heaven, and will call upon the name of the Lord. Lord, I am not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed. Lord, I am not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed. Lord, I am not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Corpus Dómini nostri Jesu Christi custódiat ánimam meam in vitam ætérnam. Amen.",
+  "english": "May the Body of our Lord Jesus Christ preserve my soul unto life everlasting. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Quid retríbuam Dómino pro ómnibus quæ retríbuit mihi? Cálicem salutáris accípiam, et nomen Dómini invocábo. Laudans invocábo Dóminum, et ab inimícis meis salvus ero.",
+  "english": "What return shall I render unto the Lord for all He has given me? I will take the Chalice of salvation, and I will call upon the name of the Lord. Praising I will call upon the Lord, and I shall be saved from my enemies.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Sanguis Dómini nostri Jesu Christi custódiat ánimam meam in vitam ætérnam. Amen.",
+  "english": "May the Blood of our Lord Jesus Christ preserve my soul to life everlasting. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Ecce Agnus Dei, ecce qui tollit peccáta mundi.",
+  "english": "Behold the Lamb of God, behold Him who takes away the sins of the world.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dómine, non sum (strike breast) dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.",
+  "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dómine, non sum (strike breast) dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.",
+  "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dómine, non sum (strike breast) dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.",
+  "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed.",
+  "role": "server"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE COMMUNION RAIL",
+  "english": "AT THE COMMUNION RAIL"
+ },
+ {
+  "kind": "verse",
+  "latin": "Corpus Dómini nostri Jesu Christi custódiat ánimam tuam in vitam ætérnam. Amen.",
+  "english": "May the Body of our Lord Jesus Christ preserve your soul unto everlasting life. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Quod ore súmpsimus, Dómine, pura mente capiámus: et de múnere temporáli fiat nobis remédium sempitérnum.",
+  "english": "Grant, O Lord, that what we have taken with our mouth, we may receive with a pure mind; and from a temporal gift may it become to us an eternal remedy.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Corpus tuum, Dómine, quod sumpsi, et Sanguis, quem potávi, adhǽreat viscéribus meis: et præsta; ut in me non remáneat scélerum mácula, quem pura et sancta refecérunt sacraménta: Qui vivis et regnas in sǽcula sæculórum, Amen.",
+  "english": "May Thy Body, O Lord, which I have consumed, and Thy Blood which I have drunk, cling to my vitals; and grant that no wicked stain may remain in me, whom these pure and holy mysteries have refreshed. Who lives and reigns, forever and ever. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE RIGHT SIDE OF THE ALTAR",
+  "english": "AT THE RIGHT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "COMMUNION VERSE",
+  "english": "COMMUNION VERSE"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Stand at High Mass)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE RIGHT SIDE OF THE ALTAR",
+  "english": "AT THE RIGHT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Orémus.",
+  "english": "Let us pray.",
+  "role": "priest"
+ },
+ {
+  "kind": "rubric",
+  "text": "(see the Mass Proper for today's)"
+ },
+ {
+  "kind": "heading",
+  "latin": "POSTCOMMUNION PRAYER",
+  "english": "POSTCOMMUNION PRAYER"
+ },
+ {
+  "kind": "verse",
+  "latin": "...per ómnia sǽcula sæculórum.",
+  "english": "...forever and ever.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE CENTER OF THE ALTAR",
+  "english": "AT THE CENTER OF THE ALTAR"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Ite, Missa est.",
+  "english": "Go, the Mass is ended.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Deo grátias.",
+  "english": "Thanks be to God.",
+  "role": "server"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Kneel at High Mass)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Pláceat tibi, sancta Trínitas, obséquium servitútis meæ: et præsta; ut sacrifícium, quod óculis tuæ majestátis indígnus óbtuli, tibi sit acceptábile, mihíque et ómnibus pro quibus illud óbtuli, sit, te miseránte, propitiábile. Per Christum Dóminum nostrum. Amen.",
+  "english": "May the performance of my homage be pleasing to Thee, O holy Trinity: and grant that the sacrifice which I, though unworthy, have offered up in the sight of Thy majesty, may be acceptable unto Thee, and may, through Thy mercy, be a propitiation for myself and all those for whom I have offered it. Through Christ our Lord. Amen.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Benedícat vos omnípotens Deus, 🕇Pater, et Fílius, et Spíritus Sanctus.",
+  "english": "May almighty God bless you, 🕇the Father, Son, and Holy Spirit.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Amen.",
+  "english": "Amen.",
+  "role": "server"
+ },
+ {
+  "kind": "position",
+  "latin": "AT THE LEFT SIDE OF THE ALTAR",
+  "english": "AT THE LEFT SIDE OF THE ALTAR"
+ },
+ {
+  "kind": "rubric",
+  "text": "(Stand)"
+ },
+ {
+  "kind": "verse",
+  "latin": "Dóminus vobíscum.",
+  "english": "The Lord be with you.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Et cum spíritu tuo.",
+  "english": "And with your spirit.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "Inítium sancti Evangélii secúndum Joánnem.",
+  "english": "The beginning of the holy Gospel according to John.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Glória tibi, Dómine.",
+  "english": "Glory be to Thee, O Lord.",
+  "role": "server"
+ },
+ {
+  "kind": "verse",
+  "latin": "In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in princípio apud Deum. Ómnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hóminum: et lux in ténebris lucet, et ténebræ eam non comprehendérunt. Fuit homo missus a Deo, cui nomen erat Joánnes. Hic venit in testimónium, ut testimónium perhibéret de lúmine, ut omnes créderent per illum. Non erat ille lux, sed ut testimónium perhibéret de lúmine. Erat lux vera, quæ illúminat omnem hóminem veniéntem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognóvit. In própria venit, et sui eum non recepérunt. Quotquot autem recepérunt eum, dedit eis potestátem filios Dei fíeri, his qui credunt in nómine ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt. (Genuflect) ET VERBUM CARO FACTUM EST et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis.",
+  "english": "In the beginning was the Word, and the Word was with God, and the Word was God. The same was in the beginning with God. All things were made by him: and without him was made nothing that was made. In him was life, and the life was the light of men. And the light shineth in darkness, and the darkness did not comprehend it. There was a man sent from God, whose name was John. This man came for a witness, to give testimony of the light, that all men might believe through him. He was not that light, but was to give testimony of the light. That was the true light, which enlighteneth every man that cometh into this world. He was in the world, and the world was made by him, and the world knew him not. He came unto his own, and his own received him not. But as many as received him, he gave them power to be made the sons of God, to them that believe in his name. Who are born, not of blood, nor of the will of the flesh, nor of the will of man, but of God. (Genuflect) AND THE WORD WAS MADE FLESH, and dwelt among us, (and we saw His glory, the glory as it were of the only begotten of the Father,) full of grace and truth.",
+  "role": "priest"
+ },
+ {
+  "kind": "verse",
+  "latin": "Deo grátias.",
+  "english": "Thanks be to God.",
+  "role": "server"
+ }
+]
