@@ -1,6 +1,32 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { missal } from "./data/missal.ts";
-import type { Block, Role } from "./data/types.ts";
+import { composeMissal } from "./data/compose.ts";
+import propersData from "./data/propers.json";
+import type { Block, DayResolution, Proper, Role } from "./data/types.ts";
+import { createResolver } from "./lib/calendar/resolve.ts";
+import { fromDayNum, fromIso, iso, today, weekday } from "./lib/calendar/computus.ts";
+
+const PROPERS = propersData.propers as Proper[];
+
+const WEEKDAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+// Vestment colours → a swatch fill for the Mass-of-the-day picker.
+const VESTMENT: Record<string, string> = {
+  white: "#f4efe3",
+  gold: "#c9a227",
+  red: "#a12b2b",
+  green: "#4a6b57",
+  violet: "#6b4a86",
+  purple: "#6b4a86",
+  rose: "#d19bb0",
+  black: "#333130",
+};
+
+function formatDay(n: number): string {
+  const { y, m, d } = fromDayNum(n);
+  return `${WEEKDAY_NAMES[weekday(n)]} ${d} ${MONTH_NAMES[m - 1]} ${y}`;
+}
 
 type Lang = "la" | "en" | "both";
 
@@ -150,15 +176,164 @@ function BlockView({ block, lang }: { block: Block; lang: Lang }) {
   return <VerseView block={block} lang={lang} />;
 }
 
+function ColorDot({ color }: { color?: string }) {
+  const fill = (color && VESTMENT[color.toLowerCase()]) || "#b9b2a3";
+  return (
+    <span
+      className="inline-block w-3 h-3 rounded-full shrink-0 border border-black/15"
+      style={{ background: fill }}
+      title={color ? `${color} vestments` : undefined}
+      aria-hidden="true"
+    />
+  );
+}
+
+function MassBar({
+  day,
+  setDay,
+  resolution,
+  activeProper,
+  onPick,
+}: {
+  day: number;
+  setDay: (n: number) => void;
+  resolution: DayResolution;
+  activeProper: Proper | null;
+  onPick: (id: string) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const candidates = resolution.candidates;
+  const title = activeProper?.title ?? "No proper for this date";
+
+  return (
+    <div
+      className="sticky top-14 z-10 flex items-center gap-2 px-3 py-1.5
+        bg-paper-2/95 backdrop-blur-md border-b border-line
+        shadow-[0_1px_4px_rgba(0,0,0,0.06)]"
+    >
+      <div className="flex items-center rounded-lg bg-paper border border-line shrink-0">
+        <button
+          className="w-8 h-8 grid place-items-center text-ink-soft active:bg-liturgical/10 rounded-l-lg"
+          onClick={() => setDay(day - 1)}
+          aria-label="Previous day"
+        >
+          ‹
+        </button>
+        <input
+          type="date"
+          lang="en-GB"
+          value={iso(day)}
+          onChange={(e) => e.target.value && setDay(fromIso(e.target.value))}
+          className="w-[8.4rem] bg-transparent text-center font-sans text-[0.78rem] text-ink
+            outline-none tabular-nums"
+          aria-label="Select date"
+        />
+        <button
+          className="w-8 h-8 grid place-items-center text-ink-soft active:bg-liturgical/10 rounded-r-lg"
+          onClick={() => setDay(day + 1)}
+          aria-label="Next day"
+        >
+          ›
+        </button>
+      </div>
+
+      <button
+        className="flex-1 min-w-0 flex items-center gap-2 px-2.5 h-8 rounded-lg
+          bg-paper border border-line text-left active:bg-liturgical/10"
+        onClick={() => setOpen((o) => !o)}
+        aria-expanded={open}
+        aria-label="Choose the Mass for this date"
+        disabled={candidates.length === 0}
+      >
+        <ColorDot color={activeProper?.color} />
+        <span className="flex-1 min-w-0 truncate font-serif text-[0.9rem] text-ink capitalize">
+          {title.toLowerCase()}
+        </span>
+        {candidates.length > 1 && (
+          <span className="shrink-0 font-sans text-[0.6rem] text-ink-soft">
+            {candidates.length} ▾
+          </span>
+        )}
+      </button>
+
+      {open && candidates.length > 0 && (
+        <>
+          <div className="fixed inset-0 z-10" onClick={() => setOpen(false)} />
+          <div
+            className="absolute right-3 top-11 z-20 w-[min(88vw,22rem)] max-h-[60vh] overflow-y-auto
+              rounded-xl bg-card border border-line shadow-[0_6px_24px_rgba(0,0,0,0.22)] py-1"
+            role="listbox"
+          >
+            <div className="px-3 pt-1.5 pb-1 font-sans text-[0.6rem] uppercase tracking-widest text-ink-soft">
+              Mass for {formatDay(day)}
+            </div>
+            {candidates.map((c) => {
+              const selected = c.proper.id === activeProper?.id;
+              return (
+                <button
+                  key={c.proper.id}
+                  role="option"
+                  aria-selected={selected}
+                  onClick={() => {
+                    onPick(c.proper.id);
+                    setOpen(false);
+                  }}
+                  className={
+                    "w-full flex items-center gap-2.5 px-3 py-2 text-left active:bg-liturgical/10 " +
+                    (selected ? "bg-liturgical/8" : "")
+                  }
+                >
+                  <ColorDot color={c.proper.color} />
+                  <span className="flex-1 min-w-0">
+                    <span className="block truncate font-serif text-[0.95rem] text-ink capitalize">
+                      {c.proper.title.toLowerCase()}
+                    </span>
+                    {c.proper.mass && (
+                      <span className="block truncate font-serif italic text-[0.76rem] text-ink-soft">
+                        {c.proper.mass}
+                      </span>
+                    )}
+                  </span>
+                  {selected && <span className="shrink-0 text-gold text-sm">✓</span>}
+                </button>
+              );
+            })}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
 export function App() {
   const [lang, setLang] = usePersistentLang();
   const [theme, setTheme] = usePersistentTheme();
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // The liturgical day and the chosen Mass Proper for it.
+  const [day, setDayRaw] = useState<number>(() => today());
+  const [override, setOverride] = useState<string | null>(null);
+  const resolver = useMemo(() => createResolver(PROPERS), []);
+  const resolution = useMemo(() => resolver.resolveDay(day), [resolver, day]);
+  const activeProperId = override ?? resolution.defaultId;
+  const activeProper = useMemo(
+    () => PROPERS.find((p) => p.id === activeProperId) ?? null,
+    [activeProperId],
+  );
+  const composed = useMemo(() => composeMissal(missal, activeProper), [activeProper]);
+
+  // Changing the date drops any manual override so the new day's default shows.
+  const setDay = (n: number) => {
+    setOverride(null);
+    setDayRaw(n);
+  };
+
   const [activeId, setActiveId] = useState<string>(
     missal.parts[0]?.sections[0]?.id ?? "",
   );
 
-  // Highlight the section nearest the top of the viewport.
+  // Highlight the section nearest the top of the viewport. Re-observed when the
+  // composed sections change (a different Mass adds/removes the Secret).
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -172,7 +347,7 @@ export function App() {
     for (const el of document.querySelectorAll("[data-section]"))
       observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [composed]);
 
   const goto = (id: string) => {
     setMenuOpen(false);
@@ -228,6 +403,14 @@ export function App() {
         </div>
       </header>
 
+      <MassBar
+        day={day}
+        setDay={setDay}
+        resolution={resolution}
+        activeProper={activeProper}
+        onPick={setOverride}
+      />
+
       {menuOpen && (
         <div
           className="fixed inset-0 z-30 bg-black/45 animate-drawer-fade"
@@ -243,7 +426,7 @@ export function App() {
             <div className="px-4 pt-3 pb-2 font-sans font-bold text-[0.8rem] tracking-widest uppercase text-liturgical">
               Contents
             </div>
-            {missal.parts.map((part) => (
+            {composed.parts.map((part) => (
               <div key={part.id} className="py-1.5">
                 <div className="px-4 py-1.5 font-sans text-[0.68rem] tracking-wider uppercase text-ink-soft">
                   {part.title}
@@ -302,7 +485,7 @@ export function App() {
       )}
 
       <main className="px-3 pt-2 pb-16">
-        {missal.parts.map((part) => (
+        {composed.parts.map((part) => (
           <section key={part.id}>
             <h2 className="flex items-center justify-center gap-2 mt-8 mb-1 font-sans text-[0.78rem] font-bold uppercase tracking-[0.14em] text-liturgical">
               <span className="text-gold text-[0.7rem]" aria-hidden="true">
