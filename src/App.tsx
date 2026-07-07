@@ -4,10 +4,18 @@ import type { Block, Role } from "./data/types.ts";
 
 type Lang = "la" | "en" | "both";
 
+type Theme = "auto" | "light" | "dark";
+
 const LANGS: { id: Lang; short: string }[] = [
   { id: "la", short: "LA" },
   { id: "en", short: "EN" },
   { id: "both", short: "LA·EN" },
+];
+
+const THEMES: { id: Theme; label: string; icon: string }[] = [
+  { id: "auto", label: "Auto", icon: "◐" },
+  { id: "light", label: "Light", icon: "☀" },
+  { id: "dark", label: "Dark", icon: "☾" },
 ];
 
 const ROLE_BADGE: Record<Role, string> = {
@@ -41,7 +49,9 @@ const badgeBase =
 function usePersistentLang(): [Lang, (l: Lang) => void] {
   const [lang, setLang] = useState<Lang>(() => {
     const saved = localStorage.getItem("missal-lang");
-    return saved === "la" || saved === "en" || saved === "both" ? saved : "both";
+    return saved === "la" || saved === "en" || saved === "both"
+      ? saved
+      : "both";
   });
   useEffect(() => {
     localStorage.setItem("missal-lang", lang);
@@ -49,11 +59,40 @@ function usePersistentLang(): [Lang, (l: Lang) => void] {
   return [lang, setLang];
 }
 
-function VerseView({ block, lang }: { block: Extract<Block, { type: "verse" }>; lang: Lang }) {
+function usePersistentTheme(): [Theme, (t: Theme) => void] {
+  const [theme, setTheme] = useState<Theme>(() => {
+    const saved = localStorage.getItem("missal-theme");
+    return saved === "light" || saved === "dark" ? saved : "auto";
+  });
+  useEffect(() => {
+    // "auto" leaves data-theme unset so prefers-color-scheme governs; a manual
+    // choice forces the palette via data-theme on <html> (see styles.css).
+    const root = document.documentElement;
+    if (theme === "auto") {
+      root.removeAttribute("data-theme");
+      localStorage.removeItem("missal-theme");
+    } else {
+      root.setAttribute("data-theme", theme);
+      localStorage.setItem("missal-theme", theme);
+    }
+  }, [theme]);
+  return [theme, setTheme];
+}
+
+function VerseView({
+  block,
+  lang,
+}: {
+  block: Extract<Block, { type: "verse" }>;
+  lang: Lang;
+}) {
   return (
     <div className="flex gap-2.5 py-1.5">
       {block.role ? (
-        <span className={`${badgeBase} ${ROLE_STYLES[block.role]}`} title={ROLE_NAME[block.role]}>
+        <span
+          className={`${badgeBase} ${ROLE_STYLES[block.role]}`}
+          title={ROLE_NAME[block.role]}
+        >
           {ROLE_BADGE[block.role]}
         </span>
       ) : (
@@ -61,7 +100,10 @@ function VerseView({ block, lang }: { block: Extract<Block, { type: "verse" }>; 
       )}
       <div className="min-w-0 flex-1">
         {(lang === "la" || lang === "both") && (
-          <p className="m-0 font-serif text-[1.12rem] leading-relaxed text-ink" lang="la">
+          <p
+            className="m-0 font-serif text-[1.12rem] leading-relaxed text-ink"
+            lang="la"
+          >
             {block.latin}
           </p>
         )}
@@ -94,8 +136,11 @@ function BlockView({ block, lang }: { block: Block; lang: Lang }) {
 
 export function App() {
   const [lang, setLang] = usePersistentLang();
+  const [theme, setTheme] = usePersistentTheme();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeId, setActiveId] = useState<string>(missal.parts[0]?.sections[0]?.id ?? "");
+  const [activeId, setActiveId] = useState<string>(
+    missal.parts[0]?.sections[0]?.id ?? "",
+  );
 
   // Highlight the section nearest the top of the viewport.
   useEffect(() => {
@@ -108,17 +153,20 @@ export function App() {
       },
       { rootMargin: "-45% 0px -50% 0px", threshold: 0 },
     );
-    for (const el of document.querySelectorAll("[data-section]")) observer.observe(el);
+    for (const el of document.querySelectorAll("[data-section]"))
+      observer.observe(el);
     return () => observer.disconnect();
   }, []);
 
   const goto = (id: string) => {
     setMenuOpen(false);
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    document
+      .getElementById(id)
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
-    <div className="mx-auto max-w-[760px]">
+    <div className="mx-auto max-w-190">
       <header
         className="sticky top-0 z-20 flex items-center gap-2 min-h-14 px-3 pb-1.5
           pt-[max(0.375rem,env(safe-area-inset-top))]
@@ -201,7 +249,36 @@ export function App() {
                 ))}
               </div>
             ))}
-            <div className="mx-4 mt-2 pt-4 border-t border-line font-sans text-[0.68rem] text-ink-soft">
+            <div className="mx-4 mt-2 pt-4 border-t border-line">
+              <div className="mb-1.5 font-sans text-[0.68rem] tracking-wider uppercase text-ink-soft">
+                Appearance
+              </div>
+              <div
+                className="flex gap-1 bg-paper rounded-lg p-0.5 font-sans"
+                role="radiogroup"
+                aria-label="Theme"
+              >
+                {THEMES.map((t) => (
+                  <button
+                    key={t.id}
+                    role="radio"
+                    aria-checked={theme === t.id}
+                    onClick={() => setTheme(t.id)}
+                    className={
+                      "flex-1 flex items-center justify-center gap-1 py-1.5 rounded-md " +
+                      "text-[0.72rem] font-semibold transition-colors " +
+                      (theme === t.id
+                        ? "bg-liturgical text-white"
+                        : "text-ink-soft")
+                    }
+                  >
+                    <span aria-hidden="true">{t.icon}</span>
+                    {t.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="mx-4 mt-4 font-sans text-[0.68rem] text-ink-soft">
               Text: 1962 Missale Romanum · Extraordinary Form
             </div>
           </nav>
@@ -243,7 +320,9 @@ export function App() {
                     )}
                   </h3>
                   {s.subtitle && (
-                    <p className="m-0 mt-0.5 font-sans text-[0.82rem] text-ink-soft">{s.subtitle}</p>
+                    <p className="m-0 mt-0.5 font-sans text-[0.82rem] text-ink-soft">
+                      {s.subtitle}
+                    </p>
                   )}
                 </header>
                 {s.blocks.map((b, i) => (
@@ -255,13 +334,15 @@ export function App() {
         ))}
         <footer className="mt-10 pt-4 px-1 border-t border-line font-sans text-[0.78rem] text-ink-soft leading-relaxed">
           <p>
-            The Order of Mass according to the 1962 <em>Missale Romanum</em> (the
-            Extraordinary Form / Traditional Latin Mass).
+            The Order of Mass according to the 1962 <em>Missale Romanum</em>{" "}
+            (the Extraordinary Form / Traditional Latin Mass).
           </p>
           <p className="mt-2">
             Sections marked{" "}
-            <span className="font-bold uppercase tracking-wide text-gold">proper</span> change with
-            the liturgical day and are read from the Mass Proper.
+            <span className="font-bold uppercase tracking-wide text-gold">
+              proper
+            </span>{" "}
+            change with the liturgical day and are read from the Mass Proper.
           </p>
         </footer>
       </main>

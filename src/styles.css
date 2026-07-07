@@ -21,8 +21,12 @@
   --color-rubric: #a5341e;
 }
 
+/* Dark palette. It applies automatically under a dark system preference
+   (unless the user has forced light via the menu), and always when the user
+   forces dark. The theme choice is set as data-theme on <html>. Keep the two
+   value lists below in sync. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --color-paper: #15120e;
     --color-paper-2: #1e1a15;
     --color-card: #221d17;
@@ -34,6 +38,18 @@
     --color-gold: #c2a24a;
     --color-rubric: #dd7a54;
   }
+}
+:root[data-theme="dark"] {
+  --color-paper: #15120e;
+  --color-paper-2: #1e1a15;
+  --color-card: #221d17;
+  --color-ink: #ece4d5;
+  --color-ink-soft: #a89e8b;
+  --color-line: #362e26;
+  --color-liturgical: #6f1b1b;
+  --color-liturgical-bright: #8a2525;
+  --color-gold: #c2a24a;
+  --color-rubric: #dd7a54;
 }
 
 @layer base {
