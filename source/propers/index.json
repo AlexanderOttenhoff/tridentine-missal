@@ -1,0 +1,3025 @@
+[
+  {
+    "file": "0101Circumcision.pdf",
+    "label": "01/01 Day VIII in the Octave, Circumcision of Our Lord",
+    "dates": [
+      "01/01"
+    ]
+  },
+  {
+    "file": "0105StTelesphorusPopeMartyr.pdf",
+    "label": "05/01 St. Telesphorus, Pope & Martyr",
+    "dates": [
+      "05/01"
+    ]
+  },
+  {
+    "file": "0106EpiphanyofOurLord.pdf",
+    "label": "06/01 Epiphany of Our Lord",
+    "dates": [
+      "06/01"
+    ]
+  },
+  {
+    "file": "0113BaptismofOurLord.pdf",
+    "label": "13/01 Baptism of Our Lord",
+    "dates": [
+      "13/01"
+    ]
+  },
+  {
+    "file": "0114StHilaryDoctor.pdf",
+    "label": "14/01 St. Hilary, Doctor of the Church",
+    "dates": [
+      "14/01"
+    ]
+  },
+  {
+    "file": "0115StPaul1stHermitConfessor.pdf",
+    "label": "15/01 St. Paul, First Hermit, Confessor",
+    "dates": [
+      "15/01"
+    ]
+  },
+  {
+    "file": "0116StMarcellusPopeMartyr.pdf",
+    "label": "16/01 St. Marcellus I, Pope & Martyr",
+    "dates": [
+      "16/01"
+    ]
+  },
+  {
+    "file": "0117StAnthonyAbbot.pdf",
+    "label": "17/01 St. Anthony, Abbot",
+    "dates": [
+      "17/01"
+    ]
+  },
+  {
+    "file": "0119StCanuteKingMartyr.pdf",
+    "label": "19/01 St. Canute, Martyr",
+    "dates": [
+      "19/01"
+    ]
+  },
+  {
+    "file": "0119StsMariusetAliaMartyrs.pdf",
+    "label": "19/01 Ss. Marius, Martha, Audifax, & Abachum, Martyrs",
+    "dates": [
+      "19/01"
+    ]
+  },
+  {
+    "file": "0120StsFabian&SebastianMartyrs.pdf",
+    "label": "20/01 Ss. Fabian, Pope, & Sebastian, Martyrs",
+    "dates": [
+      "20/01"
+    ]
+  },
+  {
+    "file": "0121StAgnesVirginMartyr.pdf",
+    "label": "21/01 St. Agnes, Virgin & Martyr",
+    "dates": [
+      "21/01"
+    ]
+  },
+  {
+    "file": "0122StsVincent&AnastasiusMartyrs.pdf",
+    "label": "22/01 Ss. Vincent & Anastasius, Martyrs",
+    "dates": [
+      "22/01"
+    ]
+  },
+  {
+    "file": "0123StRaymondConfessor.pdf",
+    "label": "23/01 St. Raymund of Pennafort, Confessor",
+    "dates": [
+      "23/01"
+    ]
+  },
+  {
+    "file": "0124StTimothyBishopMartyr.pdf",
+    "label": "24/01 St. Timothy, Bishop & Martyr",
+    "dates": [
+      "24/01"
+    ]
+  },
+  {
+    "file": "0126StPolycarpBishopMartyr.pdf",
+    "label": "26/01 St. Polycarp, Bishop & Martyr",
+    "dates": [
+      "26/01"
+    ]
+  },
+  {
+    "file": "0127StJohnChrysostomDoctor.pdf",
+    "label": "27/01 St. John Chrysostom, Doctor of the Church",
+    "dates": [
+      "27/01"
+    ]
+  },
+  {
+    "file": "0128StPeterNolascoConfessor.pdf",
+    "label": "28/01 St. Peter Nolasco, Confessor",
+    "dates": [
+      "28/01"
+    ]
+  },
+  {
+    "file": "0129StFrancisdeSalesDoctor.pdf",
+    "label": "29/01 St. Francis de Sales, Doctor of the Church",
+    "dates": [
+      "29/01"
+    ]
+  },
+  {
+    "file": "0130StMartinaVirginMartyr.pdf",
+    "label": "30/01 St. Martina, Virgin & Martyr",
+    "dates": [
+      "30/01"
+    ]
+  },
+  {
+    "file": "0131StJohnBoscoConfessor.pdf",
+    "label": "31/01 St. John Bosco, Confessor",
+    "dates": [
+      "31/01"
+    ]
+  },
+  {
+    "file": "0202Purification.pdf",
+    "label": "02/02 Purification of BVM",
+    "dates": [
+      "02/02"
+    ]
+  },
+  {
+    "file": "0202PurificationAnteMissam.pdf",
+    "label": "02/02 Candlemas Ritual",
+    "dates": [
+      "02/02"
+    ]
+  },
+  {
+    "file": "0203StBlaiseBishopMartyr.pdf",
+    "label": "03/02 St. Blaise, Bishop & Martyr",
+    "dates": [
+      "03/02"
+    ]
+  },
+  {
+    "file": "0204StAndrewCorsiniConfessorBishop.pdf",
+    "label": "04/02 St. Andrew Corsini, Bishop & Confessor",
+    "dates": [
+      "04/02"
+    ]
+  },
+  {
+    "file": "0205StAgathaVirginMartyr.pdf",
+    "label": "05/02 St. Agatha, Virgin & Martyr",
+    "dates": [
+      "05/02"
+    ]
+  },
+  {
+    "file": "0206StTitusConfessorBishop.pdf",
+    "label": "06/02 St. Titus, Bishop & Confessor",
+    "dates": [
+      "06/02"
+    ]
+  },
+  {
+    "file": "0207StRomualdAbbot.pdf",
+    "label": "07/02 St. Romuald, Abbot",
+    "dates": [
+      "07/02"
+    ]
+  },
+  {
+    "file": "0209StCyrilDoctor.pdf",
+    "label": "09/02 St. Cyril, Doctor of the Church",
+    "dates": [
+      "09/02"
+    ]
+  },
+  {
+    "file": "0210StScholasticaVirgin.pdf",
+    "label": "10/02 St. Scholastica, Virgin",
+    "dates": [
+      "10/02"
+    ]
+  },
+  {
+    "file": "0211OurLadyofLourdes.pdf",
+    "label": "11/02 Our Lady of Lourdes",
+    "dates": [
+      "11/02"
+    ]
+  },
+  {
+    "file": "0212SevenHolyFoundersConfessors.pdf",
+    "label": "12/02 Seven Holy Founders, Confessors",
+    "dates": [
+      "12/02"
+    ]
+  },
+  {
+    "file": "0214StValentineMartyr.pdf",
+    "label": "14/02 St. Valentine, Martyr",
+    "dates": [
+      "14/02"
+    ]
+  },
+  {
+    "file": "0224StMatthiasApostle_Lent1stTuesday.pdf",
+    "label": "24/02 St. Matthias, Apostle",
+    "dates": [
+      "24/02"
+    ]
+  },
+  {
+    "file": "0306StsPerpetua&FelicityMartyrsLE_Lent2ndFriday.pdf",
+    "label": "06/03 Ss. Perpetua & Felicity, Martyrs",
+    "dates": [
+      "06/03"
+    ]
+  },
+  {
+    "file": "0307StThomasAquinasDoctorLE_Lent2ndSaturday.pdf",
+    "label": "07/03 St. Thomas Aquinas, Doctor of the Church",
+    "dates": [
+      "07/03"
+    ]
+  },
+  {
+    "file": "0309StFrancesofRomeWidowLE_Lent3rdMonday.pdf",
+    "label": "09/03 St. Frances of Rome, Widow",
+    "dates": [
+      "09/03"
+    ]
+  },
+  {
+    "file": "0312StGregoryIPopeLE_Lent3rdThursday.pdf",
+    "label": "12/03 St. Gregory the Great, Doctor of the Church",
+    "dates": [
+      "12/03"
+    ]
+  },
+  {
+    "file": "0319StJosephSpouseofBVM_Lent4thThursday.pdf",
+    "label": "19/03 St. Joseph, Spouse of the BVM",
+    "dates": [
+      "19/03"
+    ]
+  },
+  {
+    "file": "0321StBenedictAbbotLE_Lent4thSaturday.pdf",
+    "label": "21/03 St. Benedict, Abbot",
+    "dates": [
+      "21/03"
+    ]
+  },
+  {
+    "file": "0324StGabrielArchangelHC_Lent5thTuesday.pdf",
+    "label": "24/03 St. Gabriel the Archangel",
+    "dates": [
+      "24/03"
+    ]
+  },
+  {
+    "file": "0325AnnunciationBVM_Lent5thWednesday.pdf",
+    "label": "25/03 Annunciation of the BVM",
+    "dates": [
+      "25/03"
+    ]
+  },
+  {
+    "file": "0413StHermenegildMartyrEA.pdf",
+    "label": "13/04 St.Hermenegild, Martyr",
+    "dates": [
+      "13/04"
+    ]
+  },
+  {
+    "file": "0414StJustinMartyrEA.pdf",
+    "label": "14/04 St. Justin, Martyr",
+    "dates": [
+      "14/04"
+    ]
+  },
+  {
+    "file": "0417StAnicetusPopeMartyrEA.pdf",
+    "label": "17/04 St. Anicetus, Pope & Martyr",
+    "dates": [
+      "17/04"
+    ]
+  },
+  {
+    "file": "0421StAnselmDoctorEA.pdf",
+    "label": "21/04 St. Anselm, Doctor of the Church",
+    "dates": [
+      "21/04"
+    ]
+  },
+  {
+    "file": "0422StsSoter&CaiusPopesEA.pdf",
+    "label": "22/04 Ss. Soter & Cajus, Popes & Martyrs",
+    "dates": [
+      "22/04"
+    ]
+  },
+  {
+    "file": "0423StGeorgeMartyrEA.pdf",
+    "label": "23/04 St. George, Martyr",
+    "dates": [
+      "23/04"
+    ]
+  },
+  {
+    "file": "0424StFidelisMartyrEA.pdf",
+    "label": "24/04 St. Fidelis. Martyr",
+    "dates": [
+      "24/04"
+    ]
+  },
+  {
+    "file": "0425Rogation.pdf",
+    "label": "25/04 Rogation Day",
+    "dates": [
+      "25/04"
+    ]
+  },
+  {
+    "file": "0425StMarkEvangelist.pdf",
+    "label": "25/04 St. Mark, Evangelist",
+    "dates": [
+      "25/04"
+    ]
+  },
+  {
+    "file": "0427StPeterCanisiusDoctorEA.pdf",
+    "label": "27/04 St. Peter Canisius, Doctor of the Church",
+    "dates": [
+      "27/04"
+    ]
+  },
+  {
+    "file": "0428StPauloftheCrossConfessorEA.pdf",
+    "label": "28/04 St. Paul of the Cross, Confessor",
+    "dates": [
+      "28/04"
+    ]
+  },
+  {
+    "file": "0429StPeterVeronaMartyrEA.pdf",
+    "label": "29/04 St. Peter of Verona, Martyr",
+    "dates": [
+      "29/04"
+    ]
+  },
+  {
+    "file": "0430StCatherineofSienaVirginEA.pdf",
+    "label": "30/04 St. Catherine of Siena, Virgin",
+    "dates": [
+      "30/04"
+    ]
+  },
+  {
+    "file": "0501StJosephTheWorker.pdf",
+    "label": "01/05 St. Joseph the Workman, Confessor",
+    "dates": [
+      "01/05"
+    ]
+  },
+  {
+    "file": "0502StAthanasiusDoctorEA.pdf",
+    "label": "02/05 St. Athanasius, Doctor of the Church",
+    "dates": [
+      "02/05"
+    ]
+  },
+  {
+    "file": "0504StMonicaWidowEA.pdf",
+    "label": "04/05 St. Monica, Widow",
+    "dates": [
+      "04/05"
+    ]
+  },
+  {
+    "file": "0505StPiusVPopeEA.pdf",
+    "label": "05/05 St. Pius V, Pope & Confessor",
+    "dates": [
+      "05/05"
+    ]
+  },
+  {
+    "file": "0506StJohnBeforeLatinGate.pdf",
+    "label": "06/05 St. John before the Latin Gate",
+    "dates": [
+      "06/05"
+    ]
+  },
+  {
+    "file": "0507StStanislausBishopMartyrEA.pdf",
+    "label": "07/05 St. Stanislaus, Bishop & Martyr",
+    "dates": [
+      "07/05"
+    ]
+  },
+  {
+    "file": "0508ApparitionStMichaelEA.pdf",
+    "label": "08/05 Apparition of St. Michael",
+    "dates": [
+      "08/05"
+    ]
+  },
+  {
+    "file": "0508BVMMediatrix.pdf",
+    "label": "08/05 BVM - Mediatrix of All Graces",
+    "dates": [
+      "08/05"
+    ]
+  },
+  {
+    "file": "0509StGregoryNazianzenDoctorEA.pdf",
+    "label": "09/05 St. Gregory Nanzianzen, Doctor of the Church",
+    "dates": [
+      "09/05"
+    ]
+  },
+  {
+    "file": "0511StsPhilipandJamesApostles.pdf",
+    "label": "11/05 Ss. Philip & James, Apostles",
+    "dates": [
+      "11/05"
+    ]
+  },
+  {
+    "file": "0512StsNereus&AliaMartyrsEA.pdf",
+    "label": "12/05 Ss. Nereus, Achilleus, Domitila, & Pancras, Martyrs",
+    "dates": [
+      "12/05"
+    ]
+  },
+  {
+    "file": "0515StJohnBaptistdelaSalleConfessorAS.pdf",
+    "label": "15/05 St. John Baptist de la Salle, Confessor",
+    "dates": [
+      "15/05"
+    ]
+  },
+  {
+    "file": "0516StUbaldConfessorBishopAS.pdf",
+    "label": "16/05 St. Ubald, Bishop & Confessor",
+    "dates": [
+      "16/05"
+    ]
+  },
+  {
+    "file": "0518StVenantiusMartyrAS.pdf",
+    "label": "18/05 St. Venantius, Martyr",
+    "dates": [
+      "18/05"
+    ]
+  },
+  {
+    "file": "0519StPeterCelestinePopeAS.pdf",
+    "label": "19/05 St. Peter Celestine, Pope & Confessor",
+    "dates": [
+      "19/05"
+    ]
+  },
+  {
+    "file": "0520StBernardineConfessorAS.pdf",
+    "label": "20/05 St. Bernardine of Siena, Confessor",
+    "dates": [
+      "20/05"
+    ]
+  },
+  {
+    "file": "0601StAngelaMericiVirgin.pdf",
+    "label": "01/06 St. Angela Merici, Virgin",
+    "dates": [
+      "01/06"
+    ]
+  },
+  {
+    "file": "0602StsMarcellinusPeterErasmus.pdf",
+    "label": "02/06 Ss. Marcellinus, Peter, & Erasmus, Martyrs",
+    "dates": [
+      "02/06"
+    ]
+  },
+  {
+    "file": "0605StBonifaceBishopMartyr.pdf",
+    "label": "05/06 St. Boniface, Bishop & Martyr",
+    "dates": [
+      "05/06"
+    ]
+  },
+  {
+    "file": "0606StNorbertConfessorBishop.pdf",
+    "label": "06/06 St. Norbert, Bishop & Confessor",
+    "dates": [
+      "06/06"
+    ]
+  },
+  {
+    "file": "0609StsPrimus&FelicianMartyrs.pdf",
+    "label": "09/06 Ss. Primus & Felician, Martyrs",
+    "dates": [
+      "09/06"
+    ]
+  },
+  {
+    "file": "0610StMargaretofScotlandHolyWoman.pdf",
+    "label": "10/06 St. Margaret, Queen of Scotland, Widow",
+    "dates": [
+      "10/06"
+    ]
+  },
+  {
+    "file": "0611StBarnabasApostle.pdf",
+    "label": "11/06 St. Barnabas, Apostle",
+    "dates": [
+      "11/06"
+    ]
+  },
+  {
+    "file": "0613StAnthonyDoctor.pdf",
+    "label": "13/06 St. Anthony of Padua, Doctor",
+    "dates": [
+      "13/06"
+    ]
+  },
+  {
+    "file": "0615StsVitusModestusCrescentiaMartyrs.pdf",
+    "label": "15/06 Ss. Vitus, Modestus, & Crescentia, Martyrs",
+    "dates": [
+      "15/06"
+    ]
+  },
+  {
+    "file": "0617StGregoryBarbarigoConfessorBishop.pdf",
+    "label": "17/06 St. Gregory Barbarigo, Bishop & Confessor",
+    "dates": [
+      "17/06"
+    ]
+  },
+  {
+    "file": "0618StEphremDoctor.pdf",
+    "label": "18/06 St. Ephrem of Syria, Doctor of the Church",
+    "dates": [
+      "18/06"
+    ]
+  },
+  {
+    "file": "0619StJulianaVirgin.pdf",
+    "label": "19/06 St. Juliana Falconieri, Virgin",
+    "dates": [
+      "19/06"
+    ]
+  },
+  {
+    "file": "0620StSilveriusPopeMartyr.pdf",
+    "label": "20/06 St. Silverius, Pope & Martyr",
+    "dates": [
+      "20/06"
+    ]
+  },
+  {
+    "file": "0622StPaulinusBishop.pdf",
+    "label": "22/06 St. Paulinus, Bishop & Confessor",
+    "dates": [
+      "22/06"
+    ]
+  },
+  {
+    "file": "0623VigilNativityJohntheBaptist.pdf",
+    "label": "23/06 Vigil of Nativity of St. John the Baptist",
+    "dates": [
+      "23/06"
+    ]
+  },
+  {
+    "file": "0624NativityStJohnBaptist.pdf",
+    "label": "24/06 Nativity of St. John the Baptist",
+    "dates": [
+      "24/06"
+    ]
+  },
+  {
+    "file": "0625StWilliamAbbot.pdf",
+    "label": "25/06 St. William, Abbot",
+    "dates": [
+      "25/06"
+    ]
+  },
+  {
+    "file": "0626StsJohn&PaulMartyrs.pdf",
+    "label": "26/06 Ss. John & Paul, Martyrs",
+    "dates": [
+      "26/06"
+    ]
+  },
+  {
+    "file": "0627OurLadyofPerpetualHelp.pdf",
+    "label": "27/06 Our Lady of Perpetual Help",
+    "dates": [
+      "27/06"
+    ]
+  },
+  {
+    "file": "0629StsPeterandPaulApostles.pdf",
+    "label": "29/06 Ss. Peter & Paul, Apostles",
+    "dates": [
+      "29/06"
+    ]
+  },
+  {
+    "file": "0629StsPeterandPaulApostlesES_6th.pdf",
+    "label": "05/07 (USA) External Solemnity of Ss. Peter & Paul",
+    "dates": [
+      "05/07"
+    ]
+  },
+  {
+    "file": "0630StPaulApostle.pdf",
+    "label": "30/06 Commemoration of St. Paul, Apostle",
+    "dates": [
+      "30/06"
+    ]
+  },
+  {
+    "file": "0701MostPreciousBlood.pdf",
+    "label": "01/07 Most Precious Blood of Our Lord",
+    "dates": [
+      "01/07"
+    ]
+  },
+  {
+    "file": "0702VisitationBVM.pdf",
+    "label": "02/07 Visitation of the BVM",
+    "dates": [
+      "02/07"
+    ]
+  },
+  {
+    "file": "0703StIrenaeusBishopMartyr.pdf",
+    "label": "03/07 St. Irenaeus, Doctor of the Church",
+    "dates": [
+      "03/07"
+    ]
+  },
+  {
+    "file": "0704CommemorationAllHolyPopes.pdf",
+    "label": "04/07 In Commemoration of All Holy Popes",
+    "dates": [
+      "04/07"
+    ]
+  },
+  {
+    "file": "0706StMariaGorettiVirginMartyr.pdf",
+    "label": "06/07 St. Maria Goretti, Virgin Martyr",
+    "dates": [
+      "06/07"
+    ]
+  },
+  {
+    "file": "0707StsCyril&MethodiusBishops.pdf",
+    "label": "07/07 Ss. Cyril & Methodius, Bishops & Confessors",
+    "dates": [
+      "07/07"
+    ]
+  },
+  {
+    "file": "0708StElizabethofPortugalHolyWoman.pdf",
+    "label": "08/07 St. Elizabeth of Portugal, Queen & Widow",
+    "dates": [
+      "08/07"
+    ]
+  },
+  {
+    "file": "0710SevenHolyBrothers.pdf",
+    "label": "10/07 Seven Holy Brothers, & Ss. Rufina & Secunda, Martyrs",
+    "dates": [
+      "10/07"
+    ]
+  },
+  {
+    "file": "0711StPiusIPopeMartyr.pdf",
+    "label": "11/07 St. Pius I, Pope & Martyr",
+    "dates": [
+      "11/07"
+    ]
+  },
+  {
+    "file": "0714StBonaventureDoctor.pdf",
+    "label": "14/07 St. Bonaventure, Doctor of the Church",
+    "dates": [
+      "14/07"
+    ]
+  },
+  {
+    "file": "0715StHenryConfessor.pdf",
+    "label": "15/07 St. Henry II, Emperor, Confessor",
+    "dates": [
+      "15/07"
+    ]
+  },
+  {
+    "file": "0716OurLadyMtCarmel.pdf",
+    "label": "16/07 Our Lady of Mt. Carmel",
+    "dates": [
+      "16/07"
+    ]
+  },
+  {
+    "file": "0717StAlexisConfessor.pdf",
+    "label": "17/07 St. Alexius, Confessor",
+    "dates": [
+      "17/07"
+    ]
+  },
+  {
+    "file": "0718StCamillusConfessor.pdf",
+    "label": "18/07 St. Camillus de Lellis, Confessor",
+    "dates": [
+      "18/07"
+    ]
+  },
+  {
+    "file": "0720StJeromeEmilianConfessor.pdf",
+    "label": "20/07 St. Jerome Emiliani, Confessor",
+    "dates": [
+      "20/07"
+    ]
+  },
+  {
+    "file": "0721StLawrenceBrindisiDoctor.pdf",
+    "label": "21/07 St. Lawrence of Brindisi, Doctor of the Church",
+    "dates": [
+      "21/07"
+    ]
+  },
+  {
+    "file": "0722StMaryMagdalen.pdf",
+    "label": "22/07 St. Mary Magdalene, Penitent",
+    "dates": [
+      "22/07"
+    ]
+  },
+  {
+    "file": "0723StApollinarisBishopMartyr.pdf",
+    "label": "23/07 St. Apollinarus, Martyr",
+    "dates": [
+      "23/07"
+    ]
+  },
+  {
+    "file": "0724StChristinaVirginMartyr.pdf",
+    "label": "24/07 St. Christina, Virgin & Martyr",
+    "dates": [
+      "24/07"
+    ]
+  },
+  {
+    "file": "0725StJamesApostle.pdf",
+    "label": "25/07 St. James the Greater, Apostle",
+    "dates": [
+      "25/07"
+    ]
+  },
+  {
+    "file": "0727StPantaleonMartyr.pdf",
+    "label": "27/07 St. Pantaleon, Martyr",
+    "dates": [
+      "27/07"
+    ]
+  },
+  {
+    "file": "0728StsNazariusEtAliaMartyrs.pdf",
+    "label": "28/07 Ss. Nazarius & Celsus, Martyrs, Victor I, Pope & Martyr, Innocent I, Pope",
+    "dates": [
+      "28/07"
+    ]
+  },
+  {
+    "file": "0729StMarthaVirgin.pdf",
+    "label": "29/07 St. Martha, Virgin",
+    "dates": [
+      "29/07"
+    ]
+  },
+  {
+    "file": "0730StsAbdon&SennenMartyrs.pdf",
+    "label": "30/07 Ss. Abdon & Sennen, Martyrs",
+    "dates": [
+      "30/07"
+    ]
+  },
+  {
+    "file": "0731StIgnatiusLoyolaConfessor.pdf",
+    "label": "31/07 St. Ignatius, Confessor",
+    "dates": [
+      "31/07"
+    ]
+  },
+  {
+    "file": "0801HolyMachabeesMartyrs.pdf",
+    "label": "01/08 Holy Machabees, Martyrs",
+    "dates": [
+      "01/08"
+    ]
+  },
+  {
+    "file": "0801StPeterInChains.pdf",
+    "label": "01/08 St. Peter in Chains",
+    "dates": [
+      "01/08"
+    ]
+  },
+  {
+    "file": "0803FindingBodyStStephenMartyr.pdf",
+    "label": "03/08 The Finding of the Body of St. Stephen",
+    "dates": [
+      "03/08"
+    ]
+  },
+  {
+    "file": "0804StDominicConfessor.pdf",
+    "label": "04/08 St. Dominic, Confessor",
+    "dates": [
+      "04/08"
+    ]
+  },
+  {
+    "file": "0805OurLadyofSnowsCommonBVM.pdf",
+    "label": "05/08 Our Lady of the Snows",
+    "dates": [
+      "05/08"
+    ]
+  },
+  {
+    "file": "0806Transfiguration.pdf",
+    "label": "06/08 Transfiguration of Our Lord",
+    "dates": [
+      "06/08"
+    ]
+  },
+  {
+    "file": "0807StCajetanConfessor.pdf",
+    "label": "07/08 St. Cajetan, Confessor",
+    "dates": [
+      "07/08"
+    ]
+  },
+  {
+    "file": "0808StJohnMaryVianneyConfessor.pdf",
+    "label": "08/08 St. John Mary Vianney, Confessor & Priest",
+    "dates": [
+      "08/08"
+    ]
+  },
+  {
+    "file": "0810StLawrenceMartyr.pdf",
+    "label": "10/08 St. Lawrence, Deacon & Martyr",
+    "dates": [
+      "10/08"
+    ]
+  },
+  {
+    "file": "0811StsTiburtius&SusannaMartyrs.pdf",
+    "label": "11/08 Ss. Tiburtius & Susanna, Virgin, Martyrs",
+    "dates": [
+      "11/08"
+    ]
+  },
+  {
+    "file": "0812StClareVirgin.pdf",
+    "label": "12/08 St. Clare, Virgin",
+    "dates": [
+      "12/08"
+    ]
+  },
+  {
+    "file": "0813StsHippolytus&CassianMartyrs.pdf",
+    "label": "13/08 Ss. Hippolytus & Cassian, Martyrs",
+    "dates": [
+      "13/08"
+    ]
+  },
+  {
+    "file": "0814VigilofAssumption.pdf",
+    "label": "14/08 Vigil of the Assumption",
+    "dates": [
+      "14/08"
+    ]
+  },
+  {
+    "file": "0815AssumptionBVM.pdf",
+    "label": "15/08 Assumption of the BVM",
+    "dates": [
+      "15/08"
+    ]
+  },
+  {
+    "file": "0817StHyacinthConfessor.pdf",
+    "label": "17/08 St. Hyacinth of Poland, Confessor",
+    "dates": [
+      "17/08"
+    ]
+  },
+  {
+    "file": "0818StAgapitusMartyr.pdf",
+    "label": "18/08 St. Agapitus, Martyr",
+    "dates": [
+      "18/08"
+    ]
+  },
+  {
+    "file": "0818StHelenaEmpress.pdf",
+    "label": "18/08 St. Helena, Empress",
+    "dates": [
+      "18/08"
+    ]
+  },
+  {
+    "file": "0819StJohnEudesConfessor.pdf",
+    "label": "19/08 St. John Eudes, Confessor",
+    "dates": [
+      "19/08"
+    ]
+  },
+  {
+    "file": "0820StBernardofClairvauxDoctor.pdf",
+    "label": "20/08 St. Bernard of Clairvaux, Doctor of the Church",
+    "dates": [
+      "20/08"
+    ]
+  },
+  {
+    "file": "0821StJaneFrancesdeChantalWidow.pdf",
+    "label": "21/08 St. Jane Frances de Chantal, Widow",
+    "dates": [
+      "21/08"
+    ]
+  },
+  {
+    "file": "0822IHM.pdf",
+    "label": "22/08 Immaculate Heart of Mary",
+    "dates": [
+      "22/08"
+    ]
+  },
+  {
+    "file": "0824StBartholomewApostle.pdf",
+    "label": "24/08 St. Bartholomew, Apostle",
+    "dates": [
+      "24/08"
+    ]
+  },
+  {
+    "file": "0825StLouisIXConfessor.pdf",
+    "label": "25/08 St. Louis IX, King, Confessor",
+    "dates": [
+      "25/08"
+    ]
+  },
+  {
+    "file": "0826StZephyrinusPopeMartyr.pdf",
+    "label": "26/08 St. Zephirynus, Pope & Martyr",
+    "dates": [
+      "26/08"
+    ]
+  },
+  {
+    "file": "0827StJosephCalasanctiusConfessor.pdf",
+    "label": "27/08 St. Joseph Calasanctius, Confessor",
+    "dates": [
+      "27/08"
+    ]
+  },
+  {
+    "file": "0828StAugustineDoctor.pdf",
+    "label": "28/08 St. Augustine, Doctor of the Church",
+    "dates": [
+      "28/08"
+    ]
+  },
+  {
+    "file": "0829BeheadingofSJB.pdf",
+    "label": "29/08 Beheading of St. John the Baptist",
+    "dates": [
+      "29/08"
+    ]
+  },
+  {
+    "file": "0831StRaymondConfessor.pdf",
+    "label": "31/08 St. Raymond Nonnatus, Confessor",
+    "dates": [
+      "31/08"
+    ]
+  },
+  {
+    "file": "0901StGilesAbbot.pdf",
+    "label": "01/09 St. Giles, Abbot",
+    "dates": [
+      "01/09"
+    ]
+  },
+  {
+    "file": "0901TwelveHolyBrothers.pdf",
+    "label": "01/09 Twelve Holy Brothers, Martyrs",
+    "dates": [
+      "01/09"
+    ]
+  },
+  {
+    "file": "0902StStephenofHungaryConfessor.pdf",
+    "label": "02/09 St. Stephen, King, Confessor",
+    "dates": [
+      "02/09"
+    ]
+  },
+  {
+    "file": "0903StPiusXPopeConfessor.pdf",
+    "label": "03/09 St. Pius X, Pope & Confessor",
+    "dates": [
+      "03/09"
+    ]
+  },
+  {
+    "file": "0905StLawrenceJustinianBishopConfessor.pdf",
+    "label": "05/09 St. Lawrence Justinian, Bishop & Confessor",
+    "dates": [
+      "05/09"
+    ]
+  },
+  {
+    "file": "0908NativityBVM.pdf",
+    "label": "08/09 Nativity of the BVM",
+    "dates": [
+      "08/09"
+    ]
+  },
+  {
+    "file": "0909StGorgoniusMartyr.pdf",
+    "label": "09/09 St. Gorgonius, Martyr",
+    "dates": [
+      "09/09"
+    ]
+  },
+  {
+    "file": "0909StPeterClaverConfessor.pdf",
+    "label": "09/09 (USA) St. Peter Clavier",
+    "dates": [
+      "09/09"
+    ]
+  },
+  {
+    "file": "0910StNicholasofTolentinoConfessor.pdf",
+    "label": "10/09 St. Nicholas of Tolentino, Confessor",
+    "dates": [
+      "10/09"
+    ]
+  },
+  {
+    "file": "0911StsProtus&HyacinthMartyrs.pdf",
+    "label": "11/09 Ss. Protus & Hyacinth, Martyrs",
+    "dates": [
+      "11/09"
+    ]
+  },
+  {
+    "file": "0912MostHolyNameofMary.pdf",
+    "label": "12/09 Most Holy Name of Mary",
+    "dates": [
+      "12/09"
+    ]
+  },
+  {
+    "file": "0914ExaltationOfHolyCross.pdf",
+    "label": "14/09 Exaltation of the Holy Cross",
+    "dates": [
+      "14/09"
+    ]
+  },
+  {
+    "file": "0915SevenSorrowsBVM.pdf",
+    "label": "15/09 Seven Sorrows of the BVM",
+    "dates": [
+      "15/09"
+    ]
+  },
+  {
+    "file": "0916StsCornelius&CyprianBishopsMartyrs.pdf",
+    "label": "16/09 St. Cornelius, Pope, & St. Cyprian, Bishop, Martyrs",
+    "dates": [
+      "16/09"
+    ]
+  },
+  {
+    "file": "0917StigmataStFrancis.pdf",
+    "label": "17/09 Stigmata of St. Francis",
+    "dates": [
+      "17/09"
+    ]
+  },
+  {
+    "file": "0918StJosephCupertinoConfessor.pdf",
+    "label": "18/09 St. Joseph of Cupertino, Confessor",
+    "dates": [
+      "18/09"
+    ]
+  },
+  {
+    "file": "0919StJanuariusetaliaMartyrs.pdf",
+    "label": "19/09 St. Januarius, Bishop, & Companions, Martyrs",
+    "dates": [
+      "19/09"
+    ]
+  },
+  {
+    "file": "0921StMatthewApostle.pdf",
+    "label": "21/09 St. Matthew, Apostle & Evangelist",
+    "dates": [
+      "21/09"
+    ]
+  },
+  {
+    "file": "0922StThomasVillanovaConfessorBishop.pdf",
+    "label": "22/09 St. Thomas of Villanova, Bishop & Confessor",
+    "dates": [
+      "22/09"
+    ]
+  },
+  {
+    "file": "0924OurLadyOfRansom.pdf",
+    "label": "24/09 Our Lady of Ransom",
+    "dates": [
+      "24/09"
+    ]
+  },
+  {
+    "file": "0928StWenceslausMartyr.pdf",
+    "label": "28/09 St. Wenceslaus, Duke, Martyr",
+    "dates": [
+      "28/09"
+    ]
+  },
+  {
+    "file": "0929DedicationStMichael.pdf",
+    "label": "29/09 St. Michael the Archangel",
+    "dates": [
+      "29/09"
+    ]
+  },
+  {
+    "file": "0930StJeromeDoctor.pdf",
+    "label": "30/09 St. Jerome, Doctor of the Church",
+    "dates": [
+      "30/09"
+    ]
+  },
+  {
+    "file": "1001StRemigiusConfessorBishop.pdf",
+    "label": "01/10 St. Remigius, Bishop & Confessor",
+    "dates": [
+      "01/10"
+    ]
+  },
+  {
+    "file": "1002HolyGuardianAngels.pdf",
+    "label": "02/10 Holy Guardian Angels",
+    "dates": [
+      "02/10"
+    ]
+  },
+  {
+    "file": "1003StTheresaVirgin.pdf",
+    "label": "03/10 St. Teresa of the Child Jesus, Doctor of the Church",
+    "dates": [
+      "03/10"
+    ]
+  },
+  {
+    "file": "1005StPlacid&CompanionsMartyrs.pdf",
+    "label": "05/10 Ss. Placid & Companions, Martyrs",
+    "dates": [
+      "05/10"
+    ]
+  },
+  {
+    "file": "1006StBrunoConfessor.pdf",
+    "label": "06/10 St. Bruno, Confessor",
+    "dates": [
+      "06/10"
+    ]
+  },
+  {
+    "file": "1007MostHolyRosary.pdf",
+    "label": "07/10 Our Lady of the Rosary",
+    "dates": [
+      "07/10"
+    ]
+  },
+  {
+    "file": "1008StBridgetWidow.pdf",
+    "label": "08/10 St. Bridget, Widow",
+    "dates": [
+      "08/10"
+    ]
+  },
+  {
+    "file": "1009StJohnLeonardiConfessor.pdf",
+    "label": "09/10 St. John Leonard, Confessor",
+    "dates": [
+      "09/10"
+    ]
+  },
+  {
+    "file": "1010StFrancisBorgiaConfessor.pdf",
+    "label": "10/10 St. Francis Borgia, Confessor",
+    "dates": [
+      "10/10"
+    ]
+  },
+  {
+    "file": "1013StEdwardConfessor.pdf",
+    "label": "13/10 St. Edward, King, Confessor",
+    "dates": [
+      "13/10"
+    ]
+  },
+  {
+    "file": "1014StCallistusPopeMartyr.pdf",
+    "label": "14/10 St. Callistus I, Pope & Martyr",
+    "dates": [
+      "14/10"
+    ]
+  },
+  {
+    "file": "1015StTeresaofAvilaVirgin.pdf",
+    "label": "15/10 St. Teresa of Avila, Virgin",
+    "dates": [
+      "15/10"
+    ]
+  },
+  {
+    "file": "1016StHedwigWidow.pdf",
+    "label": "16/10 St. Hedwig, Widow",
+    "dates": [
+      "16/10"
+    ]
+  },
+  {
+    "file": "1017StMargaretMaryAlacoqueVirgin.pdf",
+    "label": "17/10 St. Margaret Mary Alacoque, Virgin",
+    "dates": [
+      "17/10"
+    ]
+  },
+  {
+    "file": "1019StPeterAlcantaraConfessor.pdf",
+    "label": "19/10 St. Peter of Alcantara, Confessor",
+    "dates": [
+      "19/10"
+    ]
+  },
+  {
+    "file": "1020StJohnCantiusConfessor.pdf",
+    "label": "20/10 St. John Cantius, Confessor",
+    "dates": [
+      "20/10"
+    ]
+  },
+  {
+    "file": "1021StHilarionAbbot.pdf",
+    "label": "21/10 St. Hilarion, Abbot",
+    "dates": [
+      "21/10"
+    ]
+  },
+  {
+    "file": "1021StsUrsula&CompanionsVirginMartyrs.pdf",
+    "label": "21/10 Sts. Ursula & Companions",
+    "dates": [
+      "21/10"
+    ]
+  },
+  {
+    "file": "1023StAnthonyMaryClaretConfessorBishop.pdf",
+    "label": "23/10 St. Anthony Mary Claret, Bishop & Confessor",
+    "dates": [
+      "23/10"
+    ]
+  },
+  {
+    "file": "1024StRaphaelArchangel.pdf",
+    "label": "24/10 St. Raphael the Archangel",
+    "dates": [
+      "24/10"
+    ]
+  },
+  {
+    "file": "1026StEvaristusPopeMartyr.pdf",
+    "label": "26/10 St. Evaristus, Pope & Martyr",
+    "dates": [
+      "26/10"
+    ]
+  },
+  {
+    "file": "1028StsSimon&JudeApostles.pdf",
+    "label": "28/10 Ss. Simon & Jude, Apostles",
+    "dates": [
+      "28/10"
+    ]
+  },
+  {
+    "file": "1101AllSaints.pdf",
+    "label": "01/11 All Saints",
+    "dates": [
+      "01/11"
+    ]
+  },
+  {
+    "file": "1101AllSaints_Pentecost23rd.pdf",
+    "label": "01/11 All Saints",
+    "dates": [
+      "01/11"
+    ]
+  },
+  {
+    "file": "1102AllSouls1.pdf",
+    "label": "03/11 All Souls - Mass 1",
+    "dates": [
+      "03/11",
+      "02/11"
+    ]
+  },
+  {
+    "file": "1102AllSouls2.pdf",
+    "label": "03/11 All Souls - Mass 2",
+    "dates": [
+      "03/11",
+      "02/11"
+    ]
+  },
+  {
+    "file": "1102AllSouls3.pdf",
+    "label": "03/11 All Souls - Mass 3",
+    "dates": [
+      "03/11",
+      "02/11"
+    ]
+  },
+  {
+    "file": "1104StCharlesBorromeoConfessorBishop.pdf",
+    "label": "04/11 St. Charles Borromeo, Bishop & Confessor",
+    "dates": [
+      "04/11"
+    ]
+  },
+  {
+    "file": "1105TheHolyRelics.pdf",
+    "label": "05/11 The Holy Relics",
+    "dates": [
+      "05/11"
+    ]
+  },
+  {
+    "file": "1108FourHolyCrownedMartyrs.pdf",
+    "label": "08/11 Four Holy Crowned Martyrs",
+    "dates": [
+      "08/11"
+    ]
+  },
+  {
+    "file": "1109DedicationArchbasilicaOurHolySavior.pdf",
+    "label": "09/11 Dedication of the Archbasilica of Our Holy Savior",
+    "dates": [
+      "09/11"
+    ]
+  },
+  {
+    "file": "1109DedicationArchbasilicaOurHolySavior_22nd.pdf",
+    "label": "09/11 Dedication of the Archbasilica of Our Holy Savior",
+    "dates": [
+      "09/11"
+    ]
+  },
+  {
+    "file": "1110StAndrewAvellinoConfessor.pdf",
+    "label": "10/11 St. Andrew Avellino, Confessor",
+    "dates": [
+      "10/11"
+    ]
+  },
+  {
+    "file": "1111StMartinConfessorBishop.pdf",
+    "label": "11/11 St. Martin of Tours, Bishop & Confessor",
+    "dates": [
+      "11/11"
+    ]
+  },
+  {
+    "file": "1112StMartinPope.pdf",
+    "label": "12/11 St. Martin I, Pope & Martyr",
+    "dates": [
+      "12/11"
+    ]
+  },
+  {
+    "file": "1113StDidacusConfessor.pdf",
+    "label": "13/11 St. Didacus, Confessor",
+    "dates": [
+      "13/11"
+    ]
+  },
+  {
+    "file": "1113StFrancesXavierCabriniVirgin.pdf",
+    "label": "13/11 (USA) St. Frances Xavier Cabrini, Virgin",
+    "dates": [
+      "13/11"
+    ]
+  },
+  {
+    "file": "1114StJosaphatBishopMartyr.pdf",
+    "label": "14/11 St. Josaphat, Bishop & Martyr",
+    "dates": [
+      "14/11"
+    ]
+  },
+  {
+    "file": "1115StAlbertDoctor.pdf",
+    "label": "15/11 St. Albert the Great, Doctor of the Church",
+    "dates": [
+      "15/11"
+    ]
+  },
+  {
+    "file": "1116StGertrudeVirgin.pdf",
+    "label": "16/11 St. Gertrude, Virgin",
+    "dates": [
+      "16/11"
+    ]
+  },
+  {
+    "file": "1117StGregoryConfessorBishop.pdf",
+    "label": "17/11 St. Gregory Thaumaturgus, Bishop & Confessor",
+    "dates": [
+      "17/11"
+    ]
+  },
+  {
+    "file": "1118DedicationBasilicasSsPeter&Paul.pdf",
+    "label": "18/11 Dedication of the Basilicas of Ss. Peter & Paul",
+    "dates": [
+      "18/11"
+    ]
+  },
+  {
+    "file": "1119StElizabethHungaryWidow.pdf",
+    "label": "19/11 St. Elizabeth of Hungary, Widow",
+    "dates": [
+      "19/11"
+    ]
+  },
+  {
+    "file": "1120StFelixValoisConfessor.pdf",
+    "label": "20/11 St. Felix of Valois, Confessor",
+    "dates": [
+      "20/11"
+    ]
+  },
+  {
+    "file": "1121PresentationBVM.pdf",
+    "label": "21/11 Presentation of the BVM",
+    "dates": [
+      "21/11"
+    ]
+  },
+  {
+    "file": "1122StCeciliaVirginMartyr.pdf",
+    "label": "22/11 St. Cecilia, Virgin & Martyr",
+    "dates": [
+      "22/11"
+    ]
+  },
+  {
+    "file": "1123StClementPopeMartyr.pdf",
+    "label": "23/11 St. Clement I, Pope & Martyr",
+    "dates": [
+      "23/11"
+    ]
+  },
+  {
+    "file": "1124StJohnoftheCrossDoctor.pdf",
+    "label": "24/11 St. John of the Cross, Doctor of the Church",
+    "dates": [
+      "24/11"
+    ]
+  },
+  {
+    "file": "1125StCatherineVirginMartyr.pdf",
+    "label": "25/11 St. Catherine of Alexandria, Virgin & Martyr",
+    "dates": [
+      "25/11"
+    ]
+  },
+  {
+    "file": "1126StSylvesterAbbot.pdf",
+    "label": "26/11 St. Sylvester, Abbot",
+    "dates": [
+      "26/11"
+    ]
+  },
+  {
+    "file": "1127OurLadyMiraculousMedal.pdf",
+    "label": "27/11 Our Lady of the Miraculous Medal",
+    "dates": [
+      "27/11"
+    ]
+  },
+  {
+    "file": "1129StSaturninusMartyr.pdf",
+    "label": "29/11 St. Saturninus",
+    "dates": [
+      "29/11"
+    ]
+  },
+  {
+    "file": "1202StBibianaVirginMartyr1st.pdf",
+    "label": "02/12 St. Bibiana, Virgin & Martyr",
+    "dates": [
+      "02/12"
+    ]
+  },
+  {
+    "file": "1203StFrancisXavierConfessor1st.pdf",
+    "label": "03/12 St. Francis Xavier, Confessor",
+    "dates": [
+      "03/12"
+    ]
+  },
+  {
+    "file": "1204StPeterChrysologusDoctor1st.pdf",
+    "label": "04/12 St. Peter Chrysologus, Doctor of the Church",
+    "dates": [
+      "04/12"
+    ]
+  },
+  {
+    "file": "1206StNicholasConfessorBishop1st.pdf",
+    "label": "06/12 St. Nicholas, Confessor & Bishop",
+    "dates": [
+      "06/12"
+    ]
+  },
+  {
+    "file": "1208ImmaculateConception2nd.pdf",
+    "label": "08/12 Immaculate Conception",
+    "dates": [
+      "08/12"
+    ]
+  },
+  {
+    "file": "1211StDamasusPope2nd.pdf",
+    "label": "11/12 St. Damasus I, Pope",
+    "dates": [
+      "11/12"
+    ]
+  },
+  {
+    "file": "1212OurLadyofGuadalupe2nd.pdf",
+    "label": "12/12 (USA) Our Lady of Guadalupe",
+    "dates": [
+      "12/12"
+    ]
+  },
+  {
+    "file": "1213StLucyVirginMartyr2nd.pdf",
+    "label": "13/12 St. Lucy, Virgin & Martyr",
+    "dates": [
+      "13/12"
+    ]
+  },
+  {
+    "file": "1216StEusebiusBishopMartyr3rd.pdf",
+    "label": "16/12 St. Eusebius, Bishop & Martyr",
+    "dates": [
+      "16/12"
+    ]
+  },
+  {
+    "file": "1224VigilofNativity.pdf",
+    "label": "24/12 Vigil of Nativity of Our Lord",
+    "dates": [
+      "24/12"
+    ]
+  },
+  {
+    "file": "1225ChristmasDay1st.pdf",
+    "label": "25/12 Nativity of Our Lord - Mass at Midnight",
+    "dates": [
+      "25/12"
+    ]
+  },
+  {
+    "file": "1225ChristmasDay2nd.pdf",
+    "label": "25/12 Nativity of Our Lord (Dawn)",
+    "dates": [
+      "25/12"
+    ]
+  },
+  {
+    "file": "1225ChristmasDay3rd.pdf",
+    "label": "25/12 Nativity of Our Lord",
+    "dates": [
+      "25/12"
+    ]
+  },
+  {
+    "file": "1226StStephenMartyr.pdf",
+    "label": "26/12 Day II in the Octave, St. Stephen, Protomartyr",
+    "dates": [
+      "26/12"
+    ]
+  },
+  {
+    "file": "1227StJohnEvangelist.pdf",
+    "label": "27/12 Day III in the Octave, St. John, Apostle & Evangelist",
+    "dates": [
+      "27/12"
+    ]
+  },
+  {
+    "file": "12295thDayofChristmas.pdf",
+    "label": "29/12 Day V in the Octave",
+    "dates": [
+      "29/12"
+    ]
+  },
+  {
+    "file": "12306thDayofChristmas.pdf",
+    "label": "30/12 Day VI in the Octave",
+    "dates": [
+      "30/12"
+    ]
+  },
+  {
+    "file": "12317thDayofChristmas.pdf",
+    "label": "31/12 Day VII in the Octave",
+    "dates": [
+      "31/12"
+    ]
+  },
+  {
+    "file": "Advent1st.pdf",
+    "label": "30/11 First Sunday of Advent",
+    "dates": [
+      "30/11"
+    ]
+  },
+  {
+    "file": "Advent1stFeria.pdf",
+    "label": "01/12 Feria – First Sunday of Advent",
+    "dates": [
+      "01/12"
+    ]
+  },
+  {
+    "file": "Advent1stFeria1205StSabbasAbbot.pdf",
+    "label": "05/12 Feria – First Sunday of Advent",
+    "dates": [
+      "05/12"
+    ]
+  },
+  {
+    "file": "Advent2nd.pdf",
+    "label": "07/12 Second Sunday of Advent",
+    "dates": [
+      "07/12"
+    ]
+  },
+  {
+    "file": "Advent2ndFeria.pdf",
+    "label": "09/12 Feria – Second Sunday of Advent",
+    "dates": [
+      "09/12",
+      "12/12"
+    ]
+  },
+  {
+    "file": "Advent2ndFeria1210StMelchiadesPopeMartyr.pdf",
+    "label": "10/12 Feria – Second Sunday of Advent",
+    "dates": [
+      "10/12"
+    ]
+  },
+  {
+    "file": "Advent3rd.pdf",
+    "label": "14/12 Third Sunday of Advent – Gaudete",
+    "dates": [
+      "14/12"
+    ]
+  },
+  {
+    "file": "Advent3rdFeria.pdf",
+    "label": "15/12 Feria – Third Sunday of Advent",
+    "dates": [
+      "15/12",
+      "18/12"
+    ]
+  },
+  {
+    "file": "Advent4th.pdf",
+    "label": "21/12 Fourth Sunday of Advent",
+    "dates": [
+      "21/12"
+    ]
+  },
+  {
+    "file": "Advent4thFeria.pdf",
+    "label": "22/12 Feria - Fourth Sunday of Advent",
+    "dates": [
+      "22/12",
+      "23/12"
+    ]
+  },
+  {
+    "file": "AdventEmberFriday.pdf",
+    "label": "19/12 Ember Friday of Advent",
+    "dates": [
+      "19/12"
+    ]
+  },
+  {
+    "file": "AdventEmberSaturday.pdf",
+    "label": "20/12 Ember Saturday of Advent",
+    "dates": [
+      "20/12"
+    ]
+  },
+  {
+    "file": "AdventEmberSaturdayBrevior.pdf",
+    "label": "20/12 Ember Saturday of Advent (short form)",
+    "dates": [
+      "20/12"
+    ]
+  },
+  {
+    "file": "AdventEmberWednesday.pdf",
+    "label": "17/12 Ember Wednesday of Advent",
+    "dates": [
+      "17/12"
+    ]
+  },
+  {
+    "file": "AscensionNoCredo.pdf",
+    "label": "21/05 Feria - Ascension",
+    "dates": [
+      "21/05",
+      "22/05"
+    ]
+  },
+  {
+    "file": "AscensionSunday.pdf",
+    "label": "17/05 Sunday after the Ascension",
+    "dates": [
+      "17/05"
+    ]
+  },
+  {
+    "file": "AscensionThursday.pdf",
+    "label": "14/05 Ascension of Our Lord",
+    "dates": [
+      "14/05"
+    ]
+  },
+  {
+    "file": "AscensionVigil_0513StRobertBellarmineDoctor.pdf",
+    "label": "13/05 Vigil of Ascension",
+    "dates": [
+      "13/05"
+    ]
+  },
+  {
+    "file": "BVMduringEastertide.pdf",
+    "label": "18/04 Saturday of Our Lady",
+    "dates": [
+      "18/04"
+    ]
+  },
+  {
+    "file": "BVMfrom0203untilEaster.pdf",
+    "label": "14/02 Saturday of Our Lady",
+    "dates": [
+      "14/02"
+    ]
+  },
+  {
+    "file": "BVMfrom1226until0202.pdf",
+    "label": "03/01 Saturday of Our Lady",
+    "dates": [
+      "03/01",
+      "10/01"
+    ]
+  },
+  {
+    "file": "BVMfromAscensionuntilAdvent.pdf",
+    "label": "27/06 Saturday of Our Lady",
+    "dates": [
+      "27/06",
+      "04/07",
+      "31/10",
+      "07/11",
+      "28/11"
+    ]
+  },
+  {
+    "file": "BVMfromAscensionuntilAdventFeria_0620StSilveriusPopeMartyr.pdf",
+    "label": "20/06 Saturday of Our Lady",
+    "dates": [
+      "20/06"
+    ]
+  },
+  {
+    "file": "BVMfromAscensionuntilAdventFeria_0711StPiusIPopeMartyr.pdf",
+    "label": "11/07 Saturday of Our Lady",
+    "dates": [
+      "11/07"
+    ]
+  },
+  {
+    "file": "BVMfromAscensionuntilAdventFeria_0801HolyMachabeesMartyrs.pdf",
+    "label": "01/08 Saturday of Our Lady",
+    "dates": [
+      "01/08"
+    ]
+  },
+  {
+    "file": "BVMfromAscensionuntilAdventFeria_1108FourHolyCrownedMartyrs.pdf",
+    "label": "08/11 Saturday of Our Lady",
+    "dates": [
+      "08/11"
+    ]
+  },
+  {
+    "file": "BVMfromAscensionuntilAdventFeria_1129StSaturninusMartyr.pdf",
+    "label": "29/11 Saturday of Our Lady",
+    "dates": [
+      "29/11"
+    ]
+  },
+  {
+    "file": "ChristmasFeria.pdf",
+    "label": "02/01 Feria in Christmastide",
+    "dates": [
+      "02/01"
+    ]
+  },
+  {
+    "file": "ChristmasFeria0105StTelesphorusPopeMartyr.pdf",
+    "label": "05/01 Feria in Christmastide",
+    "dates": [
+      "05/01"
+    ]
+  },
+  {
+    "file": "ChristmasHolyFamily.pdf",
+    "label": "11/01 Holy Family",
+    "dates": [
+      "11/01"
+    ]
+  },
+  {
+    "file": "ChristmasHolyNameofJesus.pdf",
+    "label": "04/01 Holy Name of Jesus",
+    "dates": [
+      "04/01"
+    ]
+  },
+  {
+    "file": "ChristmasOctave1228HolyInnocents.pdf",
+    "label": "28/12 Sunday within the Octave of Christmas",
+    "dates": [
+      "28/12"
+    ]
+  },
+  {
+    "file": "Easter.pdf",
+    "label": "05/04 Easter Sunday",
+    "dates": [
+      "05/04"
+    ]
+  },
+  {
+    "file": "Easter1st.pdf",
+    "label": "15/04 Feria - First Sunday after Easter",
+    "dates": [
+      "12/04",
+      "15/04",
+      "16/04"
+    ]
+  },
+  {
+    "file": "Easter1stFeria_0417StAnicetusPopeMartyr.pdf",
+    "label": "17/04 Feria - First Sunday after Easter",
+    "dates": [
+      "17/04"
+    ]
+  },
+  {
+    "file": "Easter2nd.pdf",
+    "label": "20/04 Feria - Second Sunday after Easter",
+    "dates": [
+      "19/04",
+      "20/04"
+    ]
+  },
+  {
+    "file": "Easter2ndFeria_0423StGeorgeMartyr.pdf",
+    "label": "23/04 Feria - Second Sunday after Easter",
+    "dates": [
+      "23/04"
+    ]
+  },
+  {
+    "file": "Easter3rd.pdf",
+    "label": "26/04 Third Sunday after Easter",
+    "dates": [
+      "26/04"
+    ]
+  },
+  {
+    "file": "Easter4th.pdf",
+    "label": "06/05 Feria - Fourth Sunday after Easter",
+    "dates": [
+      "03/05",
+      "06/05",
+      "08/05"
+    ]
+  },
+  {
+    "file": "Easter5th.pdf",
+    "label": "10/05 5th Sunday after Easter",
+    "dates": [
+      "10/05"
+    ]
+  },
+  {
+    "file": "Easter5thRogationMTW.pdf",
+    "label": "13/05 Rogation Day",
+    "dates": [
+      "13/05"
+    ]
+  },
+  {
+    "file": "Easter5thRogationMTW_0511StsPhilipandJamesApostles.pdf",
+    "label": "11/05 Rogation Day",
+    "dates": [
+      "11/05"
+    ]
+  },
+  {
+    "file": "Easter5thRogationMTW_0512StsNereus&AliaMartyrs.pdf",
+    "label": "12/05 Rogation Day",
+    "dates": [
+      "12/05"
+    ]
+  },
+  {
+    "file": "EasterFriday.pdf",
+    "label": "10/04 Easter Friday",
+    "dates": [
+      "10/04"
+    ]
+  },
+  {
+    "file": "EasterMonday.pdf",
+    "label": "06/04 Easter Monday",
+    "dates": [
+      "06/04"
+    ]
+  },
+  {
+    "file": "EasterSaturday.pdf",
+    "label": "11/04 Easter Saturday",
+    "dates": [
+      "11/04"
+    ]
+  },
+  {
+    "file": "EasterThursday.pdf",
+    "label": "09/04 Easter Thursday",
+    "dates": [
+      "09/04"
+    ]
+  },
+  {
+    "file": "EasterTuesday.pdf",
+    "label": "07/04 Easter Tuesday",
+    "dates": [
+      "07/04"
+    ]
+  },
+  {
+    "file": "EasterVigil.pdf",
+    "label": "04/04 Easter Vigil Mass",
+    "dates": [
+      "04/04"
+    ]
+  },
+  {
+    "file": "EasterWednesday.pdf",
+    "label": "08/04 Easter Wednesday",
+    "dates": [
+      "08/04"
+    ]
+  },
+  {
+    "file": "Epiphany1st.pdf",
+    "label": "12/01 Feria after Epiphany",
+    "dates": [
+      "12/01"
+    ]
+  },
+  {
+    "file": "Epiphany2nd.pdf",
+    "label": "18/01 Second Sunday after Epiphany",
+    "dates": [
+      "18/01"
+    ]
+  },
+  {
+    "file": "Epiphany2ndFeria0119.pdf",
+    "label": "19/01 Feria - Second Sunday after Epiphany",
+    "dates": [
+      "19/01"
+    ]
+  },
+  {
+    "file": "Epiphany3rd.pdf",
+    "label": "25/01 Third Sunday after Epiphany",
+    "dates": [
+      "25/01"
+    ]
+  },
+  {
+    "file": "EpiphanyofOurLordFeria.pdf",
+    "label": "07/01 Feria of Epiphany",
+    "dates": [
+      "07/01",
+      "08/01",
+      "09/01"
+    ]
+  },
+  {
+    "file": "Lent1st.pdf",
+    "label": "22/02 1st Sunday of Lent",
+    "dates": [
+      "22/02"
+    ]
+  },
+  {
+    "file": "Lent1stFriday_0227.pdf",
+    "label": "27/02 Ember Friday of Lent",
+    "dates": [
+      "27/02"
+    ]
+  },
+  {
+    "file": "Lent1stMonday_0223.pdf",
+    "label": "23/02 Monday after the 1st Sunday of Lent",
+    "dates": [
+      "23/02"
+    ]
+  },
+  {
+    "file": "Lent1stSaturday.pdf",
+    "label": "28/02 Ember Saturday of Lent",
+    "dates": [
+      "28/02"
+    ]
+  },
+  {
+    "file": "Lent1stThursday.pdf",
+    "label": "26/02 Thursday after the 1st Sunday of Lent",
+    "dates": [
+      "26/02"
+    ]
+  },
+  {
+    "file": "Lent1stWednesday.pdf",
+    "label": "25/02 Ember Wednesday of Lent",
+    "dates": [
+      "25/02"
+    ]
+  },
+  {
+    "file": "Lent2nd.pdf",
+    "label": "01/03 2nd Sunday of Lent",
+    "dates": [
+      "01/03"
+    ]
+  },
+  {
+    "file": "Lent2ndFriday_0306.pdf",
+    "label": "06/03 Friday after the 2nd Sunday of Lent",
+    "dates": [
+      "06/03"
+    ]
+  },
+  {
+    "file": "Lent2ndMonday.pdf",
+    "label": "02/03 Monday after the 2nd Sunday of Lent",
+    "dates": [
+      "02/03"
+    ]
+  },
+  {
+    "file": "Lent2ndSaturday_0307.pdf",
+    "label": "07/03 Saturday after the 2nd Sunday of Lent",
+    "dates": [
+      "07/03"
+    ]
+  },
+  {
+    "file": "Lent2ndThursday.pdf",
+    "label": "05/03 Thursday after the 2nd Sunday of Lent",
+    "dates": [
+      "05/03"
+    ]
+  },
+  {
+    "file": "Lent2ndTuesday.pdf",
+    "label": "03/03 Tuesday after the 2nd Sunday of Lent",
+    "dates": [
+      "03/03"
+    ]
+  },
+  {
+    "file": "Lent2ndWednesday_0304.pdf",
+    "label": "04/03 Wednesday after the 2nd Sunday of Lent",
+    "dates": [
+      "04/03"
+    ]
+  },
+  {
+    "file": "Lent3rd.pdf",
+    "label": "08/03 3rd Sunday of Lent",
+    "dates": [
+      "08/03"
+    ]
+  },
+  {
+    "file": "Lent3rdFriday.pdf",
+    "label": "13/03 Friday after the 3rd Sunday of Lent",
+    "dates": [
+      "13/03"
+    ]
+  },
+  {
+    "file": "Lent3rdMonday_0309.pdf",
+    "label": "09/03 Monday after the 3rd Sunday of Lent",
+    "dates": [
+      "09/03"
+    ]
+  },
+  {
+    "file": "Lent3rdSaturday.pdf",
+    "label": "14/03 Saturday after the 3rd Sunday of Lent",
+    "dates": [
+      "14/03"
+    ]
+  },
+  {
+    "file": "Lent3rdThursday_0312.pdf",
+    "label": "12/03 Thursday after the 3rd Sunday of Lent",
+    "dates": [
+      "12/03"
+    ]
+  },
+  {
+    "file": "Lent3rdTuesday_0310.pdf",
+    "label": "10/03 Tuesday after the 3rd Sunday of Lent",
+    "dates": [
+      "10/03"
+    ]
+  },
+  {
+    "file": "Lent3rdWednesday.pdf",
+    "label": "11/03 Wednesday after the 3rd Sunday of Lent",
+    "dates": [
+      "11/03"
+    ]
+  },
+  {
+    "file": "Lent4th.pdf",
+    "label": "15/03 4th Sunday of Lent – Lætare Sunday",
+    "dates": [
+      "15/03"
+    ]
+  },
+  {
+    "file": "Lent4thFriday.pdf",
+    "label": "20/03 Friday after the 4th Sunday of Lent",
+    "dates": [
+      "20/03"
+    ]
+  },
+  {
+    "file": "Lent4thMonday.pdf",
+    "label": "16/03 Monday after the 4th Sunday of Lent",
+    "dates": [
+      "16/03"
+    ]
+  },
+  {
+    "file": "Lent4thSaturday_0321.pdf",
+    "label": "21/03 Saturday after the 4th Sunday of Lent",
+    "dates": [
+      "21/03"
+    ]
+  },
+  {
+    "file": "Lent4thTuesday_0317.pdf",
+    "label": "17/03 Tuesday after the 4th Sunday of Lent",
+    "dates": [
+      "17/03"
+    ]
+  },
+  {
+    "file": "Lent4thWednesday_0318.pdf",
+    "label": "18/03 Wednesday after the 4th Sunday of Lent",
+    "dates": [
+      "18/03"
+    ]
+  },
+  {
+    "file": "Lent5th.pdf",
+    "label": "22/03 Passion Sunday",
+    "dates": [
+      "22/03"
+    ]
+  },
+  {
+    "file": "Lent5thFriday.pdf",
+    "label": "27/03 Friday after the 5th Sunday of Lent",
+    "dates": [
+      "27/03"
+    ]
+  },
+  {
+    "file": "Lent5thMonday.pdf",
+    "label": "23/03 Monday after the 5th Sunday of Lent",
+    "dates": [
+      "23/03"
+    ]
+  },
+  {
+    "file": "Lent5thSaturday_0328.pdf",
+    "label": "28/03 Saturday after the 5th Sunday of Lent",
+    "dates": [
+      "28/03"
+    ]
+  },
+  {
+    "file": "Lent5thThursday.pdf",
+    "label": "26/03 Thursday after the 5th Sunday of Lent",
+    "dates": [
+      "26/03"
+    ]
+  },
+  {
+    "file": "Lent5thTuesday_0324.pdf",
+    "label": "24/03 Tuesday after the 5th Sunday of Lent",
+    "dates": [
+      "24/03"
+    ]
+  },
+  {
+    "file": "Lent6th.pdf",
+    "label": "29/03 Palm Sunday",
+    "dates": [
+      "29/03"
+    ]
+  },
+  {
+    "file": "Lent6thAnteMissam.pdf",
+    "label": "29/03 Blessing of Palms & Procession before Mass",
+    "dates": [
+      "29/03"
+    ]
+  },
+  {
+    "file": "Lent6thFriday-Good.pdf",
+    "label": "03/04 Good Friday",
+    "dates": [
+      "03/04"
+    ]
+  },
+  {
+    "file": "Lent6thMonday.pdf",
+    "label": "30/03 Monday of Holy Week",
+    "dates": [
+      "30/03"
+    ]
+  },
+  {
+    "file": "Lent6thSaturday-Holy.pdf",
+    "label": "04/04 Holy Saturday",
+    "dates": [
+      "04/04"
+    ]
+  },
+  {
+    "file": "Lent6thThursday-Holy.pdf",
+    "label": "02/04 Holy Thursday",
+    "dates": [
+      "02/04"
+    ]
+  },
+  {
+    "file": "Lent6thTuesday.pdf",
+    "label": "31/03 Tuesday of Holy Week",
+    "dates": [
+      "31/03"
+    ]
+  },
+  {
+    "file": "Lent6thTuesdayAbbrev.pdf",
+    "label": "31/03 Tuesday of Holy Week w/ abbrev. Passion",
+    "dates": [
+      "31/03"
+    ]
+  },
+  {
+    "file": "Lent6thWednesday.pdf",
+    "label": "01/04 Wednesday of Holy Week",
+    "dates": [
+      "01/04"
+    ]
+  },
+  {
+    "file": "Lent6thWednesdayAbbrev.pdf",
+    "label": "01/04 Wednesday of Holy Week w/ abbrev. Passion",
+    "dates": [
+      "01/04"
+    ]
+  },
+  {
+    "file": "LentAshFriday.pdf",
+    "label": "20/02 Friday after Ash Wednesday",
+    "dates": [
+      "20/02"
+    ]
+  },
+  {
+    "file": "LentAshSaturday.pdf",
+    "label": "21/02 Saturday after Ash Wednesday",
+    "dates": [
+      "21/02"
+    ]
+  },
+  {
+    "file": "LentAshThursday.pdf",
+    "label": "19/02 Thursday after Ash Wednesday",
+    "dates": [
+      "19/02"
+    ]
+  },
+  {
+    "file": "LentAshWednesday.pdf",
+    "label": "18/02 Ash Wednesday",
+    "dates": [
+      "18/02"
+    ]
+  },
+  {
+    "file": "LentAshWednesdayAnteMissam.pdf",
+    "label": "18/02 Blessing & Imposition of Ashes before Mass",
+    "dates": [
+      "18/02"
+    ]
+  },
+  {
+    "file": "Pentecost.pdf",
+    "label": "24/05 Pentecost",
+    "dates": [
+      "24/05"
+    ]
+  },
+  {
+    "file": "Pentecost01stFeria.pdf",
+    "label": "03/06 Feria - First Sunday after Pentecost",
+    "dates": [
+      "03/06"
+    ]
+  },
+  {
+    "file": "Pentecost01stFeria_0602StsMarcellinusPeterErasmus.pdf",
+    "label": "02/06 Feria - First Sunday after Pentecost",
+    "dates": [
+      "02/06"
+    ]
+  },
+  {
+    "file": "Pentecost01stTrinitySunday.pdf",
+    "label": "31/05 Trinity Sunday",
+    "dates": [
+      "31/05"
+    ]
+  },
+  {
+    "file": "Pentecost02nd.pdf",
+    "label": "08/06 Feria - Second Sunday after Pentecost",
+    "dates": [
+      "07/06",
+      "08/06"
+    ]
+  },
+  {
+    "file": "Pentecost02ndFeria_0609StsPrimus&FelicianMartyrs.pdf",
+    "label": "09/06 Feria - Second Sunday after Pentecost",
+    "dates": [
+      "09/06"
+    ]
+  },
+  {
+    "file": "Pentecost03rd.pdf",
+    "label": "16/06 Feria - Third Sunday after Pentecost",
+    "dates": [
+      "14/06",
+      "16/06"
+    ]
+  },
+  {
+    "file": "Pentecost03rdFeria_0615StsVitusModestusCrescentiaMartyrs.pdf",
+    "label": "15/06 Feria - Third Sunday after Pentecost",
+    "dates": [
+      "15/06"
+    ]
+  },
+  {
+    "file": "Pentecost04th.pdf",
+    "label": "21/06 Fourth Sunday after Pentecost",
+    "dates": [
+      "21/06"
+    ]
+  },
+  {
+    "file": "Pentecost05th.pdf",
+    "label": "28/06 Fifth Sunday after Pentecost",
+    "dates": [
+      "28/06"
+    ]
+  },
+  {
+    "file": "Pentecost06th.pdf",
+    "label": "06/07 Feria - Sixth Sunday after Pentecost",
+    "dates": [
+      "05/07",
+      "06/07",
+      "09/07"
+    ]
+  },
+  {
+    "file": "Pentecost07th.pdf",
+    "label": "13/07 Feria - Seventh Sunday after Pentecost",
+    "dates": [
+      "12/07",
+      "13/07"
+    ]
+  },
+  {
+    "file": "Pentecost07thFeria_0716OurLadyMtCarmel.pdf",
+    "label": "16/07 Feria - Seventh Sunday after Pentecost",
+    "dates": [
+      "16/07"
+    ]
+  },
+  {
+    "file": "Pentecost07thFeria_0717StAlexisConfessor.pdf",
+    "label": "17/07 Feria - Seventh Sunday after Pentecost",
+    "dates": [
+      "17/07"
+    ]
+  },
+  {
+    "file": "Pentecost08th.pdf",
+    "label": "19/07 Eighth Sunday after Pentecost",
+    "dates": [
+      "19/07"
+    ]
+  },
+  {
+    "file": "Pentecost08thFeria_0724StChristinaVirginMartyr.pdf",
+    "label": "24/07 Feria - Eighth Sunday after Pentecost",
+    "dates": [
+      "24/07"
+    ]
+  },
+  {
+    "file": "Pentecost09th_0726.pdf",
+    "label": "26/07 Ninth Sunday after Pentecost",
+    "dates": [
+      "26/07"
+    ]
+  },
+  {
+    "file": "Pentecost09thFeria_0727StPantaleonMartyr.pdf",
+    "label": "27/07 Feria - Ninth Sunday after Pentecost",
+    "dates": [
+      "27/07"
+    ]
+  },
+  {
+    "file": "Pentecost09thFeria_0730StsAbdon&SennenMartyrs.pdf",
+    "label": "30/07 Feria - Ninth Sunday after Pentecost",
+    "dates": [
+      "30/07"
+    ]
+  },
+  {
+    "file": "Pentecost10th.pdf",
+    "label": "03/08 Feria - Tenth Sunday after Pentecost",
+    "dates": [
+      "02/08",
+      "03/08"
+    ]
+  },
+  {
+    "file": "Pentecost11th.pdf",
+    "label": "09/08 Eleventh Sunday after Pentecost",
+    "dates": [
+      "09/08"
+    ]
+  },
+  {
+    "file": "Pentecost11thFeria_0811StsTiburtius&SusannaMartyrs.pdf",
+    "label": "11/08 Feria - Eleventh Sunday after Pentecost",
+    "dates": [
+      "11/08"
+    ]
+  },
+  {
+    "file": "Pentecost11thFeria_0813StsHippolytus&CassianMartyrs.pdf",
+    "label": "13/08 Feria - Eleventh Sunday after Pentecost",
+    "dates": [
+      "13/08"
+    ]
+  },
+  {
+    "file": "Pentecost12th_0816.pdf",
+    "label": "16/08 Twelfth Sunday after Pentecost",
+    "dates": [
+      "16/08"
+    ]
+  },
+  {
+    "file": "Pentecost12thFeria_0818StAgapitusMartyr.pdf",
+    "label": "18/08 Feria - Twelfth Sunday after Pentecost",
+    "dates": [
+      "18/08"
+    ]
+  },
+  {
+    "file": "Pentecost13th.pdf",
+    "label": "23/08 Thirteenth Sunday after Pentecost",
+    "dates": [
+      "23/08"
+    ]
+  },
+  {
+    "file": "Pentecost13thFeria_0826StZephyrinusPopeMartyr.pdf",
+    "label": "26/08 Feria - Thirteenth Sunday after Pentecost",
+    "dates": [
+      "26/08"
+    ]
+  },
+  {
+    "file": "Pentecost14th.pdf",
+    "label": "04/09 Feria - Fourteenth Sunday after Pentecost",
+    "dates": [
+      "30/08",
+      "04/09"
+    ]
+  },
+  {
+    "file": "Pentecost14thFeria_0901.pdf",
+    "label": "01/09 Feria - Fourteenth Sunday after Pentecost",
+    "dates": [
+      "01/09"
+    ]
+  },
+  {
+    "file": "Pentecost15th.pdf",
+    "label": "07/09 Feria - Fifteenth Sunday after Pentecost",
+    "dates": [
+      "06/09",
+      "07/09"
+    ]
+  },
+  {
+    "file": "Pentecost15thFeria_0909StGorgoniusMartyr.pdf",
+    "label": "09/09 Feria - Fifteenth Sunday after Pentecost",
+    "dates": [
+      "09/09"
+    ]
+  },
+  {
+    "file": "Pentecost15thFeria_0911StsProtus&HyacinthMartyrs.pdf",
+    "label": "11/09 Feria - Fifteenth Sunday after Pentecost",
+    "dates": [
+      "11/09"
+    ]
+  },
+  {
+    "file": "Pentecost16th.pdf",
+    "label": "13/09 Sixteenth Sunday after Pentecost",
+    "dates": [
+      "13/09"
+    ]
+  },
+  {
+    "file": "Pentecost16thFeria_0917StigmataStFrancis.pdf",
+    "label": "17/09 Feria - Sixteenth Sunday after Pentecost",
+    "dates": [
+      "17/09"
+    ]
+  },
+  {
+    "file": "Pentecost17th.pdf",
+    "label": "20/09 Seventeenth Sunday after Pentecost",
+    "dates": [
+      "20/09"
+    ]
+  },
+  {
+    "file": "Pentecost17thFeria_0924OurLadyOfRansom.pdf",
+    "label": "24/09 Feria - Seventeenth Sunday after Pentecost",
+    "dates": [
+      "24/09"
+    ]
+  },
+  {
+    "file": "Pentecost18th.pdf",
+    "label": "27/09 Eighteenth Sunday after Pentecost",
+    "dates": [
+      "27/09"
+    ]
+  },
+  {
+    "file": "Pentecost18thFeria_1001StRemigiusConfessorBishop.pdf",
+    "label": "01/10 Feria - Eighteenth Sunday after Pentecost",
+    "dates": [
+      "01/10"
+    ]
+  },
+  {
+    "file": "Pentecost19th.pdf",
+    "label": "04/10 Nineteenth Sunday after Pentecost",
+    "dates": [
+      "04/10"
+    ]
+  },
+  {
+    "file": "Pentecost19thFeria_1005StPlacid&CompanionsMartyrs.pdf",
+    "label": "05/10 Feria - Nineteenth Sunday after Pentecost",
+    "dates": [
+      "05/10"
+    ]
+  },
+  {
+    "file": "Pentecost20th.pdf",
+    "label": "27/10 Feria - Twentieth Sunday after Pentecost",
+    "dates": [
+      "27/10",
+      "29/10",
+      "30/10",
+      "31/10",
+      "12/10"
+    ]
+  },
+  {
+    "file": "Pentecost20th_1011.pdf",
+    "label": "11/10 Twentieth Sunday after Pentecost",
+    "dates": [
+      "11/10"
+    ]
+  },
+  {
+    "file": "Pentecost21st.pdf",
+    "label": "05/11 Feria - Twenty-first Sunday after Pentecost",
+    "dates": [
+      "02/11",
+      "05/11",
+      "06/11",
+      "07/11",
+      "22/10"
+    ]
+  },
+  {
+    "file": "Pentecost21st_1018.pdf",
+    "label": "18/10 Twenty-first Sunday after Pentecost",
+    "dates": [
+      "18/10"
+    ]
+  },
+  {
+    "file": "Pentecost21stFeria_1021.pdf",
+    "label": "21/10 Feria - Twenty-first Sunday after Pentecost",
+    "dates": [
+      "21/10"
+    ]
+  },
+  {
+    "file": "Pentecost22nd.pdf",
+    "label": "27/10 Feria - Twenty-second Sunday after Pentecost",
+    "dates": [
+      "27/10",
+      "29/10",
+      "30/10"
+    ]
+  },
+  {
+    "file": "Pentecost22ndFeria_1026StEvaristusPopeMartyr.pdf",
+    "label": "26/10 Feria - Twenty-second Sunday after Pentecost",
+    "dates": [
+      "26/10"
+    ]
+  },
+  {
+    "file": "Pentecost23rd.pdf",
+    "label": "03/11 Feria - Twenty-third Sunday after Pentecost",
+    "dates": [
+      "16/11",
+      "03/11",
+      "05/11",
+      "06/11"
+    ]
+  },
+  {
+    "file": "Pentecost97th3rdLast.pdf",
+    "label": "08/11 Resumed 5th Sunday after Epiphany",
+    "dates": [
+      "08/11"
+    ]
+  },
+  {
+    "file": "Pentecost98th2ndLast.pdf",
+    "label": "15/11 Resumed 6th Sunday after Epiphany",
+    "dates": [
+      "15/11"
+    ]
+  },
+  {
+    "file": "Pentecost99thLast.pdf",
+    "label": "28/11 Feria - Last Sunday after Pentecost",
+    "dates": [
+      "23/11",
+      "28/11",
+      "22/11"
+    ]
+  },
+  {
+    "file": "Pentecost99thLastFeria_1127OurLadyMiraculousMedal.pdf",
+    "label": "27/11 Feria - Last Sunday after Pentecost",
+    "dates": [
+      "27/11"
+    ]
+  },
+  {
+    "file": "PentecostChristusRex.pdf",
+    "label": "26/10 Christ the King",
+    "dates": [
+      "26/10",
+      "25/10"
+    ]
+  },
+  {
+    "file": "PentecostCorpusChristi.pdf",
+    "label": "07/06 (USA) External Solemnity of Corpus Christi",
+    "dates": [
+      "04/06",
+      "07/06"
+    ]
+  },
+  {
+    "file": "PentecostEmberFriday.pdf",
+    "label": "25/09 Ember Friday",
+    "dates": [
+      "25/09"
+    ]
+  },
+  {
+    "file": "PentecostEmberSaturday_0926StsCyprian&JustinaMartyrs.pdf",
+    "label": "26/09 Ember Saturday",
+    "dates": [
+      "26/09"
+    ]
+  },
+  {
+    "file": "PentecostEmberWednesday_0923StLinusPopeMartyr.pdf",
+    "label": "23/09 Ember Wednesday",
+    "dates": [
+      "23/09"
+    ]
+  },
+  {
+    "file": "PentecostMostHolyRosaryES_19th.pdf",
+    "label": "04/10 External Solemnity of the Most Holy Rosary",
+    "dates": [
+      "04/10"
+    ]
+  },
+  {
+    "file": "PentecostSacredHeartofJesus.pdf",
+    "label": "14/06 External Solemnity of the Most Sacred Heart of Jesus",
+    "dates": [
+      "12/06",
+      "14/06"
+    ]
+  },
+  {
+    "file": "PentecostVigil.pdf",
+    "label": "23/05 Vigil of Pentecost",
+    "dates": [
+      "23/05"
+    ]
+  },
+  {
+    "file": "PentecostWhitFriday.pdf",
+    "label": "29/05 Ember Friday of Pentecost",
+    "dates": [
+      "29/05"
+    ]
+  },
+  {
+    "file": "PentecostWhitMonday.pdf",
+    "label": "25/05 Monday after Pentecost",
+    "dates": [
+      "25/05"
+    ]
+  },
+  {
+    "file": "PentecostWhitSaturday.pdf",
+    "label": "30/05 Ember Saturday of Pentecost",
+    "dates": [
+      "30/05"
+    ]
+  },
+  {
+    "file": "PentecostWhitThursday.pdf",
+    "label": "28/05 Thursday after Pentecost",
+    "dates": [
+      "28/05"
+    ]
+  },
+  {
+    "file": "PentecostWhitTuesday.pdf",
+    "label": "26/05 Tuesday after Pentecost",
+    "dates": [
+      "26/05"
+    ]
+  },
+  {
+    "file": "PentecostWhitWednesday.pdf",
+    "label": "27/05 Ember Wednesday of Pentecost",
+    "dates": [
+      "27/05"
+    ]
+  },
+  {
+    "file": "Quinquagesima.pdf",
+    "label": "15/02 Quinquagesima",
+    "dates": [
+      "15/02"
+    ]
+  },
+  {
+    "file": "QuinquagesimaFeria.pdf",
+    "label": "16/02 Feria - Quinquagesima",
+    "dates": [
+      "16/02",
+      "17/02"
+    ]
+  },
+  {
+    "file": "RequiemAllDeparted.pdf",
+    "label": "27/10 Requiem: Daily Mass for the Dead",
+    "dates": [
+      "27/10",
+      "29/10",
+      "30/10",
+      "31/10",
+      "04/11",
+      "05/11",
+      "06/11",
+      "07/11",
+      "08/11",
+      "27/11",
+      "28/11",
+      "29/11",
+      "19/01",
+      "03/02",
+      "13/02",
+      "14/02",
+      "16/02",
+      "17/02",
+      "15/04",
+      "16/04",
+      "17/04",
+      "18/04",
+      "20/04",
+      "23/04",
+      "06/05",
+      "08/05",
+      "21/05",
+      "22/05",
+      "02/06",
+      "03/06",
+      "08/06",
+      "09/06",
+      "15/06",
+      "16/06",
+      "20/06",
+      "27/06",
+      "04/07",
+      "06/07",
+      "09/07",
+      "11/07",
+      "13/07",
+      "16/07",
+      "17/07",
+      "24/07",
+      "27/07",
+      "30/07",
+      "01/08",
+      "03/08",
+      "11/08",
+      "13/08",
+      "18/08",
+      "26/08",
+      "01/09",
+      "04/09",
+      "07/09",
+      "09/09",
+      "11/09",
+      "17/09",
+      "24/09",
+      "01/10",
+      "05/10",
+      "12/10",
+      "21/10",
+      "22/10",
+      "26/10",
+      "03/11"
+    ]
+  },
+  {
+    "file": "Septuagesima.pdf",
+    "label": "01/02 Septuagesima",
+    "dates": [
+      "01/02"
+    ]
+  },
+  {
+    "file": "SeptuagesimaFeria.pdf",
+    "label": "03/02 Feria - Septuagesima",
+    "dates": [
+      "03/02"
+    ]
+  },
+  {
+    "file": "Sexagesima.pdf",
+    "label": "08/02 Sexagesima",
+    "dates": [
+      "08/02"
+    ]
+  },
+  {
+    "file": "SexagesimaFeria.pdf",
+    "label": "13/02 Feria - Sexagesima",
+    "dates": [
+      "13/02"
+    ]
+  },
+  {
+    "file": "VotiveAnniversaryOfPope.pdf",
+    "label": "18/05 Anniversary of the Coronation of the Pope",
+    "dates": [
+      "18/05"
+    ]
+  },
+  {
+    "file": "VotiveForPeace.pdf",
+    "label": "22/01 (USA) Votive Mass for Peace",
+    "dates": [
+      "22/01"
+    ]
+  }
+]

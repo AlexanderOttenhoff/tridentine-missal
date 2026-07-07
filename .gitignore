@@ -168,3 +168,7 @@ vite.config.ts.timestamp-*
 
 # Python (parser scripts)
 __pycache__/
+
+# Cached proper PDFs (re-downloaded by scripts/parse_propers.py); the parsed
+# dataset (src/data/propers.json) and link manifest (index.json) are committed.
+source/propers/*.pdf
