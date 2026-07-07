@@ -273,6 +273,93 @@ def slugify(fname):
     return re.sub(r"[^a-z0-9]+", "-", stem.lower()).strip("-")
 
 
+# --- liturgical tag ---------------------------------------------------------
+# Parse a filename into a structured liturgical identity that the client-side
+# calendar engine (src/lib/calendar) can match a computed date against. Temporal
+# files encode season + week ordinal + weekday/special; sanctoral files start
+# with an MMDD prefix. Incidental parts (a `_MMDD` commemoration, an `ES_n`
+# external-solemnity suffix, and this-year temporal-coincidence suffixes on
+# sanctoral files) are stripped but the commemoration date is kept.
+TAG_SEASONS = ["Advent", "Christmas", "Epiphany", "Septuagesima", "Sexagesima",
+               "Quinquagesima", "Lent", "Easter", "Ascension", "Pentecost"]
+TAG_WEEKDAYS = {"Sunday": "sun", "Monday": "mon", "Tuesday": "tue",
+                "Wednesday": "wed", "Thursday": "thu", "Friday": "fri",
+                "Saturday": "sat"}
+TAG_WD_RE = "|".join(TAG_WEEKDAYS)
+TAG_FLAGS = ["Brevior", "Abbrev", "NoCredo", "-Good", "-Holy"]
+TAG_SPECIALS = {
+    "trinity": "trinity", "corpuschristi": "corpus-christi",
+    "sacredheartofjesus": "sacred-heart", "christusrex": "christ-the-king",
+    "mostholyrosary": "holy-rosary", "holyfamily": "holy-family",
+    "holynameofjesus": "holy-name", "rogationmtw": "rogation",
+    "vigil": "vigil", "last": "last", "2ndlast": "2nd-last",
+    "3rdlast": "3rd-last", "holyinnocents": "holy-innocents",
+}
+
+
+def _special(raw):
+    raw = re.sub(r"[^a-z0-9]", "", raw.lower())
+    return TAG_SPECIALS.get(raw, raw or None)
+
+
+def parse_tag(fname):
+    stem = re.sub(r"\.pdf$", "", fname, flags=re.I)
+    flags = []
+    for fl in TAG_FLAGS:
+        if fl in stem:
+            flags.append(fl.strip("-").lower())
+            stem = stem.replace(fl, "")
+    m = re.search(r"ES_?\d+(?:st|nd|rd|th)?$", stem)
+    if m:
+        flags.append("external-solemnity")
+        stem = stem[:m.start()]
+
+    ms = re.match(r"^(\d{2})(\d{2})(.*)$", stem)  # sanctoral: leading MMDD
+    if ms:
+        feast = re.sub(r"_.*$", "", ms.group(3))           # drop _coincidence
+        feast = re.sub(r"(\d+)(st|nd|rd|th)$", "", feast)  # drop trailing ord
+        return {"cycle": "sanctoral", "month": int(ms.group(1)),
+                "day": int(ms.group(2)), "feast": feast, "flags": flags}
+
+    for s in TAG_SEASONS:
+        if not stem.startswith(s):
+            continue
+        rem = stem[len(s):]
+        week = None
+        wm = re.match(r"^0?(\d+)(?:st|nd|rd|th)", rem)
+        if wm:
+            week = int(wm.group(1))
+            rem = rem[wm.end():]
+        commem = None
+        cm = re.search(r"_?(\d{4})", rem)
+        if cm:
+            commem = cm.group(1)
+            rem = rem[:cm.start()]
+        day, special = None, None
+        if rem in ("", "ofOurLordFeria"):
+            day = "feria" if rem else "sunday"
+        elif rem == "Feria":
+            day = "feria"
+        else:
+            if rem.endswith("Feria"):
+                day, rem = "feria", rem[:-5]
+            wd = re.search(rf"({TAG_WD_RE})$", rem)
+            if wd:
+                day = TAG_WEEKDAYS[wd.group(1)]
+                rem = rem[:wd.start()]
+            if rem.startswith("Ember"):
+                special = "ember"
+            elif rem.startswith("Whit"):
+                special = "whit"
+            elif rem.startswith("Ash"):
+                special = "ash"
+            elif rem:
+                special = _special(rem)
+        return {"cycle": "temporal", "season": s.lower(), "week": week,
+                "day": day, "special": special, "commem": commem, "flags": flags}
+    return {"cycle": "unknown", "raw": stem, "flags": flags}
+
+
 # --- validation -------------------------------------------------------------
 
 def validate(fname, sections):
@@ -317,6 +404,7 @@ def main():
             "mass": meta["mass"],
             "color": meta["color"],
             "dates": e["dates"],
+            "tag": parse_tag(fname),
             "sections": sections,
         })
         flag = "  ⚠ " + "; ".join(warns) if warns else ""

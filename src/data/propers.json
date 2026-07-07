@@ -10,6 +10,13 @@
       "dates": [
         "02/02"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 2,
+        "day": 2,
+        "feast": "Purification",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -99,6 +106,13 @@
       "dates": [
         "19/03"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 3,
+        "day": 19,
+        "feast": "StJosephSpouseofBVM",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -188,6 +202,13 @@
       "dates": [
         "25/03"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 3,
+        "day": 25,
+        "feast": "AnnunciationBVM",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -277,6 +298,13 @@
       "dates": [
         "24/06"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 6,
+        "day": 24,
+        "feast": "NativityStJohnBaptist",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -352,6 +380,13 @@
       "dates": [
         "29/06"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 6,
+        "day": 29,
+        "feast": "StsPeterandPaulApostles",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -434,6 +469,15 @@
       "dates": [
         "05/07"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 6,
+        "day": 29,
+        "feast": "StsPeterandPaulApostles",
+        "flags": [
+          "external-solemnity"
+        ]
+      },
       "sections": [
         {
           "name": "Introit",
@@ -516,6 +560,13 @@
       "dates": [
         "15/08"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 8,
+        "day": 15,
+        "feast": "AssumptionBVM",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -598,6 +649,13 @@
       "dates": [
         "08/09"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 9,
+        "day": 8,
+        "feast": "NativityBVM",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -680,6 +738,13 @@
       "dates": [
         "01/11"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 11,
+        "day": 1,
+        "feast": "AllSaints",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -755,6 +820,13 @@
       "dates": [
         "01/11"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 11,
+        "day": 1,
+        "feast": "AllSaints",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -830,6 +902,13 @@
       "dates": [
         "08/12"
       ],
+      "tag": {
+        "cycle": "sanctoral",
+        "month": 12,
+        "day": 8,
+        "feast": "ImmaculateConception",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -912,6 +991,15 @@
       "dates": [
         "30/11"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 1,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -994,6 +1082,15 @@
       "dates": [
         "01/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 1,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1076,6 +1173,15 @@
       "dates": [
         "05/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 1,
+        "day": "feria",
+        "special": null,
+        "commem": "1205",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1158,6 +1264,15 @@
       "dates": [
         "07/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 2,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1241,6 +1356,15 @@
         "09/12",
         "12/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 2,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1323,6 +1447,15 @@
       "dates": [
         "10/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 2,
+        "day": "feria",
+        "special": null,
+        "commem": "1210",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1405,6 +1538,15 @@
       "dates": [
         "14/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 3,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1488,6 +1630,15 @@
         "15/12",
         "18/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 3,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1570,6 +1721,15 @@
       "dates": [
         "21/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 4,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1653,6 +1813,15 @@
         "22/12",
         "23/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": 4,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1735,6 +1904,15 @@
       "dates": [
         "19/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": null,
+        "day": "fri",
+        "special": "ember",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1817,6 +1995,15 @@
       "dates": [
         "20/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": null,
+        "day": "sat",
+        "special": "ember",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -1990,6 +2177,17 @@
       "dates": [
         "20/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": null,
+        "day": "sat",
+        "special": "ember",
+        "commem": null,
+        "flags": [
+          "brevior"
+        ]
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2086,6 +2284,15 @@
       "dates": [
         "17/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "advent",
+        "week": null,
+        "day": "wed",
+        "special": "ember",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2190,6 +2397,17 @@
         "21/05",
         "22/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "ascension",
+        "week": null,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": [
+          "nocredo"
+        ]
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2265,6 +2483,15 @@
       "dates": [
         "17/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "ascension",
+        "week": null,
+        "day": "sun",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2340,6 +2567,15 @@
       "dates": [
         "14/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "ascension",
+        "week": null,
+        "day": "thu",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2415,6 +2651,15 @@
       "dates": [
         "13/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "ascension",
+        "week": null,
+        "day": null,
+        "special": "vigil",
+        "commem": "0513",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2490,6 +2735,15 @@
       "dates": [
         "02/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "christmas",
+        "week": null,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2572,6 +2826,15 @@
       "dates": [
         "05/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "christmas",
+        "week": null,
+        "day": "feria",
+        "special": null,
+        "commem": "0105",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2654,6 +2917,15 @@
       "dates": [
         "11/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "christmas",
+        "week": null,
+        "day": null,
+        "special": "holy-family",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2736,6 +3008,15 @@
       "dates": [
         "04/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "christmas",
+        "week": null,
+        "day": null,
+        "special": "holy-name",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2811,6 +3092,15 @@
       "dates": [
         "28/12"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "christmas",
+        "week": null,
+        "day": null,
+        "special": "octave",
+        "commem": "1228",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2893,6 +3183,15 @@
       "dates": [
         "05/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -2984,6 +3283,15 @@
         "15/04",
         "16/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 1,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3059,6 +3367,15 @@
       "dates": [
         "17/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 1,
+        "day": "feria",
+        "special": null,
+        "commem": "0417",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3135,6 +3452,15 @@
         "19/04",
         "20/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 2,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3210,6 +3536,15 @@
       "dates": [
         "23/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 2,
+        "day": "feria",
+        "special": null,
+        "commem": "0423",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3285,6 +3620,15 @@
       "dates": [
         "26/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 3,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3362,6 +3706,15 @@
         "06/05",
         "08/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 4,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3437,6 +3790,15 @@
       "dates": [
         "10/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 5,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3512,6 +3874,15 @@
       "dates": [
         "13/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 5,
+        "day": null,
+        "special": "rogation",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3587,6 +3958,15 @@
       "dates": [
         "11/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 5,
+        "day": null,
+        "special": "rogation",
+        "commem": "0511",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3662,6 +4042,15 @@
       "dates": [
         "12/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": 5,
+        "day": null,
+        "special": "rogation",
+        "commem": "0512",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3737,6 +4126,15 @@
       "dates": [
         "10/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": "fri",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3826,6 +4224,15 @@
       "dates": [
         "06/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": "mon",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -3922,6 +4329,15 @@
       "dates": [
         "11/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": "sat",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4004,6 +4420,15 @@
       "dates": [
         "09/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": "thu",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4100,6 +4525,15 @@
       "dates": [
         "07/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": "tue",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4196,6 +4630,15 @@
       "dates": [
         "04/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": null,
+        "special": "vigil",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Collect",
@@ -4250,6 +4693,15 @@
       "dates": [
         "08/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "easter",
+        "week": null,
+        "day": "wed",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4346,6 +4798,15 @@
       "dates": [
         "12/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "epiphany",
+        "week": 1,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4428,6 +4889,15 @@
       "dates": [
         "18/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "epiphany",
+        "week": 2,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4503,6 +4973,15 @@
       "dates": [
         "19/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "epiphany",
+        "week": 2,
+        "day": "feria",
+        "special": null,
+        "commem": "0119",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4578,6 +5057,15 @@
       "dates": [
         "25/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "epiphany",
+        "week": 3,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4655,6 +5143,15 @@
         "08/01",
         "09/01"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "epiphany",
+        "week": null,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4737,6 +5234,15 @@
       "dates": [
         "22/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 1,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4826,6 +5332,15 @@
       "dates": [
         "27/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 1,
+        "day": "fri",
+        "special": null,
+        "commem": "0227",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -4915,6 +5430,15 @@
       "dates": [
         "23/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 1,
+        "day": "mon",
+        "special": null,
+        "commem": "0223",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5004,6 +5528,15 @@
       "dates": [
         "28/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 1,
+        "day": "sat",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5184,6 +5717,15 @@
       "dates": [
         "26/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 1,
+        "day": "thu",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5266,6 +5808,15 @@
       "dates": [
         "25/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 1,
+        "day": "wed",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5369,6 +5920,15 @@
       "dates": [
         "01/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 2,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5458,6 +6018,15 @@
       "dates": [
         "06/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 2,
+        "day": "fri",
+        "special": null,
+        "commem": "0306",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5547,6 +6116,15 @@
       "dates": [
         "02/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 2,
+        "day": "mon",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5636,6 +6214,15 @@
       "dates": [
         "07/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 2,
+        "day": "sat",
+        "special": null,
+        "commem": "0307",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5718,6 +6305,15 @@
       "dates": [
         "05/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 2,
+        "day": "thu",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5800,6 +6396,15 @@
       "dates": [
         "03/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 2,
+        "day": "tue",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5882,6 +6487,15 @@
       "dates": [
         "04/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 2,
+        "day": "wed",
+        "special": null,
+        "commem": "0304",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -5971,6 +6585,15 @@
       "dates": [
         "08/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 3,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6060,6 +6683,15 @@
       "dates": [
         "13/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 3,
+        "day": "fri",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6149,6 +6781,15 @@
       "dates": [
         "09/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 3,
+        "day": "mon",
+        "special": null,
+        "commem": "0309",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6238,6 +6879,15 @@
       "dates": [
         "14/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 3,
+        "day": "sat",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6320,6 +6970,15 @@
       "dates": [
         "12/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 3,
+        "day": "thu",
+        "special": null,
+        "commem": "0312",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6402,6 +7061,15 @@
       "dates": [
         "10/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 3,
+        "day": "tue",
+        "special": null,
+        "commem": "0310",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6484,6 +7152,15 @@
       "dates": [
         "11/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 3,
+        "day": "wed",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6573,6 +7250,15 @@
       "dates": [
         "15/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 4,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6662,6 +7348,15 @@
       "dates": [
         "20/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 4,
+        "day": "fri",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6751,6 +7446,15 @@
       "dates": [
         "16/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 4,
+        "day": "mon",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6840,6 +7544,15 @@
       "dates": [
         "21/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 4,
+        "day": "sat",
+        "special": null,
+        "commem": "0321",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -6922,6 +7635,15 @@
       "dates": [
         "17/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 4,
+        "day": "tue",
+        "special": null,
+        "commem": "0317",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7004,6 +7726,15 @@
       "dates": [
         "18/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 4,
+        "day": "wed",
+        "special": null,
+        "commem": "0318",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7114,6 +7845,15 @@
       "dates": [
         "22/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 5,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7203,6 +7943,15 @@
       "dates": [
         "27/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 5,
+        "day": "fri",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7292,6 +8041,15 @@
       "dates": [
         "23/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 5,
+        "day": "mon",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7381,6 +8139,15 @@
       "dates": [
         "28/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 5,
+        "day": "sat",
+        "special": null,
+        "commem": "0328",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7463,6 +8230,15 @@
       "dates": [
         "26/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 5,
+        "day": "thu",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7545,6 +8321,15 @@
       "dates": [
         "24/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 5,
+        "day": "tue",
+        "special": null,
+        "commem": "0324",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7627,6 +8412,15 @@
       "dates": [
         "29/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7716,6 +8510,17 @@
       "dates": [
         "03/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "fri",
+        "special": null,
+        "commem": null,
+        "flags": [
+          "good"
+        ]
+      },
       "sections": [
         {
           "name": "Collect",
@@ -7742,6 +8547,15 @@
       "dates": [
         "30/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "mon",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7831,6 +8645,17 @@
       "dates": [
         "04/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "sat",
+        "special": null,
+        "commem": null,
+        "flags": [
+          "holy"
+        ]
+      },
       "sections": []
     },
     {
@@ -7842,6 +8667,17 @@
       "dates": [
         "02/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "thu",
+        "special": null,
+        "commem": null,
+        "flags": [
+          "holy"
+        ]
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7924,6 +8760,15 @@
       "dates": [
         "31/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "tue",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -7999,6 +8844,17 @@
       "dates": [
         "31/03"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "tue",
+        "special": null,
+        "commem": null,
+        "flags": [
+          "abbrev"
+        ]
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8081,6 +8937,15 @@
       "dates": [
         "01/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "wed",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8184,6 +9049,17 @@
       "dates": [
         "01/04"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": 6,
+        "day": "wed",
+        "special": null,
+        "commem": null,
+        "flags": [
+          "abbrev"
+        ]
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8287,6 +9163,15 @@
       "dates": [
         "20/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": null,
+        "day": "fri",
+        "special": "ash",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8376,6 +9261,15 @@
       "dates": [
         "21/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": null,
+        "day": "sat",
+        "special": "ash",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8458,6 +9352,15 @@
       "dates": [
         "19/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": null,
+        "day": "thu",
+        "special": "ash",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8540,6 +9443,15 @@
       "dates": [
         "18/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "lent",
+        "week": null,
+        "day": "wed",
+        "special": "ash",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8629,6 +9541,15 @@
       "dates": [
         "24/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8711,6 +9632,15 @@
       "dates": [
         "03/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 1,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8786,6 +9716,15 @@
       "dates": [
         "02/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 1,
+        "day": "feria",
+        "special": null,
+        "commem": "0602",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8861,6 +9800,15 @@
       "dates": [
         "31/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 1,
+        "day": "sun",
+        "special": "trinity",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -8937,6 +9885,15 @@
         "07/06",
         "08/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 2,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9012,6 +9969,15 @@
       "dates": [
         "09/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 2,
+        "day": "feria",
+        "special": null,
+        "commem": "0609",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9088,6 +10054,15 @@
         "14/06",
         "16/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 3,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9163,6 +10138,15 @@
       "dates": [
         "15/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 3,
+        "day": "feria",
+        "special": null,
+        "commem": "0615",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9238,6 +10222,15 @@
       "dates": [
         "21/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 4,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9313,6 +10306,15 @@
       "dates": [
         "28/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 5,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9390,6 +10392,15 @@
         "06/07",
         "09/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 6,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9466,6 +10477,15 @@
         "12/07",
         "13/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 7,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9541,6 +10561,15 @@
       "dates": [
         "16/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 7,
+        "day": "feria",
+        "special": null,
+        "commem": "0716",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9616,6 +10645,15 @@
       "dates": [
         "17/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 7,
+        "day": "feria",
+        "special": null,
+        "commem": "0717",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9691,6 +10729,15 @@
       "dates": [
         "19/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 8,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9766,6 +10813,15 @@
       "dates": [
         "24/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 8,
+        "day": "feria",
+        "special": null,
+        "commem": "0724",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9841,6 +10897,15 @@
       "dates": [
         "26/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 9,
+        "day": "sunday",
+        "special": null,
+        "commem": "0726",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9916,6 +10981,15 @@
       "dates": [
         "27/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 9,
+        "day": "feria",
+        "special": null,
+        "commem": "0727",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -9991,6 +11065,15 @@
       "dates": [
         "30/07"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 9,
+        "day": "feria",
+        "special": null,
+        "commem": "0730",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10067,6 +11150,15 @@
         "02/08",
         "03/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 10,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10142,6 +11234,15 @@
       "dates": [
         "09/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 11,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10217,6 +11318,15 @@
       "dates": [
         "11/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 11,
+        "day": "feria",
+        "special": null,
+        "commem": "0811",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10292,6 +11402,15 @@
       "dates": [
         "13/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 11,
+        "day": "feria",
+        "special": null,
+        "commem": "0813",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10367,6 +11486,15 @@
       "dates": [
         "16/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 12,
+        "day": "sunday",
+        "special": null,
+        "commem": "0816",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10442,6 +11570,15 @@
       "dates": [
         "18/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 12,
+        "day": "feria",
+        "special": null,
+        "commem": "0818",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10517,6 +11654,15 @@
       "dates": [
         "23/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 13,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10592,6 +11738,15 @@
       "dates": [
         "26/08"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 13,
+        "day": "feria",
+        "special": null,
+        "commem": "0826",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10668,6 +11823,15 @@
         "30/08",
         "04/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 14,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10743,6 +11907,15 @@
       "dates": [
         "01/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 14,
+        "day": "feria",
+        "special": null,
+        "commem": "0901",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10819,6 +11992,15 @@
         "06/09",
         "07/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 15,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10894,6 +12076,15 @@
       "dates": [
         "09/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 15,
+        "day": "feria",
+        "special": null,
+        "commem": "0909",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -10969,6 +12160,15 @@
       "dates": [
         "11/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 15,
+        "day": "feria",
+        "special": null,
+        "commem": "0911",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11044,6 +12244,15 @@
       "dates": [
         "13/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 16,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11119,6 +12328,15 @@
       "dates": [
         "17/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 16,
+        "day": "feria",
+        "special": null,
+        "commem": "0917",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11194,6 +12412,15 @@
       "dates": [
         "20/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 17,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11269,6 +12496,15 @@
       "dates": [
         "24/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 17,
+        "day": "feria",
+        "special": null,
+        "commem": "0924",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11344,6 +12580,15 @@
       "dates": [
         "27/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 18,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11419,6 +12664,15 @@
       "dates": [
         "01/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 18,
+        "day": "feria",
+        "special": null,
+        "commem": "1001",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11494,6 +12748,15 @@
       "dates": [
         "04/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 19,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11569,6 +12832,15 @@
       "dates": [
         "05/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 19,
+        "day": "feria",
+        "special": null,
+        "commem": "1005",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11648,6 +12920,15 @@
         "31/10",
         "12/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 20,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11723,6 +13004,15 @@
       "dates": [
         "11/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 20,
+        "day": "sunday",
+        "special": null,
+        "commem": "1011",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11802,6 +13092,15 @@
         "07/11",
         "22/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 21,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11877,6 +13176,15 @@
       "dates": [
         "18/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 21,
+        "day": "sunday",
+        "special": null,
+        "commem": "1018",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -11952,6 +13260,15 @@
       "dates": [
         "21/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 21,
+        "day": "feria",
+        "special": null,
+        "commem": "1021",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12029,6 +13346,15 @@
         "29/10",
         "30/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 22,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12104,6 +13430,15 @@
       "dates": [
         "26/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 22,
+        "day": "feria",
+        "special": null,
+        "commem": "1026",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12182,6 +13517,15 @@
         "05/11",
         "06/11"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 23,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12257,6 +13601,15 @@
       "dates": [
         "08/11"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 97,
+        "day": null,
+        "special": "3rd-last",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12332,6 +13685,15 @@
       "dates": [
         "15/11"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 98,
+        "day": null,
+        "special": "2nd-last",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12409,6 +13771,15 @@
         "28/11",
         "22/11"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 99,
+        "day": null,
+        "special": "last",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12484,6 +13855,15 @@
       "dates": [
         "27/11"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": 99,
+        "day": "feria",
+        "special": "last",
+        "commem": "1127",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12560,6 +13940,15 @@
         "26/10",
         "25/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": null,
+        "special": "christ-the-king",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12643,6 +14032,15 @@
         "04/06",
         "07/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": null,
+        "special": "corpus-christi",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12725,6 +14123,15 @@
       "dates": [
         "25/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "fri",
+        "special": "ember",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12800,6 +14207,15 @@
       "dates": [
         "26/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "sat",
+        "special": "ember",
+        "commem": "0926",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -12973,6 +14389,15 @@
       "dates": [
         "23/09"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "wed",
+        "special": "ember",
+        "commem": "0923",
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13069,6 +14494,17 @@
       "dates": [
         "04/10"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": null,
+        "special": "holy-rosary",
+        "commem": null,
+        "flags": [
+          "external-solemnity"
+        ]
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13152,6 +14588,15 @@
         "12/06",
         "14/06"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": null,
+        "special": "sacred-heart",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13234,6 +14679,15 @@
       "dates": [
         "23/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": null,
+        "special": "vigil",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13323,6 +14777,15 @@
       "dates": [
         "29/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "fri",
+        "special": "whit",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13412,6 +14875,15 @@
       "dates": [
         "25/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "mon",
+        "special": "whit",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13501,6 +14973,15 @@
       "dates": [
         "30/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "sat",
+        "special": "whit",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13695,6 +15176,15 @@
       "dates": [
         "28/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "thu",
+        "special": "whit",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13784,6 +15274,15 @@
       "dates": [
         "26/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "tue",
+        "special": "whit",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13873,6 +15372,15 @@
       "dates": [
         "27/05"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "pentecost",
+        "week": null,
+        "day": "wed",
+        "special": "whit",
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -13983,6 +15491,15 @@
       "dates": [
         "15/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "quinquagesima",
+        "week": null,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -14066,6 +15583,15 @@
         "16/02",
         "17/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "quinquagesima",
+        "week": null,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -14141,6 +15667,15 @@
       "dates": [
         "01/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "septuagesima",
+        "week": null,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -14223,6 +15758,15 @@
       "dates": [
         "03/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "septuagesima",
+        "week": null,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -14298,6 +15842,15 @@
       "dates": [
         "08/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "sexagesima",
+        "week": null,
+        "day": "sunday",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",
@@ -14380,6 +15933,15 @@
       "dates": [
         "13/02"
       ],
+      "tag": {
+        "cycle": "temporal",
+        "season": "sexagesima",
+        "week": null,
+        "day": "feria",
+        "special": null,
+        "commem": null,
+        "flags": []
+      },
       "sections": [
         {
           "name": "Introit",

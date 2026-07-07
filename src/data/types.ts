@@ -53,3 +53,70 @@ export interface Missal {
   subtitle: string;
   parts: MassPart[];
 }
+
+// --- Propers (Proprium Missæ) ---------------------------------------------
+// Parsed from the ExtraordinaryForm.org proper PDFs by scripts/parse_propers.py
+// into src/data/propers.json. Each proper carries a `tag` (its place in the
+// liturgical year) and the day-specific `sections` that fill the Ordinary's
+// `proper: true` slots.
+
+/** Where a proper sits in the liturgical year, parsed from its filename. */
+export type ProperTag =
+  | {
+      cycle: "temporal";
+      season: string;
+      week: number | null;
+      /** "sunday" | "sun" | "mon" … "sat" | "feria" | null */
+      day: string | null;
+      special: string | null;
+      /** A commemorated fixed feast on this feria, as "MMDD". */
+      commem: string | null;
+      flags: string[];
+    }
+  | {
+      cycle: "sanctoral";
+      month: number;
+      day: number;
+      feast: string;
+      flags: string[];
+    }
+  | { cycle: "unknown"; raw: string; flags: string[] };
+
+/** One proper text (Introit, Collect, …); `key` matches an Ordinary slot id. */
+export interface ProperSection {
+  name?: string;
+  key: string;
+  citation?: string;
+  latin: string;
+  english: string;
+}
+
+/** A complete Mass Proper for one liturgical day. */
+export interface Proper {
+  id: string;
+  file: string;
+  title: string;
+  mass?: string;
+  color?: string;
+  dates: string[];
+  tag: ProperTag;
+  sections: ProperSection[];
+}
+
+/** A proper offered for a chosen date, with its computed precedence class. */
+export interface RankedProper {
+  proper: Proper;
+  /** Pragmatic precedence class, I (1) = highest … IV (4) = feria. */
+  klass: number;
+  /** How well the proper matches the day (higher = better); default sort key. */
+  score: number;
+}
+
+/** The Masses appropriate to a given date, best (default) first. */
+export interface DayResolution {
+  /** ISO date "YYYY-MM-DD". */
+  date: string;
+  candidates: RankedProper[];
+  /** The proper id preselected as the day's default (candidates[0]). */
+  defaultId: string | null;
+}
