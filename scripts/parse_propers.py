@@ -72,6 +72,21 @@ MAJOR_FEASTS = {
     "PentecostChristusRex",
 }
 
+# Feasts of the Lord and the Christmas/Epiphany temporal days that live under an
+# MMDD (sanctoral-style) filename and so would otherwise be dropped by the
+# digit-initial rule below, even though they belong to the temporal cycle. All
+# 1st/2nd class, so the resolver's flat sanctoral score keeps them as the day's
+# default. Matched as filename prefixes; a multi-Mass day (the three Masses of
+# Christmas, the three of All Souls) matches all of its numbered files.
+LORD_FEASTS = {
+    "0101Circumcision", "0106EpiphanyofOurLord", "0113BaptismofOurLord",
+    "0701MostPreciousBlood", "0806Transfiguration", "0914ExaltationOfHolyCross",
+    "1007MostHolyRosary", "1102AllSouls",
+    "1224VigilofNativity", "1225ChristmasDay",
+    "1226StStephenMartyr", "1227StJohnEvangelist",
+    "12295thDayofChristmas", "12306thDayofChristmas", "12317thDayofChristmas",
+}
+
 
 def _is_selected(fname):
     """Temporal-cycle files (letter-initial, not Votive/BVM/Requiem/*FORM) plus
@@ -79,7 +94,7 @@ def _is_selected(fname):
     stem = fname[:-4] if fname.lower().endswith(".pdf") else fname
     if "AnteMissam" in fname:  # pre-Mass blessing rites, not Mass propers
         return False
-    if any(stem.startswith(f) for f in MAJOR_FEASTS):
+    if any(stem.startswith(f) for f in MAJOR_FEASTS | LORD_FEASTS):
         return True
     if fname[:1].isdigit():
         return False
@@ -202,15 +217,30 @@ def classify(text, bold):
     # by their uppercase MASS prefix, not bold (the incipit line isn't bold).
     if text.startswith("MASS PROPER"):
         return ("title", re.sub(r"^MASS PROPER:?\s*", "", text).strip())
-    if re.match(r"^MASS\b", text) and "(" in text:
-        color = None
-        cm = re.search(r"\(([^)]*)\)", text)
-        if cm:
+    if re.match(r"^MASS\b", text, re.I) and "(" in text:
+        # "MASS <incipit> (<color>)" — but some files lowercase "Mass", and some
+        # parenthesise the incipit too: "MASS (Puer natus est) (white)". Scan every
+        # parenthesised group for a colour, then take the incipit from the bare
+        # text (or, when the incipit itself is parenthesised, the first non-colour
+        # group).
+        groups = re.findall(r"\(([^)]*)\)", text)
+        # Match colours as whole words, else "red" would fire inside "Redimísti".
+        def _color(g):
+            found = None
             for c in COLORS:
-                if c in cm.group(1).lower():
-                    color = c
+                if re.search(rf"\b{c}\b", g.lower()):
+                    found = c  # last wins: "gold or white" -> gold
+            return found
+        color = None
+        for g in groups:
+            color = _color(g) or color
         incipit = re.sub(r"\s*\([^)]*\)\s*", " ", text)
-        incipit = re.sub(r"^MASS\s*", "", incipit).strip()
+        incipit = re.sub(r"^MASS\s*", "", incipit, flags=re.I).strip()
+        if not incipit:
+            for g in groups:
+                if g.strip() and not _color(g):
+                    incipit = g.strip()
+                    break
         return ("mass", incipit, color)
     # Section headings must be bold, so plain body words that happen to start with
     # a heading keyword ("Gospel which...", "Alleluia.") aren't mistaken for one.
@@ -229,11 +259,19 @@ def _clean(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def _title(s):
-    """Normalise a proper title. The source titles for commemorations end in a
-    dangling '… W/' (the commemorated saint's name lands on a separate line the
-    extractor drops); the commemoration is carried on the tag, so trim it off."""
-    return re.sub(r",?\s*W/\s*$", "", _clean(s))
+def _title(pdf_title, label):
+    """Normalise a proper title. Commemoration titles end in a dangling '… W/'
+    (the saint's name lands on a line the extractor drops; it's kept on the tag),
+    which we trim. When the PDF's own title is missing or truncated to a bare date
+    — the Christmas-octave days print just 'DECEMBER 29,' — fall back to the
+    calendar label (its leading DD/MM date stripped) to name the day."""
+    t = re.sub(r",?\s*W/\s*$", "", _clean(pdf_title or ""))
+    desc = re.sub(r"^\d{1,2}/\d{1,2}\s*", "", _clean(label))  # label minus date
+    if not t:
+        return desc
+    if re.match(r"^[A-Za-z]+ \d{1,2},?$", t) and desc:  # bare "MONTH DD," fragment
+        return f"{t.rstrip(',')}, {desc}"
+    return t
 
 
 # --- parse one proper -------------------------------------------------------
@@ -407,7 +445,7 @@ def main():
         propers.append({
             "id": slugify(fname),
             "file": fname,
-            "title": _title(meta["title"] or e["label"]),
+            "title": _title(meta["title"], e["label"]),
             "mass": meta["mass"],
             "color": meta["color"],
             "dates": e["dates"],

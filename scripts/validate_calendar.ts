@@ -12,7 +12,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { createResolver } from "../src/lib/calendar/resolve.ts";
-import { dayNum, weekday } from "../src/lib/calendar/computus.ts";
+import { dayNum, weekday, fromDayNum } from "../src/lib/calendar/computus.ts";
 import type { Proper } from "../src/data/types.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -66,7 +66,13 @@ function isGated(file: string, n: number): boolean {
   const p = properById.get(file);
   if (!p) return false;
   if (p.tag.flags?.includes("external-solemnity")) return false;
-  if (p.tag.cycle === "sanctoral") return true; // major fixed feast, any weekday
+  if (p.tag.cycle === "sanctoral") {
+    // Gate a fixed feast only on its own MMDD; a listing on another day is a
+    // year-specific transfer we don't model (e.g. All Souls bumped to Nov 3 when
+    // Nov 2 fell on a Sunday in the scrape year).
+    const { m, d } = fromDayNum(n);
+    return p.tag.month === m && p.tag.day === d;
+  }
   if (weekday(n) === 0) return true; // an actual Sunday
   if (p.tag.cycle === "temporal") {
     const t = p.tag;
