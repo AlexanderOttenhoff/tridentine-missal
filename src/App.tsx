@@ -188,15 +188,53 @@ function ColorDot({ color }: { color?: string }) {
   );
 }
 
-function MassBar({
+// The date selector: previous/next-day steppers around a native date input.
+// Lives at the top of the contents drawer (the Mass picker in MassBar stays on
+// the page). The input is localised en-GB so the week starts on Monday and the
+// value reads dd/mm/yyyy.
+function DateControl({
   day,
   setDay,
+}: {
+  day: number;
+  setDay: (n: number) => void;
+}) {
+  return (
+    <div className="flex items-center rounded-lg bg-paper border border-line">
+      <button
+        className="w-9 h-9 grid place-items-center text-ink-soft active:bg-liturgical/10 rounded-l-lg"
+        onClick={() => setDay(day - 1)}
+        aria-label="Previous day"
+      >
+        ‹
+      </button>
+      <input
+        type="date"
+        lang="en-GB"
+        value={iso(day)}
+        onChange={(e) => e.target.value && setDay(fromIso(e.target.value))}
+        className="flex-1 min-w-0 bg-transparent text-center font-sans text-[0.82rem] text-ink
+          outline-none tabular-nums"
+        aria-label="Select date"
+      />
+      <button
+        className="w-9 h-9 grid place-items-center text-ink-soft active:bg-liturgical/10 rounded-r-lg"
+        onClick={() => setDay(day + 1)}
+        aria-label="Next day"
+      >
+        ›
+      </button>
+    </div>
+  );
+}
+
+function MassBar({
+  day,
   resolution,
   activeProper,
   onPick,
 }: {
   day: number;
-  setDay: (n: number) => void;
   resolution: DayResolution;
   activeProper: Proper | null;
   onPick: (id: string) => void;
@@ -211,34 +249,8 @@ function MassBar({
         bg-paper-2/95 backdrop-blur-md border-b border-line
         shadow-[0_1px_4px_rgba(0,0,0,0.06)]"
     >
-      <div className="flex items-center rounded-lg bg-paper border border-line shrink-0">
-        <button
-          className="w-8 h-8 grid place-items-center text-ink-soft active:bg-liturgical/10 rounded-l-lg"
-          onClick={() => setDay(day - 1)}
-          aria-label="Previous day"
-        >
-          ‹
-        </button>
-        <input
-          type="date"
-          lang="en-GB"
-          value={iso(day)}
-          onChange={(e) => e.target.value && setDay(fromIso(e.target.value))}
-          className="w-[8.4rem] bg-transparent text-center font-sans text-[0.78rem] text-ink
-            outline-none tabular-nums"
-          aria-label="Select date"
-        />
-        <button
-          className="w-8 h-8 grid place-items-center text-ink-soft active:bg-liturgical/10 rounded-r-lg"
-          onClick={() => setDay(day + 1)}
-          aria-label="Next day"
-        >
-          ›
-        </button>
-      </div>
-
       <button
-        className="flex-1 min-w-0 flex items-center gap-2 px-2.5 h-8 rounded-lg
+        className="flex-1 min-w-0 flex items-center gap-2.5 px-2.5 py-1 rounded-lg
           bg-paper border border-line text-left active:bg-liturgical/10"
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
@@ -246,8 +258,13 @@ function MassBar({
         disabled={candidates.length === 0}
       >
         <ColorDot color={activeProper?.color} />
-        <span className="flex-1 min-w-0 truncate font-serif text-[0.9rem] text-ink capitalize">
-          {title.toLowerCase()}
+        <span className="flex-1 min-w-0">
+          <span className="block truncate font-serif text-[0.92rem] leading-tight text-ink capitalize">
+            {title.toLowerCase()}
+          </span>
+          <span className="block truncate font-sans text-[0.62rem] text-ink-soft">
+            {formatDay(day)}
+          </span>
         </span>
         {candidates.length > 1 && (
           <span className="shrink-0 font-sans text-[0.6rem] text-ink-soft">
@@ -405,7 +422,6 @@ export function App() {
 
       <MassBar
         day={day}
-        setDay={setDay}
         resolution={resolution}
         activeProper={activeProper}
         onPick={setOverride}
@@ -423,6 +439,16 @@ export function App() {
             onClick={(e) => e.stopPropagation()}
             aria-label="Contents"
           >
+            <div className="px-4 pt-3 pb-2">
+              <div className="mb-1.5 font-sans text-[0.68rem] tracking-wider uppercase text-ink-soft">
+                Date
+              </div>
+              <DateControl day={day} setDay={setDay} />
+              <div className="mt-1.5 font-serif text-[0.9rem] text-ink capitalize">
+                {formatDay(day)}
+              </div>
+            </div>
+            <div className="mx-4 border-t border-line" />
             <div className="px-4 pt-3 pb-2 font-sans font-bold text-[0.8rem] tracking-widest uppercase text-liturgical">
               Contents
             </div>
