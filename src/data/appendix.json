@@ -1,0 +1,188 @@
+{
+  "parts": [
+    {
+      "id": "after-low-mass",
+      "title": "Prayers after Low Mass",
+      "note": "Recited kneeling after Low Mass.",
+      "sections": [
+        {
+          "id": "leonine",
+          "title": "Leonine Prayers",
+          "subtitle": "Prayers after Low Mass (Pope Leo XIII)",
+          "blocks": [
+            {
+              "type": "rubric",
+              "english": "Ave Maria (3 times)"
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "",
+              "english": "Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus."
+            },
+            {
+              "type": "verse",
+              "role": "server",
+              "latin": "",
+              "english": "Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.",
+              "congregation": true
+            },
+            {
+              "type": "rubric",
+              "english": "Salve Regina"
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "",
+              "english": "Hail, Holy Queen,"
+            },
+            {
+              "type": "verse",
+              "role": "server",
+              "latin": "",
+              "english": "Mother of mercy, our life, our sweetness and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, mourning and weeping in this vale of tears. Turn then, most gracious advocate, thine eyes of mercy towards us. And after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary! (strike breast 3 times)",
+              "congregation": true
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "",
+              "english": "Pray for us, O holy Mother of God."
+            },
+            {
+              "type": "verse",
+              "role": "server",
+              "latin": "",
+              "english": "That we may be made worthy of the promises of Christ.",
+              "congregation": true
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "",
+              "english": "Let us pray. O God, our refuge and our strength, look down with favor upon Thy people who cry to Thee; and by the intercession of the glorious and Immaculate Virgin Mary, Mother of God, of St. Joseph, her spouse, of Thy blessed apostles Peter and Paul, and of all the saints, mercifully and graciously hear the prayers which we pour forth for the conversion of sinners, and for the freedom and exaltation of Holy Mother Church. Through the same Christ our Lord."
+            },
+            {
+              "type": "verse",
+              "role": "server",
+              "latin": "",
+              "english": "Amen.",
+              "congregation": true
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "",
+              "english": "St. Michael, the archangel,"
+            },
+            {
+              "type": "verse",
+              "role": "server",
+              "latin": "",
+              "english": "defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray. And do thou, O prince of the heavenly host, by the divine power, cast into hell Satan and all the evil spirits who prowl through the world seeking the ruin of souls. Amen.",
+              "congregation": true
+            },
+            {
+              "type": "rubric",
+              "english": "3 times"
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "",
+              "english": "Most Sacred Heart of Jesus."
+            },
+            {
+              "type": "verse",
+              "role": "server",
+              "latin": "",
+              "english": "Have mercy on us. (strike breast)",
+              "congregation": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "benediction",
+      "title": "Benediction of the Blessed Sacrament",
+      "sections": [
+        {
+          "id": "o-salutaris",
+          "title": "O Salutaris Hostia",
+          "subtitle": "Hymn at the exposition",
+          "blocks": [
+            {
+              "type": "verse",
+              "latin": "O salutáris hóstia,\nQuæ cæli pandis óstium,\nBella premunt hostília,\nDa robur, fer auxílium.\nUni Trinóque Dómino,\nSit sempitérna glória:\nQui vitam sine término,\nNobis donet in patria.  Amen.",
+              "english": "O Saving Victim! Opening wide\nThe gate of Heaven to man below!\nOur foes press on from every side;\nThine aid supply, Thy strength bestow.\nTo Thy great Name be endless praise,\nImmortal Godhead!  One in Three!\nO grant us endless length of days\nIn our true native land with Thee!  Amen."
+            }
+          ]
+        },
+        {
+          "id": "tantum-ergo",
+          "title": "Tantum Ergo",
+          "subtitle": "Hymn, versicle, and collect",
+          "blocks": [
+            {
+              "type": "verse",
+              "latin": "Tantum ergo Sacraméntum.\nVenerémur cérnui:\nEt antíquum documéntum,\nNovo cedat rítui:\nPræstet fides supleméntum\nSénsuum deféctui.\nGenitóri, Genitóque,\nLaus et jubilátio:\nSalus, honor, virtus quoque,\nSit et benedíctio:\nProcedénti ab utróque\nCompar sit laudátio.  Amen.",
+              "english": "Down in adoration falling,\nLo! the Sacred Host we Hail!\nLo! o'er ancient forms departing,\nNewer rites of grace prevail.\nFaith for all defects supplying\nWhere the feeble senses fail.\nTo the Everlasting Father,\nAnd the Son Who reigns on high,\nWith the Holy Ghost, proceeding\nForth from Each eternally,\nBe salvation, honor, blessing,\nMight and endless majesty.  Amen."
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "Panem de cælo præstitísti eis. (in Eastertide – Allelúja.)",
+              "english": "Thou hast given them bread from heaven. (in Eastertide – Alleluia.)"
+            },
+            {
+              "type": "verse",
+              "role": "all",
+              "latin": "Omne delectaméntum in se habéntem. (in Eastertide – Allelúja.)",
+              "english": "Having all sweetness within it. (in Eastertide – Alleluia.)",
+              "congregation": true
+            },
+            {
+              "type": "verse",
+              "role": "priest",
+              "latin": "Orémus. Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui sacra mystéria venerári: ut redemptiónis tuæ fructum in nobis júgiter sentiámus. Qui vivis et regnas in sǽcula sæculórum.",
+              "english": "Let us pray. O God, Who, under a wonderful Sacrament, has left us a memorial of Thy passion: grant us, we beseech Thee, so to venerate the sacred mysteries of Thy Body and Blood that we may ever feel in our lives the fruit of Thy Redemption. Who lives and reigns forever and ever."
+            },
+            {
+              "type": "verse",
+              "role": "all",
+              "latin": "Amen.",
+              "english": "Amen.",
+              "congregation": true
+            }
+          ]
+        },
+        {
+          "id": "divine-praises",
+          "title": "The Divine Praises",
+          "subtitle": "Said in reparation",
+          "blocks": [
+            {
+              "type": "verse",
+              "latin": "",
+              "english": "Blessed be God.\nBlessed be His holy Name.\nBlessed be Jesus Christ, true God and true Man.\nBlessed be the Name of Jesus.\nBlessed be His most sacred Heart.\nBlessed be His most precious Blood.\nBlessed be Jesus in the most holy Sacrament of the altar.\nBlessed be the Holy Spirit, the Paraclete.\nBlessed be the great Mother of God, Mary most holy.\nBlessed be her holy and Immaculate Conception.\nBlessed be her glorious Assumption.\nBlessed be the name of Mary, virgin and mother.\nBlessed be St. Joseph, her most chaste spouse.\nBlessed be God in His angels and in His saints."
+            }
+          ]
+        },
+        {
+          "id": "holy-god",
+          "title": "Holy God, We Praise Thy Name",
+          "subtitle": "Hymn of thanksgiving",
+          "blocks": [
+            {
+              "type": "verse",
+              "latin": "",
+              "english": "Holy God we praise Thy Name.\nLord of all we bow before Thee.\nAll on earth Thy scepter claim.\nAll in heaven above adore Thee.\nInfinite Thy vast domain.\nEverlasting is Thy reign.\nInfinite Thy vast domain\nEverlasting is Thy reign.\nHark the loud celestial hymn.\nAngel choirs above are raising.\nCherubim and seraphim,\nIn unceasing chorus praising.\nFill the heavens with sweet accord,\nHoly, Holy, Holy Lord.\nFill the heavens with sweet accord,\nHoly, Holy, Holy Lord."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

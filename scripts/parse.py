@@ -1,18 +1,83 @@
 #!/usr/bin/env python3
-"""Parse the two cropped columns of the Extraordinary Form PDF into a paired,
-structured JSON dataset. Latin and English are parsed independently with the
-*same* segmentation rules, then aligned positionally (the two columns are
-parallel in the source).
+"""Parse the Extraordinary Form PDF (source/eef.pdf) into a paired, structured
+JSON dataset. Latin (left column) and English (right column) are extracted with
+PyMuPDF, parsed independently with the *same* segmentation rules, then aligned
+positionally (the two columns are parallel in the source).
 
-Output: src/data/ordinary.generated.json
+Text is extracted per line together with a `hl` flag marking whether the line
+sits on a yellow highlight rectangle — the source's convention for responses
+spoken by the congregation. Highlighted verses are flagged `congregation`.
+
+Requires PyMuPDF; run with an interpreter that has it, e.g.
+    ~/.pyenv/versions/3.14.3/bin/python scripts/parse.py
+
+Output: src/data/ordinary.json
 """
 import json
 import re
 import sys
 from pathlib import Path
 
+import pymupdf
+
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "source"
+
+# Fill colour (RGB) of the highlight rectangles behind congregation responses.
+HIGHLIGHT = (1.0, 1.0, 0.0)
+
+
+def _yellow_rects(page):
+    return [
+        pymupdf.Rect(d["rect"])
+        for d in page.get_drawings()
+        if d.get("fill") and tuple(round(c, 1) for c in d["fill"]) == HIGHLIGHT
+    ]
+
+
+def _highlighted(x0, y0, x1, y1, yrects):
+    """True when a yellow rect covers the text line. Uses vertical overlap (>=
+    half the line height) so that a highlight abutting the line *below* the
+    priest's versicle doesn't spill onto it, and only requiring partial
+    horizontal overlap because the "S:" label sits outside the highlight."""
+    height = y1 - y0
+    if height <= 0:
+        return False
+    for r in yrects:
+        v_overlap = min(y1, r.y1) - max(y0, r.y0)
+        h_overlap = min(x1, r.x1) - max(x0, r.x0)
+        if v_overlap >= 0.5 * height and h_overlap > 0:
+            return True
+    return False
+
+
+def extract_columns(pdf_path):
+    """Return (latin_lines, english_lines); each a list of {text, hl} in reading
+    order. The source is two columns — Latin left, English right — on tall pages,
+    so lines are split by their horizontal centre relative to the page midline."""
+    doc = pymupdf.open(pdf_path)
+    latin, english = [], []
+    for pno in range(doc.page_count):
+        page = doc[pno]
+        mid = page.rect.width / 2
+        yrects = _yellow_rects(page)
+        rows = []
+        for block in page.get_text("dict")["blocks"]:
+            for line in block.get("lines", []):
+                spans = [s for s in line["spans"] if s["text"].strip()]
+                if not spans:
+                    continue
+                text = "".join(s["text"] for s in spans).strip()
+                x0 = min(s["bbox"][0] for s in spans)
+                y0 = min(s["bbox"][1] for s in spans)
+                x1 = max(s["bbox"][2] for s in spans)
+                y1 = max(s["bbox"][3] for s in spans)
+                hl = _highlighted(x0, y0, x1, y1, yrects)
+                rows.append((round(y0), x0, text, hl, (x0 + x1) / 2 < mid))
+        rows.sort(key=lambda r: (r[0], r[1]))
+        for _y, _x, text, hl, is_left in rows:
+            (latin if is_left else english).append({"text": text, "hl": hl})
+    return latin, english
 
 # Named liturgical section headings (exact, trimmed, upper-case).
 NAMED_HEADINGS = {
@@ -54,9 +119,10 @@ def is_position(line: str) -> bool:
     return line.strip() in POSITION_HEADINGS
 
 
-def parse_column(path: Path) -> list[dict]:
-    """Return an ordered list of blocks: {kind, role?, text}. kind in
-    {heading, position, rubric, verse}."""
+def parse_column(lines: list[dict]) -> list[dict]:
+    """Return an ordered list of blocks: {kind, role?, text, hl?}. kind in
+    {heading, position, rubric, verse}. A verse is flagged hl when any of its
+    lines is highlighted (a congregation response)."""
     blocks: list[dict] = []
     cur: dict | None = None
     open_paren = False  # inside a multi-line parenthetical rubric
@@ -69,8 +135,9 @@ def parse_column(path: Path) -> list[dict]:
                 blocks.append(cur)
         cur = None
 
-    for raw in path.read_text(encoding="utf-8").splitlines():
-        line = raw.rstrip()
+    for rec in lines:
+        line = rec["text"]
+        hl = rec["hl"]
         stripped = line.strip()
         if not stripped or JUNK_RE.search(stripped):
             continue
@@ -95,7 +162,7 @@ def parse_column(path: Path) -> list[dict]:
         m = SPEAKER_RE.match(line)
         if m:
             flush()
-            cur = {"kind": "verse", "role": ROLE[m.group(1)], "text": m.group(2)}
+            cur = {"kind": "verse", "role": ROLE[m.group(1)], "text": m.group(2), "hl": hl}
             continue
 
         # A line beginning with "(" is a standalone rubric only when the
@@ -121,6 +188,8 @@ def parse_column(path: Path) -> list[dict]:
         # emphasised all-caps prayer fragment such as the Consecration form).
         if cur is not None:
             cur["text"] += " " + stripped
+            if hl and cur["kind"] == "verse":
+                cur["hl"] = True
         # If cur is None we are in stray text between blocks; ignore.
 
     flush()
@@ -128,8 +197,9 @@ def parse_column(path: Path) -> list[dict]:
 
 
 def main() -> int:
-    latin = parse_column(SRC / "latin.txt")
-    english = parse_column(SRC / "english.txt")
+    latin_lines, english_lines = extract_columns(SRC / "eef.pdf")
+    latin = parse_column(latin_lines)
+    english = parse_column(english_lines)
 
     print(f"latin blocks:   {len(latin)}")
     print(f"english blocks: {len(english)}")
@@ -170,6 +240,9 @@ def main() -> int:
         entry = {"kind": b["kind"], "latin": b["text"], "english": e.get("text", "")}
         if b["kind"] == "verse":
             entry["role"] = b.get("role")
+            # A response is congregational if highlighted in either column.
+            if b.get("hl") or e.get("hl"):
+                entry["congregation"] = True
         paired.append(entry)
 
     dest = ROOT / "source" / "blocks.json"
@@ -273,12 +346,15 @@ def build_missal(paired):
         if cur is None:
             continue
         if block["kind"] == "verse":
-            cur["blocks"].append({
+            verse = {
                 "type": "verse",
                 "role": block.get("role"),
                 "latin": block["latin"],
                 "english": block["english"],
-            })
+            }
+            if block.get("congregation"):
+                verse["congregation"] = True
+            cur["blocks"].append(verse)
         elif block["kind"] == "rubric":
             cur["blocks"].append({"type": "rubric", "english": _strip_parens(block["text"])})
         else:  # a heading/position block that is not a section trigger

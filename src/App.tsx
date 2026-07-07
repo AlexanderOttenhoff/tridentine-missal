@@ -86,32 +86,48 @@ function VerseView({
   block: Extract<Block, { type: "verse" }>;
   lang: Lang;
 }) {
+  // Some appendix devotions (Leonine Prayers, Divine Praises) are English-only:
+  // show the English regardless of the toggle so nothing renders blank, and
+  // promote it to the primary style when there is no Latin beside it.
+  const hasLatin = block.latin.trim() !== "";
+  const showLatin = hasLatin && lang !== "en";
+  const showEnglish = lang !== "la" || !hasLatin;
   return (
     <div className="flex gap-2.5 py-1.5">
       {block.role ? (
         <span
           className={`${badgeBase} ${ROLE_STYLES[block.role]}`}
-          title={ROLE_NAME[block.role]}
+          title={block.congregation ? "Spoken by all (congregation)" : ROLE_NAME[block.role]}
         >
           {ROLE_BADGE[block.role]}
         </span>
       ) : (
         <span className="shrink-0 w-5" aria-hidden="true" />
       )}
-      <div className="min-w-0 flex-1">
-        {(lang === "la" || lang === "both") && (
+      <div
+        className={
+          "min-w-0 flex-1" +
+          (block.congregation
+            ? " bg-highlight rounded-md px-2 -mx-0.5 py-0.5"
+            : "")
+        }
+        title={block.congregation ? "Spoken by all (congregation)" : undefined}
+      >
+        {showLatin && (
           <p
-            className="m-0 font-serif text-[1.12rem] leading-relaxed text-ink"
+            className="m-0 font-serif text-[1.12rem] leading-relaxed text-ink whitespace-pre-line"
             lang="la"
           >
             {block.latin}
           </p>
         )}
-        {(lang === "en" || lang === "both") && (
+        {showEnglish && (
           <p
             className={
-              "m-0 font-serif text-[1rem] leading-relaxed text-ink-soft" +
-              (lang === "both" ? " mt-0.5" : "")
+              "m-0 font-serif leading-relaxed whitespace-pre-line" +
+              (showLatin
+                ? " mt-0.5 text-[1rem] text-ink-soft"
+                : " text-[1.12rem] text-ink")
             }
             lang="en"
           >
@@ -343,6 +359,11 @@ export function App() {
               proper
             </span>{" "}
             change with the liturgical day and are read from the Mass Proper.
+          </p>
+          <p className="mt-2">
+            <span className="bg-highlight rounded px-1 text-ink">Highlighted</span>{" "}
+            responses are spoken by all — the congregation, together with the
+            servers.
           </p>
         </footer>
       </main>

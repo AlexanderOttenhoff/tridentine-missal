@@ -19,6 +19,7 @@
   --color-liturgical-bright: #9f2b2b;
   --color-gold: #9a7b2e;
   --color-rubric: #a5341e;
+  --color-highlight: #f6e6a2;
 }
 
 /* Dark palette. It applies automatically under a dark system preference
@@ -37,6 +38,7 @@
     --color-liturgical-bright: #8a2525;
     --color-gold: #c2a24a;
     --color-rubric: #dd7a54;
+    --color-highlight: #4a3d18;
   }
 }
 :root[data-theme="dark"] {
@@ -50,6 +52,7 @@
   --color-liturgical-bright: #8a2525;
   --color-gold: #c2a24a;
   --color-rubric: #dd7a54;
+  --color-highlight: #4a3d18;
 }
 
 @layer base {

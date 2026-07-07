@@ -15,6 +15,8 @@ export interface VerseBlock {
   role?: Role;
   latin: string;
   english: string;
+  /** A response spoken by the congregation (highlighted in the source missal). */
+  congregation?: boolean;
 }
 
 /** A rubric: an instruction (traditionally printed in red), not a prayer. */

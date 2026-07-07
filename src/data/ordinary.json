@@ -274,7 +274,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Kýrie, eléison.",
-              "english": "Lord, have mercy."
+              "english": "Lord, have mercy.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -286,7 +287,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Christe, eléison.",
-              "english": "Christ, have mercy."
+              "english": "Christ, have mercy.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -298,7 +300,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Christe, eléison.",
-              "english": "Christ, have mercy."
+              "english": "Christ, have mercy.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -310,7 +313,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Kýrie, eléison.",
-              "english": "Lord, have mercy."
+              "english": "Lord, have mercy.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -349,7 +353,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your Spirit."
+              "english": "And with your Spirit.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -382,7 +387,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Amen.",
-              "english": "Amen."
+              "english": "Amen.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -478,7 +484,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your spirit."
+              "english": "And with your spirit.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -490,7 +497,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Glória tibi, Dómine.",
-              "english": "Glory to Thee, O Lord."
+              "english": "Glory to Thee, O Lord.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -548,7 +556,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your spirit."
+              "english": "And with your spirit.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -691,7 +700,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Amen.",
-              "english": "Amen."
+              "english": "Amen.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -703,7 +713,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your spirit."
+              "english": "And with your spirit.",
+              "congregation": true
             }
           ],
           "proper": true
@@ -729,7 +740,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Habémus ad Dóminum.",
-              "english": "We have lifted them up to the Lord."
+              "english": "We have lifted them up to the Lord.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -741,7 +753,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Dignum et justum est.",
-              "english": "It is fitting and just."
+              "english": "It is fitting and just.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -846,7 +859,7 @@
             {
               "type": "verse",
               "role": "priest",
-              "latin": "Supra quæ propítio ac seréno vultu respícere dignéris; et accépta habére, sícuti accépta habére dignátus es múnera púeri tui justi Abel, et sacrifícium Patriárchæ nostri Ábrahæ: et quod tibi óbtulit summus sacérdos tuus Melchísedech, sanctum sacrifícium, immaculátam hóstiam.",
+              "latin": "Supra quæ propítio ac seréno vultu respícere dignéris; etaccépta habére, sícuti accépta habére dignátus es múnera púeri tui justi Abel, et sacrifícium Patriárchæ nostri Ábrahæ: et quod tibi óbtulit summus sacérdos tuus Melchísedech, sanctum sacrifícium, immaculátam hóstiam.",
               "english": "Deign to regard them with a gracious and serene countenance, and to accept them, as Thou didst deign to accept the gifts of Thy just servant Abel, and the sacrifice of Abraham our Patriarch, and that which Thy chief priest Melchisedech offered to Thee, a holy sacrifice, an unspotted victim."
             },
             {
@@ -891,7 +904,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Amen.",
-              "english": "Amen."
+              "english": "Amen.",
+              "congregation": true
             }
           ]
         },
@@ -910,7 +924,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Sed líbera nos a malo.",
-              "english": "But deliver us from evil."
+              "english": "But deliver us from evil.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -928,7 +943,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Amen.",
-              "english": "Amen."
+              "english": "Amen.",
+              "congregation": true
             },
             {
               "type": "verse",
@@ -940,7 +956,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your spirit."
+              "english": "And with your spirit.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -1017,19 +1034,22 @@
               "type": "verse",
               "role": "server",
               "latin": "Dómine, non sum (strike breast) dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.",
-              "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed."
+              "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed.",
+              "congregation": true
             },
             {
               "type": "verse",
               "role": "server",
               "latin": "Dómine, non sum (strike breast) dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.",
-              "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed."
+              "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed.",
+              "congregation": true
             },
             {
               "type": "verse",
               "role": "server",
               "latin": "Dómine, non sum (strike breast) dignus, ut intres sub tectum meum: sed tantum dic verbo, et sanábitur ánima mea.",
-              "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed."
+              "english": "Lord, I am (strike breast) not worthy that Thou should enter under my roof; but only say the word and my soul shall be healed.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -1090,7 +1110,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your spirit."
+              "english": "And with your spirit.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -1124,7 +1145,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Amen.",
-              "english": "Amen."
+              "english": "Amen.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -1140,7 +1162,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your spirit."
+              "english": "And with your spirit.",
+              "congregation": true
             }
           ],
           "proper": true
@@ -1166,7 +1189,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Deo grátias.",
-              "english": "Thanks be to God."
+              "english": "Thanks be to God.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -1188,7 +1212,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Amen.",
-              "english": "Amen."
+              "english": "Amen.",
+              "congregation": true
             },
             {
               "type": "rubric",
@@ -1208,7 +1233,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Et cum spíritu tuo.",
-              "english": "And with your spirit."
+              "english": "And with your spirit.",
+              "congregation": true
             }
           ]
         },
@@ -1227,7 +1253,8 @@
               "type": "verse",
               "role": "server",
               "latin": "Glória tibi, Dómine.",
-              "english": "Glory be to Thee, O Lord."
+              "english": "Glory be to Thee, O Lord.",
+              "congregation": true
             },
             {
               "type": "verse",

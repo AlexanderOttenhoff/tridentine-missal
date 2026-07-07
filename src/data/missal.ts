@@ -1,6 +1,15 @@
-import type { Missal } from "./types.ts";
-import data from "./ordinary.json";
+import type { Missal, MassPart } from "./types.ts";
+import ordinary from "./ordinary.json";
+import appendix from "./appendix.json";
 
-// The Ordinary is generated from the source PDF by scripts/parse.py; do not edit
-// ordinary.json by hand — re-run the parser instead.
-export const missal = data as Missal;
+// The Ordinary is generated from the source PDF by scripts/parse.py and the
+// appendix devotions (prayers after Low Mass, Benediction) by
+// scripts/parse_appendix.py; do not edit the JSON by hand — re-run the parsers
+// instead. The appendix parts are appended after the Ordinary.
+export const missal: Missal = {
+  ...(ordinary as Missal),
+  parts: [
+    ...(ordinary as Missal).parts,
+    ...(appendix.parts as MassPart[]),
+  ],
+};
