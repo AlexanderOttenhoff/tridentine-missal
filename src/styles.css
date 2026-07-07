@@ -28,6 +28,7 @@
    value lists below in sync. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --color-paper: #15120e;
     --color-paper-2: #1e1a15;
     --color-card: #221d17;
@@ -42,6 +43,7 @@
   }
 }
 :root[data-theme="dark"] {
+  color-scheme: dark;
   --color-paper: #15120e;
   --color-paper-2: #1e1a15;
   --color-card: #221d17;
@@ -58,6 +60,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    color-scheme: light;
   }
   body {
     margin: 0;
