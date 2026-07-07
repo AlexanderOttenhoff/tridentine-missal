@@ -1,368 +1,74 @@
-:root {
-  --red: #7c1f1f;
-  --red-bright: #9e2a2a;
-  --gold: #9a7b2e;
-  --ink: #23201c;
-  --ink-soft: #5c554b;
-  --paper: #faf6ee;
-  --paper-2: #f3ecde;
-  --line: #e2d8c4;
-  --rubric: #a3341f;
-  --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
-  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --topbar-h: 3.5rem;
+@import "@fontsource-variable/crimson-pro";
+@import "tailwindcss";
+
+/* Design tokens. Each --color-* / --font-* emits matching Tailwind utilities
+   (bg-*, text-*, border-*, font-*) that reference the custom property via
+   var(), so overriding a property in the dark-mode media query below flips the
+   whole theme with no dark: variants needed. */
+@theme {
+  --font-serif: "Crimson Pro Variable", Georgia, "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --color-paper: #f6f1e6;
+  --color-paper-2: #efe6d4;
+  --color-card: #fdfaf3;
+  --color-ink: #2a251d;
+  --color-ink-soft: #6b6254;
+  --color-line: #e2d8c2;
+  --color-liturgical: #7d1d1d;
+  --color-liturgical-bright: #9f2b2b;
+  --color-gold: #9a7b2e;
+  --color-rubric: #a5341e;
 }
 
-* {
-  box-sizing: border-box;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #15120e;
+    --color-paper-2: #1e1a15;
+    --color-card: #221d17;
+    --color-ink: #ece4d5;
+    --color-ink-soft: #a89e8b;
+    --color-line: #362e26;
+    --color-liturgical: #6f1b1b;
+    --color-liturgical-bright: #8a2525;
+    --color-gold: #c2a24a;
+    --color-rubric: #dd7a54;
+  }
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background-color: var(--color-paper);
+    background-image: radial-gradient(
+      120% 80% at 50% 0%,
+      color-mix(in oklab, var(--color-gold) 6%, transparent),
+      transparent 60%
+    );
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
 }
 
-body {
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--serif);
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-.app {
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-/* ---------- Top bar ---------- */
-.topbar {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  min-height: var(--topbar-h);
-  padding: 0.4rem 0.75rem;
-  padding-top: max(0.4rem, env(safe-area-inset-top));
-  background: var(--red);
-  color: #fdf3e3;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
-}
-
-.menu-btn {
-  flex: 0 0 auto;
-  width: 2.4rem;
-  height: 2.4rem;
-  border: none;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.12);
-  color: #fdf3e3;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-.menu-btn:active {
-  background: rgba(255, 255, 255, 0.25);
-}
-
-.titles {
-  flex: 1 1 auto;
-  min-width: 0;
-  line-height: 1.05;
-}
-.titles h1 {
-  margin: 0;
-  font-size: 1.15rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-}
-.titles p {
-  margin: 0.1rem 0 0;
-  font-size: 0.62rem;
-  font-family: var(--sans);
-  opacity: 0.8;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* ---------- Language toggle ---------- */
-.lang-toggle {
-  flex: 0 0 auto;
-  display: flex;
-  background: rgba(0, 0, 0, 0.22);
-  border-radius: 0.5rem;
-  padding: 2px;
-  font-family: var(--sans);
-}
-.lang-toggle button {
-  border: none;
-  background: transparent;
-  color: #f2e2c8;
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  padding: 0.35rem 0.45rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-}
-.lang-toggle button.active {
-  background: var(--gold);
-  color: #241a05;
-}
-
-/* ---------- Drawer ---------- */
-.drawer-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 30;
-  background: rgba(20, 12, 8, 0.45);
-  animation: fade 0.15s ease;
-}
-.drawer {
-  width: min(82vw, 340px);
-  height: 100%;
-  overflow-y: auto;
-  background: var(--paper-2);
-  box-shadow: 2px 0 16px rgba(0, 0, 0, 0.3);
-  padding: 0.5rem 0 2rem;
-  animation: slide 0.18s ease;
-  padding-top: max(0.5rem, env(safe-area-inset-top));
-}
-.drawer-head {
-  font-family: var(--sans);
-  font-weight: 700;
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--red);
-  padding: 0.75rem 1.1rem 0.5rem;
-}
-.drawer-part {
-  padding: 0.35rem 0 0.5rem;
-}
-.drawer-part-title {
-  font-family: var(--sans);
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-  padding: 0.3rem 1.1rem;
-}
-.drawer-link {
-  display: block;
-  width: 100%;
-  text-align: left;
-  border: none;
-  background: transparent;
-  color: var(--ink);
-  font-family: var(--serif);
-  font-size: 1rem;
-  padding: 0.55rem 1.1rem 0.55rem 1.5rem;
-  cursor: pointer;
-  border-left: 3px solid transparent;
-}
-.drawer-link:active {
-  background: rgba(124, 31, 31, 0.08);
-}
-.drawer-link.active {
-  color: var(--red);
-  border-left-color: var(--gold);
-  font-weight: 600;
-}
-.drawer-foot {
-  font-family: var(--sans);
-  font-size: 0.68rem;
-  color: var(--ink-soft);
-  padding: 1rem 1.1rem 0;
-  border-top: 1px solid var(--line);
-  margin-top: 0.5rem;
-}
-
-/* ---------- Content ---------- */
-.content {
-  padding: 0.5rem 1.1rem 4rem;
-  padding-left: max(1.1rem, env(safe-area-inset-left));
-  padding-right: max(1.1rem, env(safe-area-inset-right));
-}
-
-.part-title {
-  font-size: 0.78rem;
-  font-family: var(--sans);
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--red);
-  text-align: center;
-  margin: 2rem 0 0.25rem;
-}
-.part-title::before,
-.part-title::after {
-  content: "✦";
-  color: var(--gold);
-  margin: 0 0.6rem;
-  font-size: 0.7rem;
-  vertical-align: middle;
-}
-.part-note {
-  text-align: center;
-  font-style: italic;
-  color: var(--ink-soft);
-  font-size: 0.9rem;
-  margin: 0 0 0.5rem;
-}
-
-.section {
-  scroll-margin-top: calc(var(--topbar-h) + 0.5rem);
-  padding: 0.75rem 0 0.25rem;
-  border-top: 1px solid var(--line);
-  margin-top: 0.75rem;
-}
-.section:first-of-type {
-  border-top: none;
-}
-.section-head {
-  margin-bottom: 0.5rem;
-}
-.section-head h3 {
-  margin: 0;
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: var(--ink);
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-}
-.section-sub {
-  margin: 0.1rem 0 0;
-  font-size: 0.85rem;
-  font-family: var(--sans);
-  color: var(--ink-soft);
-}
-.proper-tag {
-  font-family: var(--sans);
-  font-size: 0.58rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--gold);
-  border: 1px solid var(--gold);
-  border-radius: 0.75rem;
-  padding: 0.05rem 0.4rem;
-  vertical-align: middle;
-}
-
-/* ---------- Verses ---------- */
-.verse {
-  display: flex;
-  gap: 0.6rem;
-  padding: 0.35rem 0;
-}
-.role {
-  flex: 0 0 auto;
-  width: 1.35rem;
-  height: 1.35rem;
-  margin-top: 0.15rem;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-family: var(--sans);
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: #fff;
-  background: var(--ink-soft);
-  user-select: none;
-}
-.role-empty {
-  background: transparent;
-}
-.role[data-role="priest"] {
-  background: var(--red);
-}
-.role[data-role="server"] {
-  background: var(--gold);
-  color: #241a05;
-}
-.role[data-role="choir"],
-.role[data-role="all"] {
-  background: #4a6b57;
-}
-.verse-text {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-.verse-text p {
-  margin: 0;
-}
-.verse-text .la {
-  font-size: 1.08rem;
-  line-height: 1.5;
-  color: var(--ink);
-}
-.verse-text .en {
-  font-size: 0.98rem;
-  line-height: 1.45;
-  color: var(--ink-soft);
-  margin-top: 0.15rem;
-}
-/* When both languages show, tint Latin to distinguish it. */
-.verse-text .la:not(:only-child) {
-  color: #2c2317;
-}
-
-/* ---------- Rubrics ---------- */
-.rubric {
-  font-style: italic;
-  color: var(--rubric);
-  font-size: 0.9rem;
-  text-align: center;
-  margin: 0.5rem 0;
-  padding: 0 0.5rem;
-}
-
-/* ---------- Colophon ---------- */
-.colophon {
-  margin-top: 2.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
-  font-family: var(--sans);
-  font-size: 0.78rem;
-  color: var(--ink-soft);
-  line-height: 1.5;
-}
-.colophon .proper-tag {
-  font-size: 0.55rem;
-}
-
-@keyframes fade {
+/* Small entrance animations for the contents drawer. */
+@keyframes drawer-fade {
   from {
     opacity: 0;
   }
 }
-@keyframes slide {
+@keyframes drawer-slide {
   from {
     transform: translateX(-100%);
   }
 }
-
-/* ---------- Dark mode ---------- */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ink: #e8e0d2;
-    --ink-soft: #a89f8e;
-    --paper: #1a1714;
-    --paper-2: #221d19;
-    --line: #38302a;
-    --red: #6b1a1a;
-    --gold: #b7942f;
-    --rubric: #d9744f;
-  }
-  .role[data-role="server"] {
-    color: #1a1206;
-  }
-  .verse-text .la:not(:only-child) {
-    color: #f0e8d8;
-  }
+.animate-drawer-fade {
+  animation: drawer-fade 0.15s ease;
+}
+.animate-drawer-slide {
+  animation: drawer-slide 0.18s ease;
 }
