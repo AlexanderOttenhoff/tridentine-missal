@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vp dev",
     "build": "tsc && vp build",
-    "preview": "vp preview"
+    "preview": "vp preview",
+    "lint": "vp lint",
+    "lint:fix": "vp lint --fix"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.2",
