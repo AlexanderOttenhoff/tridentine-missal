@@ -105,6 +105,37 @@ function usePersistentTheme(): [Theme, (t: Theme) => void] {
   return [theme, setTheme];
 }
 
+// The sign-of-the-cross markers in the source text (🕇 U+1F547, ☩ U+2629,
+// ✠ U+2720, ✝ U+271D) all live in sparsely-supported font blocks and render as
+// tofu (▯) on many phones. Draw them as an inline SVG cross instead — it inherits
+// the surrounding text's colour and size, so it renders identically everywhere.
+const CROSS_MARKERS = new Set(["🕇", "☩", "✠", "✝"]);
+const CROSS_SPLIT = /(🕇|☩|✠|✝)/u;
+
+function Cross() {
+  return (
+    <svg
+      viewBox="0 0 10 10"
+      className="inline-block h-[0.85em] w-[0.85em] align-[-0.06em]"
+      fill="currentColor"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <rect x="4.15" y="0.6" width="1.7" height="8.8" rx="0.5" />
+      <rect x="1.5" y="2.7" width="7" height="1.7" rx="0.5" />
+    </svg>
+  );
+}
+
+// Split liturgical text on cross markers, rendering each as <Cross/> and leaving
+// the rest as plain text (whitespace-pre-line on the parent preserves spacing).
+function withCrosses(text: string) {
+  if (!CROSS_SPLIT.test(text)) return text;
+  return text
+    .split(CROSS_SPLIT)
+    .map((part, i) => (CROSS_MARKERS.has(part) ? <Cross key={i} /> : part));
+}
+
 function VerseView({
   block,
   lang,
@@ -144,7 +175,7 @@ function VerseView({
             className="m-0 font-serif text-[1.12rem] leading-relaxed text-ink whitespace-pre-line"
             lang="la"
           >
-            {block.latin}
+            {withCrosses(block.latin)}
           </p>
         )}
         {showEnglish && (
@@ -157,7 +188,7 @@ function VerseView({
             }
             lang="en"
           >
-            {block.english}
+            {withCrosses(block.english)}
           </p>
         )}
       </div>
@@ -169,7 +200,7 @@ function BlockView({ block, lang }: { block: Block; lang: Lang }) {
   if (block.type === "rubric") {
     return (
       <p className="my-2 px-2 text-center font-serif italic text-[0.92rem] text-rubric">
-        {block.english}
+        {withCrosses(block.english)}
       </p>
     );
   }
