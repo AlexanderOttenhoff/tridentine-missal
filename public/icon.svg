@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Full-bleed background so the icon is safe as a maskable PWA icon (the OS
+       crops to a circle/squircle); the cross sits well inside the safe zone. -->
+  <rect width="512" height="512" fill="#7d1d1d" />
+  <g fill="#c9a227">
+    <rect x="232" y="96" width="48" height="320" rx="6" />
+    <rect x="168" y="168" width="176" height="48" rx="6" />
+  </g>
+</svg>
